@@ -200,8 +200,8 @@ function formatSalaryColumn(j) {
   const gL = j.salary_ppp_usd_low, gH = j.salary_ppp_usd_high;
   const nL = j.salary_net_ppp_usd_low, nH = j.salary_net_ppp_usd_high;
   if (gL && gH) {
-    const gross = `$${kfmt(gL)}–${kfmt(gH)}`;
-    const net = (nL && nH) ? `~$${kfmt(nL)}–${kfmt(nH)} net` : "";
+    const gross = `$${monthly(gL)}–${monthly(gH)}/mo`;
+    const net = (nL && nH) ? `~$${monthly(nL)}–${monthly(nH)} net/mo` : "";
     const aff = j.affordability_label
       ? `<span class="label">${escapeHtml(j.affordability_label)}</span>`
       : "";
@@ -213,17 +213,20 @@ function formatSalaryColumn(j) {
   return '<span class="muted">—</span>';
 }
 
-function kfmt(n) {
-  if (n == null) return "";
-  return Math.round(n / 1000) + "k";
+function monthly(annual) {
+  if (annual == null) return "";
+  const m = annual / 12;
+  if (m >= 10000) return Math.round(m / 100) / 10 + "k";
+  if (m >= 1000)  return (Math.round(m / 100) / 10).toFixed(1) + "k";
+  return Math.round(m).toString();
 }
 
 function detailRowHtml(j) {
   const sal = formatSalary(j);
   const ppp = (j.salary_ppp_usd_low && j.salary_ppp_usd_high)
-    ? `~$${fmt(j.salary_ppp_usd_low)}–${fmt(j.salary_ppp_usd_high)} PPP-USD gross` : "";
+    ? `~$${fmt(j.salary_ppp_usd_low / 12)}–${fmt(j.salary_ppp_usd_high / 12)} PPP-USD/month gross` : "";
   const pppNet = (j.salary_net_ppp_usd_low && j.salary_net_ppp_usd_high)
-    ? `~$${fmt(j.salary_net_ppp_usd_low)}–${fmt(j.salary_net_ppp_usd_high)} PPP-USD net (after tax)` : "";
+    ? `~$${fmt(j.salary_net_ppp_usd_low / 12)}–${fmt(j.salary_net_ppp_usd_high / 12)} PPP-USD/month net (after tax)` : "";
   const reasons = (j.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join("");
   const dl = [
     j.ranks && j.ranks.length ? dlItem("Rank", j.ranks.join(", ")) : "",
@@ -268,7 +271,7 @@ function formatDeadline(j) {
 
 function formatSalary(j) {
   if (!j.salary_low_local || !j.salary_high_local || !j.salary_currency) return "";
-  return `${fmt(j.salary_low_local)}–${fmt(j.salary_high_local)} ${escapeHtml(j.salary_currency)}`;
+  return `${fmt(j.salary_low_local / 12)}–${fmt(j.salary_high_local / 12)} ${escapeHtml(j.salary_currency)}/month`;
 }
 
 
