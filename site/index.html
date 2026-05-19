@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEP jobs — ranked</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='28'%3E🔬%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>HEP jobs — ranked</h1>
+      <div class="meta">
+        <span id="updated-at">loading…</span>
+        <span class="sep">·</span>
+        <span id="counts"></span>
+        <span class="sep">·</span>
+        <a href="https://github.com/aprozo/jobs" target="_blank" rel="noopener">source</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="filters" id="filters">
+    <div class="filter-row">
+      <input type="search" id="search" placeholder="Search title / institution…" autocomplete="off">
+      <label class="slider-label">
+        min score: <output id="min-score-val">0</output>
+        <input type="range" id="min-score" min="0" max="100" value="0">
+      </label>
+    </div>
+    <div class="filter-row">
+      <fieldset>
+        <legend>Bucket</legend>
+        <label><input type="checkbox" class="bucket-filter" value="urgent" checked> 🔥 Urgent</label>
+        <label><input type="checkbox" class="bucket-filter" value="apply" checked> ✅ Apply</label>
+        <label><input type="checkbox" class="bucket-filter" value="consider" checked> 🤔 Consider</label>
+        <label><input type="checkbox" class="bucket-filter" value="skim" checked> 👀 Maybe</label>
+      </fieldset>
+      <fieldset id="source-filter">
+        <legend>Source</legend>
+        <!-- populated from data -->
+      </fieldset>
+      <fieldset id="country-filter">
+        <legend>Country</legend>
+        <!-- populated from data -->
+      </fieldset>
+    </div>
+  </section>
+
+  <main>
+    <table id="jobs-table">
+      <thead>
+        <tr>
+          <th data-sort="score" class="sortable active desc">Score</th>
+          <th data-sort="title" class="sortable">Title</th>
+          <th data-sort="source" class="sortable">Source</th>
+          <th data-sort="country" class="sortable">Country</th>
+          <th data-sort="deadline" class="sortable">Deadline</th>
+          <th data-sort="salary_high_local" class="sortable">Salary</th>
+        </tr>
+      </thead>
+      <tbody id="jobs-body">
+        <tr><td colspan="6" class="loading">Loading digest.json…</td></tr>
+      </tbody>
+    </table>
+    <p id="empty-state" class="empty hidden">No postings match current filters.</p>
+  </main>
+
+  <footer>
+    Refreshed weekdays at 07:00 UTC by GitHub Actions. Scoring config is committed to the repo.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

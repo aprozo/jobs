@@ -1,0 +1,2226 @@
+{
+  "inspire:3156829": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Tsukuba",
+    "country_iso2": "JP",
+    "experiments": [
+      "Belle II"
+    ],
+    "topics": [
+      "B-meson decays",
+      "CP violation",
+      "tau physics",
+      "dark sector",
+      "drift chamber",
+      "trigger",
+      "DAQ"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3155672": {
+    "salary_text": "TV-L E13",
+    "duration_years": 2,
+    "city": "Freiburg",
+    "country_iso2": "DE",
+    "experiments": [
+      "DELight",
+      "XENON",
+      "XLZD",
+      "SHiP",
+      "AMBER"
+    ],
+    "topics": [
+      "dark matter direct detection",
+      "liquid helium",
+      "low-background physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3155669": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Liverpool",
+    "country_iso2": "GB",
+    "experiments": [],
+    "topics": [
+      "string theory",
+      "lattice field theory",
+      "QFT",
+      "astroparticle physics",
+      "cosmology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3155340": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "St. Louis",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "superconducting detectors",
+      "kinetic inductance detectors",
+      "qubit-based detectors",
+      "cryogenics",
+      "nanofabrication"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3155077": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Bismarck",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "computer engineering teaching",
+      "Linux",
+      "Bash",
+      "C++",
+      "particle physics computing"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3154984": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Dublin",
+    "country_iso2": "IE",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "fellowship"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3154975": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Warsaw",
+    "country_iso2": "PL",
+    "experiments": [
+      "BESIII",
+      "CBM"
+    ],
+    "topics": [
+      "semileptonic decays",
+      "hadronic structure",
+      "weak interactions",
+      "CKM matrix",
+      "charm physics",
+      "amplitude analysis"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3154967": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Gurugram",
+    "country_iso2": "IN",
+    "experiments": [],
+    "topics": [
+      "astrophysics",
+      "gravitational waves",
+      "numerical relativity",
+      "structure formation",
+      "cosmology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "inspire:3154558": {
+    "salary_text": "",
+    "duration_years": 1,
+    "city": "Bloomington",
+    "country_iso2": "US",
+    "experiments": [
+      "LHCb"
+    ],
+    "topics": [
+      "real-time data analysis",
+      "GPU trigger",
+      "AI/ML",
+      "heavy-ion physics",
+      "fixed-target"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3154506": {
+    "salary_text": "TV-L E14",
+    "duration_years": 3,
+    "city": "Bonn",
+    "country_iso2": "DE",
+    "experiments": [],
+    "topics": [
+      "FPGA",
+      "AI/ML hardware",
+      "ASIC design",
+      "intelligent detector electronics",
+      "real-time processing"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3154091": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Mexico City",
+    "country_iso2": "MX",
+    "experiments": [
+      "ALICE",
+      "MPD-NICA",
+      "Pierre Auger",
+      "JEM-EUSO",
+      "HAWC",
+      "SWGO",
+      "CONNIE",
+      "Coherent-CAPTAIN-Mills"
+    ],
+    "topics": [
+      "astroparticle physics",
+      "effective field theory",
+      "heavy-ion physics",
+      "neutrino physics",
+      "cosmic rays",
+      "black hole physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3153706": {
+    "salary_text": "JPY 420,000/month",
+    "duration_years": 2,
+    "city": "Wako",
+    "country_iso2": "JP",
+    "experiments": [],
+    "topics": [
+      "lattice QCD",
+      "heavy-quark exotics",
+      "tetraquarks",
+      "pentaquarks",
+      "hadron interactions",
+      "femtoscopy",
+      "heavy-quark effective theory"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3153705": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Hamburg",
+    "country_iso2": "DE",
+    "experiments": [],
+    "topics": [
+      "satellite navigation",
+      "GNSS",
+      "Kalman filter",
+      "SLAM",
+      "sensor fusion",
+      "quantum sensors"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3153704": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Zaragoza",
+    "country_iso2": "ES",
+    "experiments": [
+      "IAXO",
+      "RADES",
+      "DarkQuantum"
+    ],
+    "topics": [
+      "axion haloscopes",
+      "quantum sensors",
+      "dark matter",
+      "RF instrumentation",
+      "cryogenics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152680": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "London",
+    "country_iso2": "GB",
+    "experiments": [
+      "AION",
+      "ATLAS",
+      "CTA",
+      "LIGO",
+      "LISA",
+      "MoEDAL"
+    ],
+    "topics": [
+      "theoretical particle physics",
+      "dark matter",
+      "cosmology",
+      "gravitational waves",
+      "numerical relativity"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152602": {
+    "salary_text": "approximately $2,800 per month",
+    "duration_years": null,
+    "city": "Ashdod",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "mathematical foundations of quantum mechanics",
+      "hyper entangled states",
+      "mathematical physics",
+      "high-energy QCD"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152577": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Grenoble",
+    "country_iso2": "FR",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "Higgs pair production",
+      "tau lepton",
+      "jet reconstruction",
+      "calorimeter",
+      "ITk",
+      "trigger"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152575": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Cambridge",
+    "country_iso2": "GB",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "fundamental physics",
+      "hep-th",
+      "general relativity"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152344": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Chicago",
+    "country_iso2": "US",
+    "experiments": [
+      "MicroBooNE",
+      "SBND",
+      "DUNE",
+      "MAD"
+    ],
+    "topics": [
+      "neutrino physics",
+      "LArTPC",
+      "sterile neutrino oscillations",
+      "BSM",
+      "AI/ML reconstruction",
+      "neutrino-argon cross-sections"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152322": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Ottawa",
+    "country_iso2": "CA",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "FCal",
+      "muon spectrometer",
+      "ITk",
+      "e/gamma performance",
+      "tracking",
+      "jets",
+      "particle flow",
+      "Higgs physics",
+      "emerging jets"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152321": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Bristol",
+    "country_iso2": "GB",
+    "experiments": [
+      "LHCb",
+      "CMS",
+      "DUNE",
+      "Mu3e",
+      "LZ",
+      "BESIII",
+      "SHiP"
+    ],
+    "topics": [
+      "detector R&D",
+      "AI/ML for HEP",
+      "experimental particle physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3152305": {
+    "salary_text": "up to 600,000 RMB/year",
+    "duration_years": 2,
+    "city": "Nanjing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "ultralight dark matter",
+      "effective field theory",
+      "black hole physics",
+      "gravitational waves"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3151973": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Huizhou",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "neutrino theory",
+      "BSM",
+      "precision calculations",
+      "effective field theory",
+      "nuclear physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3151524": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Saclay",
+    "country_iso2": "FR",
+    "experiments": [
+      "CMS"
+    ],
+    "topics": [
+      "ECAL calibration",
+      "Higgs to Zy",
+      "double Higgs",
+      "deep learning",
+      "MTD",
+      "HGCal"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3150797": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Singapore",
+    "country_iso2": "SG",
+    "experiments": [],
+    "topics": [
+      "EUV nanophotonics",
+      "free-electron physics",
+      "ultra-high vacuum",
+      "electron beam systems",
+      "SEM/TEM",
+      "nanofabrication"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3150346": {
+    "salary_text": "240,000 CNY per annum",
+    "duration_years": 2,
+    "city": "Wuhan",
+    "country_iso2": "CN",
+    "experiments": [
+      "LHCb"
+    ],
+    "topics": [
+      "CP violation",
+      "B hadrons",
+      "hyperons",
+      "rare decays",
+      "heavy flavour",
+      "electroweak physics",
+      "top quark",
+      "jets"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3150079": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Geneva",
+    "country_iso2": "CH",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "MSCA fellowship"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3149734": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "magnetic monopoles",
+      "cosmic rays",
+      "Antarctic ice",
+      "Geant4",
+      "CORSIKA"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3149733": {
+    "salary_text": "$71,491 per year or higher",
+    "duration_years": 2,
+    "city": "Los Angeles",
+    "country_iso2": "US",
+    "experiments": [
+      "CMS"
+    ],
+    "topics": [
+      "L1 Trigger",
+      "Global Muon Trigger",
+      "long-lived particles",
+      "Higgs self-coupling",
+      "W/Z boson mass",
+      "FPGA",
+      "Versal SoCs"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3148249": {
+    "salary_text": "2300-2500 euros per month net",
+    "duration_years": 2,
+    "city": "Grenoble",
+    "country_iso2": "FR",
+    "experiments": [
+      "Euclid",
+      "Rubin-LSST"
+    ],
+    "topics": [
+      "AI/ML",
+      "nuclear cross-sections",
+      "dark matter indirect detection",
+      "cosmic rays",
+      "symbolic regression",
+      "Bayesian neural networks"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3148015": {
+    "salary_text": "240,000 CNY per annum",
+    "duration_years": 2,
+    "city": "Wuhan",
+    "country_iso2": "CN",
+    "experiments": [
+      "HIAF"
+    ],
+    "topics": [
+      "fixed-target",
+      "muon-nucleon scattering",
+      "electron-nucleon scattering",
+      "Geant4",
+      "key4hep",
+      "GenFit2",
+      "Pandora"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3147418": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Chicago",
+    "country_iso2": "US",
+    "experiments": [
+      "SBND",
+      "DUNE",
+      "ProtoDUNE"
+    ],
+    "topics": [
+      "neutrino oscillation",
+      "LArTPC",
+      "SPINE framework",
+      "event reconstruction"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3145754": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Orsay",
+    "country_iso2": "FR",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "liquid argon calorimeter",
+      "HGTD",
+      "ITk",
+      "vector boson scattering",
+      "double Higgs",
+      "HL-LHC"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3145719": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Saclay",
+    "country_iso2": "FR",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "MSCA COFUND"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3145666": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Bordeaux",
+    "country_iso2": "FR",
+    "experiments": [
+      "JUNO"
+    ],
+    "topics": [
+      "neutrino mass hierarchy",
+      "reactor neutrinos",
+      "liquid scintillator",
+      "photomultiplier",
+      "supernova detection",
+      "proton decay"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3143306": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Kanpur",
+    "country_iso2": "IN",
+    "experiments": [
+      "CMS"
+    ],
+    "topics": [
+      "machine learning",
+      "Jet-MET",
+      "B-tagging",
+      "phase-2 CMS"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3143305": {
+    "salary_text": "TVöD/TV-L (E14)",
+    "duration_years": 3,
+    "city": "Bonn",
+    "country_iso2": "DE",
+    "experiments": [],
+    "topics": [
+      "interdisciplinary research",
+      "algorithm development",
+      "particle physics",
+      "machine learning"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3143302": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "AMS"
+    ],
+    "topics": [
+      "cosmic rays",
+      "antimatter",
+      "dark matter",
+      "silicon tracker",
+      "space-based detector"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3143299": {
+    "salary_text": "research start-up ~4M RMB + 1M RMB living allowance",
+    "duration_years": 3,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "silicon detectors",
+      "LGAD",
+      "SiC",
+      "MAPS",
+      "ASIC",
+      "DAQ",
+      "CO2 cooling"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3143023": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Louvain-la-Neuve",
+    "country_iso2": "BE",
+    "experiments": [
+      "CMS"
+    ],
+    "topics": [
+      "silicon tracker",
+      "HL-LHC upgrade",
+      "tracker integration",
+      "Higgs",
+      "top quark",
+      "jet-MET"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3142417": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Lund",
+    "country_iso2": "SE",
+    "experiments": [],
+    "topics": [
+      "computational science",
+      "ESS",
+      "MAX IV",
+      "simulation",
+      "modelling",
+      "data analysis"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3142416": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Caen",
+    "country_iso2": "FR",
+    "experiments": [
+      "nuSCOPE",
+      "ENUBET",
+      "NuTag"
+    ],
+    "topics": [
+      "neutrino physics",
+      "tagged neutrino beam",
+      "LAr-TPC",
+      "neutrino oscillation",
+      "short-baseline"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3141711": {
+    "salary_text": "UC postdoc scale (~$65-90k)",
+    "duration_years": 2,
+    "city": "Berkeley",
+    "country_iso2": "US",
+    "experiments": [
+      "ALICE",
+      "STAR",
+      "sPHENIX",
+      "ePIC",
+      "EIC"
+    ],
+    "topics": [
+      "machine learning",
+      "Bayesian uncertainty quantification",
+      "heavy-ion physics",
+      "quark-gluon plasma",
+      "low-x physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3141101": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Orsay",
+    "country_iso2": "FR",
+    "experiments": [
+      "DUNE",
+      "ProtoDUNE",
+      "SBND",
+      "ICARUS"
+    ],
+    "topics": [
+      "neutrino physics",
+      "SPINE",
+      "LArTPC",
+      "data analysis",
+      "low energy calibration"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3140568": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "New York",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "AI for clinical workflow",
+      "LLM",
+      "deep learning",
+      "computer vision",
+      "medical physics",
+      "pathology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3139327": {
+    "salary_text": "~2,315,000 CLP per month before taxes",
+    "duration_years": 2,
+    "city": "Santiago",
+    "country_iso2": "CL",
+    "experiments": [],
+    "topics": [
+      "astrophysics",
+      "gravitation",
+      "cosmology",
+      "black holes",
+      "particle physics phenomenology",
+      "BSM"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3139129": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Wuhan",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "fundamental physics",
+      "particle physics theory",
+      "nuclear theory",
+      "gravitation",
+      "cosmology",
+      "AI",
+      "quantum computing"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3139101": {
+    "salary_text": "R$ 16,353.01 starting (13 salaries/year) + health insurance + child support",
+    "duration_years": null,
+    "city": "São Paulo",
+    "country_iso2": "BR",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "di-Higgs",
+      "HGTD",
+      "HL-LHC",
+      "tracking",
+      "timing detector"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3138798": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Guangzhou",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "neutrino physics",
+      "dark matter",
+      "EFT",
+      "baryon/lepton number violation",
+      "collider physics",
+      "QCD phenomenology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3138797": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Dongguan",
+    "country_iso2": "CN",
+    "experiments": [
+      "CSNS"
+    ],
+    "topics": [
+      "neutron beamlines",
+      "neutrino beamlines",
+      "beam applications"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3138715": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Orsay",
+    "country_iso2": "FR",
+    "experiments": [
+      "CLAS",
+      "ePIC",
+      "EIC",
+      "ALERT"
+    ],
+    "topics": [
+      "JLab",
+      "EIC",
+      "GEANT4",
+      "Roman pots",
+      "exclusive processes",
+      "hadronic physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3137883": {
+    "salary_text": "~320k CNY pre-tax",
+    "duration_years": 1,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "STAR",
+      "ALICE",
+      "MPD",
+      "HIAF"
+    ],
+    "topics": [
+      "heavy-ion physics",
+      "QCD phase structure",
+      "heavy flavor",
+      "dilepton",
+      "strangeness"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3137865": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Hefei",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "quantum simulation",
+      "gauge theory",
+      "topological quantum states",
+      "quantum computing",
+      "quantum information"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3135414": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Karlsruhe",
+    "country_iso2": "DE",
+    "experiments": [
+      "IceCube",
+      "IceCube-Gen2",
+      "Pierre Auger"
+    ],
+    "topics": [
+      "astroparticle physics",
+      "cosmic rays",
+      "multi-messenger",
+      "air showers",
+      "CORSIKA"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3132744": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Tivon",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "AI in physics education"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "inspire:3132348": {
+    "salary_text": "~11,500 ILS/month net + ~$2k/yr travel + relocation",
+    "duration_years": 5,
+    "city": "Rehovot",
+    "country_iso2": "IL",
+    "experiments": [
+      "LUXE",
+      "E320",
+      "ATLAS"
+    ],
+    "topics": [
+      "strong-field QED",
+      "pixel tracking detectors",
+      "non-linear Breit-Wheeler",
+      "DRD3 semiconductors",
+      "ELI-NP",
+      "APOLLON"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3131172": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "AMS"
+    ],
+    "topics": [
+      "cosmic rays",
+      "antimatter search",
+      "silicon tracker upgrade",
+      "ISS detector"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3130950": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "silicon detectors",
+      "LGAD",
+      "SiC",
+      "MAPS",
+      "ASIC",
+      "DAQ",
+      "CO2 cooling"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3129038": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Yantai",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "QCD phase structure",
+      "heavy-ion physics",
+      "hadron physics",
+      "BSM"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3128279": {
+    "salary_text": "90,000 INR per month",
+    "duration_years": null,
+    "city": "Gurugram",
+    "country_iso2": "IN",
+    "experiments": [],
+    "topics": [
+      "cosmology",
+      "early universe",
+      "primordial perturbations",
+      "gravitational waves",
+      "QFT in curved spacetime"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "inspire:3127990": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Trondheim",
+    "country_iso2": "NO",
+    "experiments": [],
+    "topics": [
+      "QCD in extreme conditions",
+      "multimessenger astroparticle physics",
+      "compact objects"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3127451": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Chennai",
+    "country_iso2": "IN",
+    "experiments": [
+      "CMS",
+      "Belle II",
+      "EIC",
+      "CBM",
+      "BESIII"
+    ],
+    "topics": [
+      "flavour physics",
+      "Higgs physics",
+      "heavy-ion collisions",
+      "detector development"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "inspire:3126780": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Syracuse",
+    "country_iso2": "US",
+    "experiments": [
+      "LHCb"
+    ],
+    "topics": [
+      "Upstream Tracker",
+      "HV-MAPS",
+      "Upgrade II",
+      "b-quark decays",
+      "FPGA",
+      "GPU",
+      "particle identification"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3125540": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Annecy",
+    "country_iso2": "FR",
+    "experiments": [],
+    "topics": [
+      "axion phenomenology",
+      "supernovae",
+      "neutron stars",
+      "gamma-ray astrophysics",
+      "multi-messenger"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3124549": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Ljubljana",
+    "country_iso2": "SI",
+    "experiments": [],
+    "topics": [
+      "grand unification",
+      "supersymmetry",
+      "flavor physics",
+      "CP violation",
+      "Higgs physics",
+      "early universe",
+      "lattice QCD",
+      "ML for HEP"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3124438": {
+    "salary_text": "340,000 CNY pre-tax (~42k EUR / 49k USD) + bonus + travel allowance",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "LHCb"
+    ],
+    "topics": [
+      "ECAL upgrade",
+      "SpaCal",
+      "Shashlik",
+      "calorimeter",
+      "HL-LHC",
+      "ML for calorimetry"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3123423": {
+    "salary_text": "from CNY 330,000 per year pre-tax",
+    "duration_years": 2,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [
+      "CMS"
+    ],
+    "topics": [
+      "di-Higgs",
+      "Higgs self-coupling",
+      "BSM",
+      "hadron spectroscopy",
+      "ML"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3120590": {
+    "salary_text": "",
+    "duration_years": 1,
+    "city": "Tucson",
+    "country_iso2": "US",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "exotic physics search",
+      "HL-LHC upgrade",
+      "Run 3 data analysis"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3119881": {
+    "salary_text": "R$ 12,570/month tax-free (FAPESP standard) + relocation + research grant",
+    "duration_years": 1,
+    "city": "São Paulo",
+    "country_iso2": "BR",
+    "experiments": [
+      "SWGO",
+      "CTAO"
+    ],
+    "topics": [
+      "water Cherenkov detector",
+      "gamma-ray astrophysics",
+      "transients",
+      "multi-messenger"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3117624": {
+    "salary_text": "CNY 250,000-320,000 (USD 36-46k)",
+    "duration_years": 3,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "perturbative QCD",
+      "effective field theories",
+      "scattering amplitudes"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3115406": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Qingdao",
+    "country_iso2": "CN",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "Higgs Yukawa couplings",
+      "di-Higgs",
+      "Higgs invisible",
+      "BSM searches"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3113210": {
+    "salary_text": "RMB 300,000-400,000 + on-campus housing",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "XENONnT"
+    ],
+    "topics": [
+      "dark matter direct detection",
+      "neutrino physics",
+      "liquid xenon",
+      "DAQ",
+      "cryogenics",
+      "Gran Sasso"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3112248": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "JUNO",
+      "BESIII",
+      "CEPC",
+      "CSNS",
+      "LHAASO",
+      "AliCPT",
+      "eXTP",
+      "HERD",
+      "ATLAS",
+      "CMS",
+      "LHCb"
+    ],
+    "topics": [
+      "career fair",
+      "particle physics",
+      "accelerator science",
+      "astroparticle",
+      "X-ray instrumentation"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3109675": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Trieste",
+    "country_iso2": "IT",
+    "experiments": [],
+    "topics": [
+      "theoretical particle physics",
+      "astrophysics",
+      "cosmology",
+      "condensed matter",
+      "scientific data science"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3109055": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Taipei",
+    "country_iso2": "TW",
+    "experiments": [
+      "LEGEND"
+    ],
+    "topics": [
+      "neutrinoless double beta decay",
+      "HPGe detectors",
+      "liquid argon",
+      "wavelength-shifting",
+      "low-background"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3109048": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "QCD spin physics",
+      "BSM",
+      "quantum entanglement",
+      "NRQCD"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3108692": {
+    "salary_text": "250,000 CNY pre-tax",
+    "duration_years": 2,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [
+      "Belle II"
+    ],
+    "topics": [
+      "semileptonic B decays",
+      "BSM searches",
+      "ML for HEP"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3098532": {
+    "salary_text": "180,000-300,000 CNY/year pre-tax",
+    "duration_years": null,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "cosmology",
+      "high-energy nuclear theory",
+      "gravitational waves",
+      "BSM",
+      "AGN jets"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3095733": {
+    "salary_text": "RMB 700,000+ annual + RMB 3-4M house purchase subsidy + postdoc 300-500k",
+    "duration_years": 3,
+    "city": "Nanjing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "NSFC Excellent Young Scientists fund",
+      "broad physics research"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3089244": {
+    "salary_text": "~320,000 CNY/year pre-tax",
+    "duration_years": 3,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "dark matter physics",
+      "particle phenomenology",
+      "astrophysics",
+      "gravitational waves"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3071866": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Hong Kong",
+    "country_iso2": "HK",
+    "experiments": [],
+    "topics": [
+      "experimental particle physics",
+      "instrumentation"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3070797": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Shenzhen",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "broad science and engineering"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:3069151": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Guangzhou",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "QCD theory",
+      "hadron physics",
+      "spin physics",
+      "jet substructure",
+      "scattering amplitudes",
+      "quantum computing in HEP"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:2966128": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Shenyang",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "observational cosmology",
+      "dark energy",
+      "neutrino cosmology",
+      "gravitational wave astronomy",
+      "21 cm cosmology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:2946705": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Huizhou",
+    "country_iso2": "CN",
+    "experiments": [
+      "BESIII",
+      "ALICE",
+      "HIAF",
+      "EicC"
+    ],
+    "topics": [
+      "nucleon structure",
+      "quark-gluon dynamics",
+      "Hyperon-Nucleon Spectrometer",
+      "Geant4"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:2939269": {
+    "salary_text": "1-2 million RMB starting funding",
+    "duration_years": null,
+    "city": "Changchun",
+    "country_iso2": "CN",
+    "experiments": [
+      "Belle II",
+      "BESIII"
+    ],
+    "topics": [
+      "hadron physics",
+      "lattice QCD",
+      "BSM",
+      "detector hardware"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "inspire:2765652": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Santiago",
+    "country_iso2": "CL",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "Higgs self-couplings",
+      "heavy neutrinos",
+      "exotic Higgs",
+      "ITk software",
+      "HL-LHC trigger"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:2765629": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Ariel",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "high energy QCD",
+      "Regge physics",
+      "BFKL",
+      "DGLAP",
+      "gravity physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "inspire:2049487": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [
+      "JUNO",
+      "Daya Bay",
+      "EXO-200",
+      "nEXO"
+    ],
+    "topics": [
+      "neutrino physics",
+      "reactor neutrinos",
+      "atmospheric neutrinos",
+      "liquid scintillator"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31847": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Ariel",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "ajo:31950": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Ariel",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "astrophysics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31948": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Ariel",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "cosmology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31848": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Ariel",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "communications",
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "ajo:31191": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Be'er Sheva",
+    "country_iso2": "IL",
+    "experiments": [],
+    "topics": [
+      "high energy theory",
+      "particle theory"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31415": {
+    "salary_text": "TV-L E13",
+    "duration_years": 2,
+    "city": "Bonn",
+    "country_iso2": "DE",
+    "experiments": [],
+    "topics": [
+      "experimental particle physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31248": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Wuhan",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "faculty position",
+      "particle physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31272": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Batavia",
+    "country_iso2": "US",
+    "experiments": [
+      "MAGIS-100"
+    ],
+    "topics": [
+      "atom interferometry",
+      "gravitational waves",
+      "dark matter",
+      "quantum sensors"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31349": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Batavia",
+    "country_iso2": "US",
+    "experiments": [
+      "DUNE",
+      "SBND",
+      "ICARUS"
+    ],
+    "topics": [
+      "neutrino physics",
+      "LArTPC"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31713": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Batavia",
+    "country_iso2": "US",
+    "experiments": [
+      "Muon g-2",
+      "Mu2e"
+    ],
+    "topics": [
+      "muon physics",
+      "rare decays"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31885": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Atlanta",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "high energy physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31309": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Hong Kong",
+    "country_iso2": "HK",
+    "experiments": [],
+    "topics": [
+      "theoretical physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:29808": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Hong Kong",
+    "country_iso2": "HK",
+    "experiments": [],
+    "topics": [
+      "theoretical particle physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:29809": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Hong Kong",
+    "country_iso2": "HK",
+    "experiments": [],
+    "topics": [
+      "experimental particle physics",
+      "instrumentation"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30140": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "high energy theory"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:32063": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Tsukuba",
+    "country_iso2": "JP",
+    "experiments": [
+      "Belle II"
+    ],
+    "topics": [
+      "B physics",
+      "CP violation"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31520": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Tsukuba",
+    "country_iso2": "JP",
+    "experiments": [],
+    "topics": [
+      "quantum measurement",
+      "QUP"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31250": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "London",
+    "country_iso2": "GB",
+    "experiments": [],
+    "topics": [
+      "theoretical particle physics",
+      "cosmology",
+      "STFC fellowship"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30413": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Los Alamos",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "theoretical HEP",
+      "phenomenology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31269": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Nanjing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:32031": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Taipei",
+    "country_iso2": "TW",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "iTHEMS exchange"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31429": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Waterloo",
+    "country_iso2": "CA",
+    "experiments": [],
+    "topics": [
+      "particle physics",
+      "theoretical physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31636": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Waterloo",
+    "country_iso2": "CA",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "PSI extension"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31337": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Porto",
+    "country_iso2": "PT",
+    "experiments": [],
+    "topics": [
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31579": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Shenzhen",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31765": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Menlo Park",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "photon science",
+      "particle physics",
+      "Chamberlain/Disney/Linde fellowship"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31664": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Menlo Park",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "ML for accelerator instrumentation",
+      "fundamental physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31293": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Mumbai",
+    "country_iso2": "IN",
+    "experiments": [],
+    "topics": [
+      "theoretical physics",
+      "Visiting Fellow"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "ajo:31318": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "College Station",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "astronomy"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31440": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "College Station",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "astronomy"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30434": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "collider physics",
+      "faculty position"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30437": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "experimental particle physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31683": {
+    "salary_text": "",
+    "duration_years": 1,
+    "city": "Annapolis",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "academic research position"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": false
+  },
+  "ajo:32021": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Chicago",
+    "country_iso2": "US",
+    "experiments": [
+      "ATLAS"
+    ],
+    "topics": [
+      "LHC data analysis"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31869": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Genoa",
+    "country_iso2": "IT",
+    "experiments": [],
+    "topics": [
+      "theoretical physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31302": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Minneapolis",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "astronomy"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30810": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Kashiwa",
+    "country_iso2": "JP",
+    "experiments": [],
+    "topics": [
+      "Kavli IPMU CD3 fellowship",
+      "physics",
+      "mathematics",
+      "astronomy"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31759": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Kashiwa",
+    "country_iso2": "JP",
+    "experiments": [],
+    "topics": [
+      "CMB",
+      "cosmology",
+      "Kavli IPMU"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31694": {
+    "salary_text": "",
+    "duration_years": 3,
+    "city": "Kashiwa",
+    "country_iso2": "JP",
+    "experiments": [],
+    "topics": [
+      "experimental particle physics",
+      "Kavli IPMU"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31372": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Toronto",
+    "country_iso2": "CA",
+    "experiments": [],
+    "topics": [
+      "AI for high energy phenomenology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31934": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Toronto",
+    "country_iso2": "CA",
+    "experiments": [],
+    "topics": [
+      "physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31912": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Brussels",
+    "country_iso2": "BE",
+    "experiments": [],
+    "topics": [
+      "gravitational waves",
+      "high energy physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31672": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Annecy",
+    "country_iso2": "FR",
+    "experiments": [],
+    "topics": [
+      "ENIGMASS",
+      "particle physics theory",
+      "dark matter"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31399": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Beijing",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "high energy theory"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31529": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Trieste",
+    "country_iso2": "IT",
+    "experiments": [],
+    "topics": [
+      "physics",
+      "tenure-track"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30435": {
+    "salary_text": "",
+    "duration_years": null,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "lattice QCD",
+      "faculty position"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:30436": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Shanghai",
+    "country_iso2": "CN",
+    "experiments": [],
+    "topics": [
+      "theoretical physics"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31376": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Honolulu",
+    "country_iso2": "US",
+    "experiments": [],
+    "topics": [
+      "HEP theory",
+      "phenomenology"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  },
+  "ajo:31285": {
+    "salary_text": "",
+    "duration_years": 2,
+    "city": "Seoul",
+    "country_iso2": "KR",
+    "experiments": [],
+    "topics": [
+      "string theory"
+    ],
+    "remote_possible": false,
+    "needs_visa_sponsorship_yes": true
+  }
+}

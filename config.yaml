@@ -1,0 +1,90 @@
+# config.yaml — committed working config for the GitHub Actions run.
+# Local tweaks: edit and push. To experiment, copy this to a private fork.
+
+# ---------- Job sources -----------------------------------------------------
+sources:
+  - type: inspire
+    name: INSPIRE-HEP
+    filters:
+      status: open
+      rank: [JUNIOR, POSTDOC]
+      field_of_interest: [hep-ex, hep-ph]
+      sort: mostrecent
+
+  - type: ajo
+    name: AcademicJobsOnline (HEP)
+    sections: [HEP, HET]
+    fetch_descriptions: false
+
+  # ATLAS jobs RSS — disabled (URL 404s; revisit if/when feed is restored).
+  # - type: rss
+  #   name: ATLAS jobs
+  #   url: https://atlas.cern/Discover/Collaboration/Jobs/rss.xml
+  #   key: atlas
+  #   default_field: hep-ex
+
+# ---------- Scoring ---------------------------------------------------------
+scoring:
+  preferred_countries: [US, DE, CH, NL, GB, FR, IT, CZ]
+  avoid_countries: []
+
+  min_affordability_ratio: 1.5
+  min_salary_ppp_usd: 65000
+
+  preferred_experiments:
+    - STAR
+    - sPHENIX
+    - ATLAS
+    - CMS
+    - LHCb
+    - ALICE
+    - EIC
+    - ePIC
+  keywords_must_have:
+    - jet
+    - QCD
+    - heavy ion
+    - flavor
+    - parton
+    - unfolding
+    - calorimeter
+    - trigger
+    - tracking
+  keywords_avoid:
+    - dark matter direct detection
+    - neutrino oscillation
+    - gravitational wave
+
+  min_days_to_deadline: 10
+  min_report_score: 40
+
+  weight_preferred_country: 15
+  weight_avoid_country: 30
+  weight_good_salary: 15
+  weight_low_salary: 15
+  weight_keyword_match: 10
+  weight_keyword_avoid: 20
+  weight_preferred_experiment: 10
+  weight_short_deadline: 15
+
+# ---------- LLM enrichment ---------------------------------------------------
+# Active provider: 'manual'. Reads pre-computed per-job extractions from
+# manual_enrichments.json (one-time bulk seeding). To switch to a live LLM
+# for newly-discovered jobs, change `provider:` to one of: openrouter, gemini.
+llm:
+  provider: manual
+  path: manual_enrichments.json
+
+# OpenRouter (free models — https://openrouter.ai/models?max_price=0):
+#   provider: openrouter
+#   model: deepseek/deepseek-chat-v3.1:free
+#   min_interval_s: 3.5             # env var: OPENROUTER_API_KEY
+#
+# Gemini (free tier; gemini-2.5-flash = 10 RPM):
+#   provider: gemini
+#   model: gemini-2.5-flash
+#   min_interval_s: 6.5             # env var: GEMINI_API_KEY
+
+# ---------- Email digest (off; the site is the notification channel) --------
+email:
+  enabled: false

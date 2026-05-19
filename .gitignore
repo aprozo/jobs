@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+/digest.md
+/digest.json
+hep-jobs-monitor.zip
+# intermediate artifacts used only for one-time manual seeding
+/manual_dump.json
+/manual_dump.jsonl
+/batches/

@@ -1,0 +1,102 @@
+# config.yaml — copy to config.yaml, then edit.
+
+# ---------- Job sources (run in order, results merged) -----------------------
+# Each entry produces postings independently; dedup is by (source, source_id).
+sources:
+  - type: inspire
+    name: INSPIRE-HEP
+    filters:
+      status: open
+      rank: [JUNIOR, POSTDOC]
+      field_of_interest: [hep-ex, hep-ph]
+      sort: mostrecent
+
+  - type: ajo
+    name: AcademicJobsOnline (HEP)
+    sections: [HEP, HET]              # HEP=experimental, HET=theoretical
+    fetch_descriptions: false         # set true to fetch each detail page
+                                      # (slow; AJO list pages are usually enough)
+
+  # Generic RSS feeds — add as many as you like.
+  # ATLAS publishes jobs as RSS at the URL below.
+  - type: rss
+    name: ATLAS jobs
+    url: https://atlas.cern/Discover/Collaboration/Jobs/rss.xml
+    key: atlas
+    default_field: hep-ex
+
+  # Examples of other RSS feeds to plug in (uncomment if you find live URLs):
+  # - type: rss
+  #   name: CMS jobs
+  #   url: https://cms-jobs.web.cern.ch/feed
+  #   key: cms
+
+# ---------- Scoring ---------------------------------------------------------
+scoring:
+  # Geography
+  preferred_countries: [US, DE, CH, NL, GB, FR, IT, CZ]
+  avoid_countries: []                  # e.g. [RU]
+
+  # Salary fitness: prefers local-cost-of-living affordability over PPP.
+  # affordability_ratio = salary_low / typical_annual_living_cost_local
+  #   ≥ 1.5  comfortable
+  #   1.0-1.5 tight to OK
+  #   < 1.0  below local cost-of-living
+  min_affordability_ratio: 1.5
+  # Fallback when country has no living-cost entry: absolute PPP-USD floor.
+  min_salary_ppp_usd: 65000
+
+  # Topic / experiment fit — tuned to STAR / jets / heavy-ion background
+  preferred_experiments:
+    - STAR
+    - sPHENIX
+    - ATLAS
+    - CMS
+    - LHCb
+    - ALICE
+    - EIC
+    - ePIC
+  keywords_must_have:
+    - jet
+    - QCD
+    - heavy ion
+    - flavor
+    - parton
+    - unfolding
+    - calorimeter
+    - trigger
+    - tracking
+  keywords_avoid:
+    - dark matter direct detection
+    - neutrino oscillation
+    - gravitational wave
+
+  # Logistics
+  min_days_to_deadline: 10
+  min_report_score: 50
+
+  # Weights (tune to taste)
+  weight_preferred_country: 15
+  weight_avoid_country: 30
+  weight_good_salary: 15
+  weight_low_salary: 15
+  weight_keyword_match: 10
+  weight_keyword_avoid: 20
+  weight_preferred_experiment: 10
+  weight_short_deadline: 15
+
+# ---------- LLM enrichment (optional; remove block to disable) --------------
+# llm:
+#   provider: anthropic                  # "anthropic" or "ollama"
+#   model: claude-haiku-4-5-20251001
+#   # api_key: better set via ANTHROPIC_API_KEY env var
+
+# ---------- Email digest (optional) -----------------------------------------
+email:
+  enabled: false
+  from: "you@example.com"
+  to: ["you@example.com"]
+  subject: "HEP jobs digest"
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 465
+  # smtp_user / smtp_password better set via env: SMTP_USER, SMTP_PASSWORD

@@ -1,0 +1,59 @@
+name: update-jobs
+
+on:
+  schedule:
+    - cron: "0 7 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Restore job-history SQLite cache
+        uses: actions/cache@v4
+        with:
+          path: hep_jobs.sqlite
+          key: hep-jobs-db-${{ github.run_id }}
+          restore-keys: hep-jobs-db-
+
+      - name: Scrape, score, and render digest
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python hep_jobs.py \
+            --config config.yaml \
+            --rescore-all \
+            --digest-out site/digest.md \
+            --json-out site/digest.json \
+            -v
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
