@@ -42,20 +42,19 @@ sources:
     key: atlas
     default_field: hep-ex
 
-  # BNL careers — Workday-hosted. The URL we were given
-  # (https://bnl.wd1.myworkdayjobs.com/en-US/Externa…) was truncated and the
-  # `External` site_id returns 404; both ExternalCareerSite and BNL_Career_Site
-  # also failed probes. Uncomment once the right slug is confirmed from the
-  # live address bar after opening https://jobs.bnl.gov in a real browser.
-  # - type: workday
-  #   name: BNL careers
-  #   tenant: bnl
-  #   site_id: <FILL IN>
-  #   search_text: postdoc
-  #   country: US
-  #   institution: BNL
-  #   fetch_descriptions: true
-  #   default_field: hep-ex
+  # BNL careers — Workday CXS. Site slug is literally "Externa" (not
+  # "External"). Filter by the "Postdoctoral Research" job-family-group.
+  - type: workday
+    name: BNL
+    tenant: bnl
+    site_id: Externa
+    search_text: ""
+    country: US
+    institution: BNL
+    fetch_descriptions: true
+    default_field: hep-ex
+    applied_facets:
+      jobFamilyGroup: [b62af75407911009790a8c820a260002]
 
 # ---------- Scoring ---------------------------------------------------------
 scoring:

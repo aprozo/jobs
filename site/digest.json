@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-05-19T12:35:06Z",
-  "n_total": 170,
-  "n_new": 162,
+  "generated_at": "2026-05-19T13:04:31Z",
+  "n_total": 191,
+  "n_new": 183,
   "per_source": {
     "inspire": 89,
     "ajo": 52,
     "cern": 7,
     "desy": 6,
     "gsi": 6,
-    "ATLAS jobs": 10
+    "ATLAS jobs": 10,
+    "BNL": 21
   },
   "config_summary": {
     "preferred_countries": [
@@ -204,6 +205,76 @@
         "keyword_matched": [
           "flavor",
           "calorimeter"
+        ],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate – AI in Nuclear Physics",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---AI-in-Nuclear-Physics_JR102149",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 100,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5",
+        "keywords: QCD, heavy ion, flavor, tracking"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate – ai in nuclear physics the primary research focus of the brookhaven physics department is the exploration of hot and cold qcd using the relativistic heavy ion collider (rhic) and the future electron-ion collider (eic). the sphenix group in the bnl physics department plays a central role in the sphenix experiment at rhic, which has been taking physics data since 2023. the group also plays a strong role in developing the sphenix physics program, with particular emphasis on jets, photons, heavy flavor, and quarkonium, and in developing the future epic detector at the eic. the physics department has an opening for a postdoctoral research associate. the selected candidate will join an interdisciplinary team, working closely with scientists in the physics department and bnl computing and data science (cds) to develop the application of cutting-edge generative ai, such as foundation models, to the sphenix experiment with an eye towards future use at the eic. the successful candidate could also take a significant role in existing research activities in which the department has a strong presence, such as the sphenix physics program, and eic detector r&d. essential duties and responsibilities: research in applying cutting-edge generative ai, such as foundation models, to the sphenix experiment perform physics analysis using sphenix data collaborate with physicists and computer scientists on publishing research findings required knowledge, skills, and abilities: ph.d. in particle or nuclear physics clear and concise oral and written communication and presentation skills preferred knowledge, skills, and abilities: working knowledge of tracking reconstruction and tracking performance evaluation knowledge and programming experience in scientific machine learning working knowledge of large-scale data processing programming experience in c++, root, and geant working knowledge of linux operating system experience in scientific and technical development towards the electron ion collider other information: requires travel, including foreign travel (typically a few trips per year.) bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events candidates must have completed all degree requirements by the commencement of the employment. brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $78500 - $81500 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. initial 2-year term appointment subject to 1-year extension contingent on performance and funding. candidate selection will start by jan 1st 2026 and the position will be open until fulfilled. references will be requested at the appropriate point in the search process. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 29 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 29 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $78500 - $81500 / year | $78500 - $81500 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The primary research focus of the Brookhaven Physics Department is the exploration of hot and cold QCD using the Relativistic Heavy Ion Collider (RHIC) and the future Electron-Ion Collider (EIC). The sPHENIX Group in the BNL Physics Department plays a central role in the sPHENIX experiment at RHIC, which has been taking physics data since 2023. The group also plays a strong role in developing the…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 3,
+        "keyword_matched": [
+          "QCD",
+          "heavy ion",
+          "flavor",
+          "tracking"
         ],
         "keyword_avoid": 0,
         "keyword_avoided": [],
@@ -5619,6 +5690,1286 @@
       "salary_estimate": null,
       "llm_summary": null,
       "description_short": "Professorship in Experimental Particle Physics Institute Name University of Wuppertal Institute Address Wuppertal, Germany Posting Date 16 Apr 2026 12:00 Link to Official Posting https://inspirehep.net/jobs/3145021 Contact Name Dean Prof Dr Francesco Knechtli Contact E-Mail fk4-info@uni-wuppertal.de ATLAS Job True",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate -  Catalysis, Theoretical Studies",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate----Catalysis--Theoretical-Studies_JR102396",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate -  catalysis, theoretical studies the chemistry division has an opening a postdoctoral research associate in catalysis. the successful candidate will be devoted to theoretical studies, involving description of electrochemical environment, understanding of reaction mechanisms and active sites under reaction conditions, and catalyst optimization. essential duties and responsibilities: provide mechanistic understanding of the catalytic behaviors observed under reaction conditions. correlate the composition/structure with the activity/stability of catalysts. design and develop heterogeneous catalysts coordinate collaborative research with experimental or theoretical collaborators. prepare and write manuscripts for publications in scientific journals and present research results in scientific conferences and doe program review meetings. required knowledge, skills, and abilities: phd degree in physics, physical chemistry, chemical engineering, or closely related fields. strong background and research experience (including graduate research) in electrocatalysis. good english writing and oral skills for publications and presentations. experience in applying electronic structure theory, transition state theory (tst), microkinetic modeling or kinetic monte carlo (kmc) methods, machine learning methods in electrocatalysis. preferred knowledge, skills, and abilities: knowledge in heterogeneous catalysis. electronic structure simulation of complex electrocatalysts (metal/metal compound), kinetic modeling of electrochemical performances under reaction conditions and machine-learning-based study for catalyst design. additional information: initial 1-year term appointment subject to renewal for the second year based on performance and funding brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $82,000- $85,000 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. candidates must have received a ph.d. by the commencement of employment. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laboratory for doe. bsa is a partnership between battelle and the research foundation for the state university of new york on behalf of stony brook university. bsa salutes our veterans and active military members ",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 4 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 4 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $82,000- $85,000 / year | $82,000- $85,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Chemistry Division has an opening a Postdoctoral Research Associate in catalysis. The successful candidate will be devoted to theoretical studies, involving description of electrochemical environment, understanding of reaction mechanisms and active sites under reaction conditions, and catalyst optimization. Essential Duties and Responsibilities: Provide mechanistic understanding of the catalyt…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Coherent Soft X-ray (CSX) Scattering Beamline Post-Doctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Coherent-Soft-X-ray--CSX--Scattering-Beamline-Post-Doctoral-Research-Associate_JR102360",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "coherent soft x-ray (csx) scattering beamline post-doctoral research associate position description taking advantage of the unique qualities of the csx beamline, the selected candidate will perform scientific research aligned with the beamline scientific program and, if possible, bring new scientific directions. the selected candidate will provide user support and will contribute to the beamline development activities. as a member of the electronic structure techniques (est) program, the candidate is welcome to collaborate with other members of the group, as well as to utilize complementary research opportunities at other beamlines of the program, and of the facility in general, for pursuing a personal scientific path, compatible with the beamline needs. essential duties and responsibilities: • carry out scientific research in correlated and quantum materials, utilizing the unique beamline capabilities and facility opportunities • provide users with the support and capabilities needed to achieve and complete high-impact experiments performed at csx • contribute to instrumentation upgrade activities to fulfill the scientific demand and maintain the beamline performances to the forefront • collaborate with a wide range of researchers across a variety of disciplines within bnl and externally • publish and presents the results of these studies to the community position requirements required knowledge, skills, and abilities: • ph.d. in physics, chemistry, material science or related fields • prior experience relevant to this position, such as in synchrotron-based techniques • understanding of strongly correlated electron systems • demonstrated analytical skills, data analysis experience • demonstrated record of scientific contribution through publications and talks in related fields • ability to interact effectively in a team environment with a diverse group of scientists and users • excellent communication and interpersonal skills, self-motivation • experience in modern programming language preferred knowledge, skills, and abilities: • experience in x-ray absorption (xas) and/or scattering techniques, such as x-ray, electron, or neutron scattering • experience in scattering constructions (ewald sphere, diffraction geometries and conditions) • experience in advanced scattering (resonant, tensorial scattering, multiple scattering, coherence) • experience in single crystal alignment, low dimensional samples, and flakes/stacks • experience in imaging and reconstruction techniques • experience in x-ray optics, x-ray detectors, ultra-high vacuum instrumentation • experience in python programming other information: bnl policy requires that after obtaining their phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $74,000.00 - $88,000.00 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site w",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 4 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 4 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $74,000 | $74,000.00 - $88,000",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "POSITION DESCRIPTION Taking advantage of the unique qualities of the CSX beamline, the selected candidate will perform scientific research aligned with the beamline scientific program and, if possible, bring new scientific directions. The selected candidate will provide user support and will contribute to the beamline development activities. As a member of the Electronic Structure Techniques (EST)…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate in Infrared Materials Science for Quantum Information Applications",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate-in-Infrared-Materials-Science-for-Quantum-Information-Applications_JR102445",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate in infrared materials science for quantum information applications working as a part of the materials thrust inside the co-design center for quantum advantage (c2qa), the successful applicant will undertake infrared studies of materials using both synchrotron and conventional lab sources at nsls-ii to help in the characterization, design, and advancement of the materials used in qubit fabrication. qubits are highly prone to errors because of interactions with their environment as well as defects in the qubit materials. the successful applicant will work with researchers at nsls-ii, the center for functional nanomaterials (cfn), and other partner institutions within c2qa to characterize these qubit materials using infrared spectroscopic techniques. other material systems exhibiting novel quantum phenomena and having potential for devices and other information technology will be of interest as well. essential duties and responsibilities: spearhead a focused effort to enable cutting-edge infrared and terahertz (thz) methods and analytical tools.these tools are expected to include both far-field and near-field (nanospectroscopic) techniques and instruments. develop methods to collect & analyze data and correlate measurements of transport dynamics and defect excitations in materials with their potential qubit performance. collaborate with a wide range of researchers across a variety of disciplines, including physics, chemistry, materials science & engineering - within bnl as well as externally. publish and present the results of these studies to the scientific community. position requirements required knowledge, skills, and abilities: a ph.d. degree in the physical sciences (physics/chemistry), materials science, or a closely related field. experience in mid- and far-infrared (thz) spectroscopic techniques including ftir or thz-tds for materials at temperatures from ambient to 4k and below. demonstrated record of scientific contribution through publications and talks in related fields. ability to work collaboratively with a diverse, discipline-spanning team of scientists and engineers. preferred knowledge, skills, and abilities: experience in two or more of the following: experience with ftir spectroscopy of solids, including superconductors as well as oxide materials. experience with surface sensitive infrared techniques (grazing incidence and attenuated total reflection spectroscopies). experience with atomic-force-microscopy-based nanospectroscopic methods. experience in developing methods to effectively collate data from a range of experimental techniques to gain better insight into the materials under investigation. experience with materials science or nanoscience. post-doc candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining their phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. other information: occasional domestic and international travel (5%) brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $74,050.00 - $90,000.00 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more informati",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 5 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 5 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $74,050 | $74,050.00 - $90,000",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Working as a part of the Materials Thrust inside the Co-design Center for Quantum Advantage (C2QA), the successful applicant will undertake infrared studies of materials using both synchrotron and conventional lab sources at NSLS-II to help in the characterization, design, and advancement of the materials used in Qubit fabrication. Qubits are highly prone to errors because of interactions with the…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Post Doctoral Research Associate, Nuclear Data",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctoral-Reasearch-Associate--Nuclear-Data_JR102298",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "post doctoral research associate, nuclear data job description brookhaven national laboratory’s department of nuclear science and security advances cutting-edge research, development, and technical innovation to ensure the safe and secure use of nuclear technologies. the department serves as a resource in these and related areas to support the missions of the department of energy (doe), the nuclear regulatory commission (nrc), and other national and international organizations. with a world-class staff of professionals with expertise in a broad range of areas related to the design and analyses of commercial, research and advanced nuclear systems, brookhaven’s capabilities and facilities are also available to support and execute experiments in support of these missions. the national nuclear data center (nndc), a part of bnl’s nuclear science and security department, is the lead unit of the us nuclear data program (usndp), whose mission is to provide current, accurate, authoritative data for workers in pure and applied areas of nuclear science and engineering. this is accomplished primarily through the compilation, evaluation, dissemination, and archiving extensive nuclear datasets. usndp also addresses gaps in the data, through targeted experimental studies and the use of theoretical models. the nndc is responsible for the nuclear science reference (nsr), experimental unevaluated nuclear data list (xundl), evaluated nuclear structure data file (ensdf) and evaluated nuclear data file (endf) libraries, as well as the nuclear data sheets journal. the nndc is also the main contributor to the exfor library. web dissemination of these libraries is also one of the main activities at the nndc. in addition to the libraries and web efforts, the nndc staff are involved in research relating to nuclear structure, nuclear reactions, nuclear astrophysics and nuclear reactor antineutrinos. nuclear data activities started at bnl in 1952 under the brookhaven neutron cross section compilation group, changed to the sigma center in 1961, which became the national neutron cross section center in 1967 and finally nndc in 1977, providing a nearly 70 years of nuclear data expertise to nuclear science and technology professionals position description the national nuclear data center has an opening for a post-doctoral position in nuclear reaction evaluations and research. in this role, you will collaborate in developing a reaction data evaluation workflow for the evaluated nuclear data file (endf), the world-wide resource for nuclear reaction and decay data. endf evaluations rely on the experimental data compiled in the exfor library. the exfor project contains all experimental low energy reaction data worldwide and bnl is responsible for data compilation in north america. in order to make full use of the data in exfor, experience in data science, machine learning (ml) and applications of artificial intelligence (ai) are helpful. this position has a high level of interaction with an international and multicultural scientific community. essential duties and responsibilities: perform a critical review of experimental data in exfor and provide recommended values to be included in the endf evaluations. using modern nuclear reaction tools, create endf evaluations relevant for applications in nuclear applications for energy, national security and basic science. research, evaluate and implement ml and ai techniques for various problems relating to scientific discovery, workflow acceleration, and national security. work in interdisciplinary collaborations with subject matter experts from a variety of domain sciences and security areas. communicate research progress, challenges, and achievements, and engage within and beyond the department on new potential collaborations. required knowledge, skills, and abilities: phd in nuclear engineering, experimental or theoretical low-energy nuclear physics or applied mathematics. demonstrated experience in either of the fol",
+      "city": null,
+      "col_index": 85,
+      "deadline": "Posted 6 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 6 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $71900 - $85000 / year | $71900 - $85000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "JOB DESCRIPTION Brookhaven National Laboratory’s Department of Nuclear Science and Security advances cutting-edge research, development, and technical innovation to ensure the safe and secure use of nuclear technologies. The Department serves as a resource in these and related areas to support the missions of the Department of Energy (DOE), the Nuclear Regulatory Commission (NRC), and other nation…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102395",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate the chemistry division has an opening for a postdoctoral research associate position in catalysis. the successful candidate will be working on synthesis , catalytic evaluation, and characterization to elucidate active sites and catalyst stability under reaction conditions. essential duties and responsibilities: provide mechanistic understanding of the catalytic behaviors observed under reaction conditions. correlate the composition/structure with the activity/stability of catalysts. design and develop heterogeneous catalysts coordinate collaborative research with experimental or theoretical collaborators. prepare and write manuscripts for publications in scientific journals and present research results in scientific conferences and doe program review meetings. required knowledge, skills, and abilities: phd degree in physics, physical chemistry, chemical engineering, or closely related fields. strong background and research experience (including graduate research) in electrocatalysis. good english writing and oral skills for publications and presentations. hands-on experience in synthesis, testing and characterization of catalysts. ​ preferred knowledge, skills, and abilities: knowledge in heterogeneous catalysis. synthesis with controlled composition and morphology, catalytic evaluation and in-situ/operando characterization using synchrotron and neutron techniques. additional information: initial 1-year term appointment subject to renewal for the second year based on performance and funding. brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $82,000- $85,000 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. candidates must have received a ph.d. by the commencement of employment. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laboratory for doe. bsa is a partnership between battelle and the research foundation for the state university of new york on behalf of stony brook university. bsa salutes our veterans and active military members with careers that leverage the skills and unique experience they gained while serving our country, learn more at bnl | opportunities for veterans at brookhaven national laboratory . equal opportunity/affirmative action employer guided by ou",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 11 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 11 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $82,000- $85,000 / year | $82,000- $85,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Chemistry Division has an opening for a Postdoctoral Research Associate position in catalysis. The successful candidate will be working on synthesis , catalytic evaluation, and characterization to elucidate active sites and catalyst stability under reaction conditions. Essential Duties and Responsibilities: Provide mechanistic understanding of the catalytic behaviors observed under reaction co…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Post Doctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctoral-Research-Associate_JR102455",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "post doctoral research associate position description the nuclear science and security department has an opening for a post doc to assist with the development of ai/ml algorithms for remote sensing of uranium containing materials. these activities will be based on existing and new, high-quality laboratory spectral data that will be acquired as part of a multi-institutional and multi-disciplinary effort. the position will require close collaboration with the partner institutions. essential duties and responsibilities: maintain spectral data base and upload data to community spectral data bases assist in and help coordinate experimental work to collect laboratory spectral data assist in the development of ai/ml algorithms for remote sensing applications required knowledge, skills, and abilities: ph.d. in planetary science, earth science, or physical geography experience in experimental method to develop data to support interpretation of remote sensing data excellent written and oral communication skills experience with generative adversarial networks (gan) frameworks or multi-modal large language models (mllms) ability to work collaboratively in a team-based research environment demonstrated track record of publication of research in high quality peer-reviewed journals and presentations ability to obtain and maintain a doe q clearance preferred knowledge, skills, and abilities: experience in remote sensing application to earth or planetary science problems experience with envi/idl image processing analysis software experience with coding languages, such as python. experience with spectroscopy of minerals or related materials environmental, health & safety requirements: computer work lifting of 30 pounds arm/hand dexterity other information: participation in meetings and experimental work at stony brook university is expected. initial appointment will be for a one - year term. renewal contingent on performance and funding. candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. this is a multi-level role and the full salary range for this position is $71900 - $85000 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laborator",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 11 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 11 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $71900 - $85000 / year | $71900 - $85000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Position Description The Nuclear Science and Security Department has an opening for a Post Doc to assist with the development of AI/ML algorithms for remote sensing of uranium containing materials. These activities will be based on existing and new, high-quality laboratory spectral data that will be acquired as part of a multi-institutional and multi-disciplinary effort. The position will require…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate – AI/ML for Biological Sciences",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---AI-ML-for-Biological-Sciences_JR102398",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate – ai/ml for biological sciences brookhaven national laboratory’s computing and data sciences (cds) directorate seeks a postdoctoral research associate – ai/ml for biological science for an on-site position in the ai department. the successful candidate will contribute to interdisciplinary research projects at the intersection of artificial intelligence, machine learning, and domain science, with a particular emphasis on biology. this position is intended for candidates with strong expertise in ai/ml, data science, and computational analysis, who are interested in applying advanced computational methods to biological data and scientific problems. position description: the postdoctoral research associate will develop and apply ai/ml and data-driven approaches to support biological research projects within the cds ai department. the selected candidate will work closely with computational scientists, ai researchers, and domain collaborators to analyze complex biological datasets, build or adapt computational models, and help advance data-enabled discovery in biology. the ideal candidate will have strong training in machine learning, artificial intelligence, statistical modeling, or related computational fields, along with sufficient background or interest in biological applications. essential duties and responsibilities: conduct research in artificial intelligence, machine learning, and data science in support of biology-related projects. collaborate with ai researchers, computational scientists, and biology domain experts to translate scientific questions into effective computational workflows. evaluate model performance, interpret results, and contribute to reproducible analysis pipelines and research software. document methods and results and contribute to manuscripts, reports, presentations, and other project deliverables. participate in interdisciplinary team science. required knowledge, skills, and abilities: ph.d. in computer science, statistics, applied mathematics, biology, or a closely related field. demonstrated expertise in ai/ml, statistical learning, or advanced data analytics. experience developing, applying, or evaluating novel machine learning or data-driven methods on complex real-world datasets. ability to work effectively in a collaborative, interdisciplinary research environment. strong track record of research productivity, demonstrated in peer-reviewed publications or equivalent research outputs. preferred knowledge, skills, and abilities: familiarity with computational biology, bioinformatics, or biological data science concepts and workflows. computational skills, including experience with programming/scripting for large-scale data analysis and reproducible research workflows. experience using biological software tools, workflows, and databases. experience with deep learning, large language models (llms), protein language models (plms), or related generative ai methods for scientific or biological applications. proven exposure to model development, fine-tuning, evaluation, benchmarking, or deployment in modern ai/ml environments. worked with heterogeneous, multimodal, or large-scale scientific datasets. experience contributing to reusable analysis workflows, scientific software, open-source projects, or collaborative codebases. familiarity with agentic ai systems, ai-assisted scientific workflows, or tool-using autonomous or semi-autonomous ai frameworks. additional information: this is an on-site position based at brookhaven national laboratory in upton, new york. salary range: this position has an initial 2-year term, with the possibility of renewal contingent on performance and funding availability. brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $ $71,900 - $119,000 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurat",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 18 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 18 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $ $71,900 - $119,000 / year | $71,900 - $119,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Brookhaven National Laboratory’s Computing and Data Sciences (CDS) Directorate seeks a Postdoctoral Research Associate – AI/ML for Biological Science for an on-site position in the AI Department. The successful candidate will contribute to interdisciplinary research projects at the intersection of artificial intelligence, machine learning, and domain science, with a particular emphasis on biology.…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Post Doctorate Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctorate-Research-Associate_JR102404",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "post doctorate research associate position description the redwood project funded by doe ascr is meant to study the challenges of scientific payloads resilience in the heterogeneous distributed computing in environments such as those in hep, np, astro-particle physics, and fusion science, as well as other data intensive physics and astrophysics projects. the program of work proposed herein is carried out under the redwood project. it consists of three main thrusts: the first thrust is maintenance, development, support, and exploitation of a simulation tool known as cgsim, whose goal is the simulation of distributed computing systems. the task associated with this is the overall responsibility for the cgsim project, including deployment and documentation. under this program of work, cgsim would be expanded to incorporate more grid sites as the descriptive data for more sites becomes available. the grid simulation would be used to test new, ai-based job scheduling algorithms. the second thrust is to aid in the demonstration of large language systems ai tools to monitor distributed computer systems. a current prototype system is referred to as askpanda. it aims to provide monitoring feedback to users of all experience levels in the form of natural language answers to natural language questions, generating all the necessary database queries, using model context protocol (mcp) technology to access large language models (llms). under this program of work the monitoring system should be demonstrated on the cgsim-simulation of distributed workflow management systems, allowing for further development of askpanda-like systems in a nondisruptive, controlled environment. a third thrust is the support of synergistic activities at brookhaven aimed at ai-based simulation of the workflow management system, and studies of ai-based tools for resilient workflow management. this is under the rubric of the simulation and modeling (modsim) track of the redwood project. the impact on novel workflow scheduling algorithms is also to be studied under cgsim. finally, the dissemination of software and research findings under the auspices of redwood through journals and professional meetings is understood to be part of this work program. the successful candidate will work on the first and third thrusts: modeling and complex systems simulation essential duties and responsibilities: maintenance, development, support and exploitation of a simulation tool known as cgsim, whose goal is the simulation of distributed computing systems. aid in the demonstration of large language systems al tools to monitor distributed computer systems such as askpanda . support of synergistic activities at brookhaven aimed at ai-based simulation of the workflow management system, and studies of ai-based tools for resilient workflow management. this is under the rubric of the simulation and modeling (modsim) track of the redwood project. the dissemination of software and research findings under the auspices of redwood through journals and professional meeting required knowledge, skills, and abilities: ph.d. in a relevant field (e.g., computer science, computational science, particle physics, theoretical physics, or related discipline). experience or interest in distributed computing systems, simulation tools, and ai/ml methods. demonstrated ability to work autonomously in a collaborative environment with time-sensitive deadlines. knowledge of programming language(s) such as python, c/c++ preferred knowledge, skills, and abilities: familiarity with code development and code management platforms familiarity with high-performance disk storage systems familiarity with high-performance and high-throughput computing clusters working knowledge of networks and networking concepts basic it services that interface facility with user-facing services configuration management and version control software other information: initial 2-year term appointment subject to renewal contingent on perfor",
+      "city": null,
+      "col_index": 85,
+      "deadline": "Posted 19 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 19 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $74050 - $122550 / year | $74050 - $122550 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Position Description The REDWOOD project funded by DOE ASCR is meant to study the challenges of scientific payloads resilience in the heterogeneous distributed computing in environments such as those in HEP, NP, astro-particle physics, and fusion science, as well as other data intensive physics and astrophysics projects. The program of work proposed herein is carried out under the REDWOOD project.…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102340",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate the chemistry division (http://www.bnl.gov/chemistry) of brookhaven national laboratory (bnl, http://www.bnl.gov) seeks postdoctoral research associates to join the doe-funded center for hybrid approaches in solar energy to liquid fuels (chase), a fuels from sunlight center led by the university of north carolina at chapel hill (unc). in addition to bnl, chase includes collaborators at princeton university, north carolina state university, the university of pennsylvania, and yale university. initial 2-year term appointment subject to renewal contingent on performance and funding. position description: the successful candidate will conduct basic research as part of the chase team with a specific focus on (i) efficient coupling of semiconductor light absorption to molecular catalysis; (ii) the control of molecular catalysis by tuning of the microenvironment at the interface; and (iii) coupling of multiple molecular catalysts through cascade catalysis to generate liquid fuels from carbon dioxide. the successful candidate will work collaboratively with a team of scientists from the ap group and other chase institutions. position requirements: required knowledge, skills, and abilities: a phd degree in chemistry, materials chemistry or chemical engineering or related field. extensive experience in one or more of the following areas: synthesis/characterization of organic compounds, inorganic, and organometallic coordination complexes. homogeneous or heterogeneous catalysis of small molecule activation. electrochemistry applied to mechanistic and kinetic studies in solution and at interfaces. preferred knowledge, skills, and abilities: time-resolved spectroscopies such as uv/vis transient absorption (ta), time-resolved infrared (trir), and time-resolved resonance raman (tr3). synchrotron-based techniques (xas, xps, xrd, rixs) for molecular and heterogeneous catalysts, including in-situ and in-operando methods. experience in mechanistic studies of catalytic reactions is a plus additional information: brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $82,000- $85,00 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. candidates must have received a ph.d. by the commencement of employment. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brook",
+      "city": "Princeton",
+      "col_index": 80,
+      "deadline": "Posted 29 Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 29 Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $82,000- $85,00 / year | $82,000- $85,00 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Chemistry Division (http://www.bnl.gov/chemistry) of Brookhaven National Laboratory (BNL, http://www.bnl.gov) seeks postdoctoral Research Associates to join the DOE-funded Center for Hybrid Approaches in Solar Energy to Liquid Fuels (CHASE), a Fuels from Sunlight Center led by the University of North Carolina at Chapel Hill (UNC). In addition to BNL, CHASE includes collaborators at Princeton U…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate - Hybrid Approaches in Solar Energy",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---Hybrid-Approaches-in-Solar-Energy_JR102330",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate - hybrid approaches in solar energy the chemistry division (http://www.bnl.gov/chemistry) of brookhaven national laboratory (bnl, http://www.bnl.gov) seeks a postdoctoral research associate to join the newly doe-funded center for hybrid approaches in solar energy to liquid fuels (chase), a fuels from sunlight center that will be led by the university of north carolina at chapel hill (unc). in addition to bnl, it includes collaborators at north carolina state university, the university of pennsylvania, princeton university and yale university. position description: the successful candidate will conduct basic research as part of the chase team with a specific focus on coupling of multiple molecular catalysts through cascade catalysis to generate liquid fuels from carbon dioxide. they will also work collaboratively with a team of scientists from the artificial photosynthesis (ap) group, and will be supervised by chase principal investigators. position requirements: ph. d. in theoretical or physical chemistry, or a related field extensive experience in one or more of the following areas: computational modeling of homogeneous catalysis of small molecule activation. density functional theory applications to transition-metal containing molecular complexes. hybrid quantum mechanics/molecular mechanics (qm/mm) methods experience in applications of data science/machine learning for predictive modeling of catalysis additional information: brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $82,000- $85,000/ year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. candidates must have received a ph.d. by the commencement of employment. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laboratory for doe. bsa is a partnership between battelle and the research foundation for the state university of new york on behalf of stony brook university. bsa salutes our veterans and active military members with careers that leverage the skills and unique experience they gained while serving our country, learn more at bnl | opportunities for veterans at brookhaven national laboratory . equal opportunity/affirmative action employer guided by our core values of integrity, responsibility, innovation, respect, a",
+      "city": "Princeton",
+      "col_index": 80,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $82,000- $85,000/ year | $82,000- $85,000/ year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Chemistry Division (http://www.bnl.gov/chemistry) of Brookhaven National Laboratory (BNL, http://www.bnl.gov) seeks a Postdoctoral Research Associate to join the newly DOE-funded Center for Hybrid Approaches in Solar Energy to Liquid Fuels (CHASE), a Fuels from Sunlight Center that will be led by the University of North Carolina at Chapel Hill (UNC). In addition to BNL, it includes collaborato…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate - Electric Power System",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---Electric-Power-System_JR102329",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate - electric power system the interdisciplinary science (is) department at brookhaven national laboratory (bnl) is seeking a postdoctoral research associate. the appointment will be for a one-year appointment with an opportunity for a one-year renewal to perform research in the area of electric power grids. essential duties and responsibilities: perform cyber-physical system modeling and simulation for the power grid. perform research on power system dynamics and control under high inverter-based resources (ibrs). develop and apply artificial intelligence (ai)/machine learning (ml) techniques for power system planning, operation, control, and cybersecurity. position requirements: required knowledge, skills, and abilities: a ph.d. in electrical engineering, math, or other related fields with a broad knowledge of electric power systems. experience with cyber-power system modeling, simulation, dynamics, and python and/or matlab programming. a strong background in ai/ml applications in the power grid. good written and oral communication skills, be willing to take direction, and be able to work with others as part of a project team. preferred knowledge, skills, and abilities: experience with cybersecurity of energy systems and commonly used tools such as opal-rt/rtds, pss/e, pscad, exata. knowledge of cybersecurity of industrial control systems and/or quantum computing. additional information: candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $70,200 - $85,000. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory and the energy and photon sciences directorate are committed to your success. we offer a supportive work environment and the resources necessary for you to succeed. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laboratory for doe. bsa is a partnership between battelle and the research foundation for the state university of new york on behalf of stony brook university. bsa salutes our veterans and active military members with careers that leverage the skills and unique experience they gained while serving our country, learn more at bnl | opportunities for veterans at brookhaven national laboratory . equal opportunity/affirmative action employer guided ",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $70,200 - $85,000 | $70,200 - $85,000",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Interdisciplinary Science (IS) Department at Brookhaven National Laboratory (BNL) is seeking a Postdoctoral Research Associate. The appointment will be for a one-year appointment with an opportunity for a one-year renewal to perform research in the area of electric power grids. Essential Duties and Responsibilities: Perform cyber-physical system modeling and simulation for the power grid. Perf…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "PostDoc – Machine Learning",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/PostDoc---Machine-Learning_JR102346-1",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoc – machine learning the artificial intelligence learning department of the computing and data sciences (cds) directorate at brookhaven national laboratory (bnl) invites exceptional candidates to apply for a post-doctoral research associate position in machine learning (ml). this position offers a unique opportunity to conduct both basic and applied research in concert with collaborators working on diverse scientific and security problems of interest to bnl and the department of energy (doe). topics of particular interest include: (i) development of novel machine learning models and adaptation of existing approaches for scientific applications; (ii) large language models (llms) and multimodal foundation models for cross-domain reasoning and knowledge integration; (iii) continuous learning and model adaptation in dynamic and evolving environments; and (iv) agentic ai systems for autonomous discovery, planning, and decision-making. the position provides access to world-class computing resources, such as the bnl institutional cluster and doe leadership computing facilities. access to these platforms will allow computing at scale, and together with access to unique data sources, will ensure that the successful candidate has the necessary resources to solve challenging doe problems of interest. the successful candidate will join a growing research group with diverse expertise and projects spanning the full breadth of bnl’s and the doe’s missions. this post-doc position presents a unique chance to conduct interdisciplinary collaborative research in bnl programs. essential duties and responsibilities: conduct research in ml, multimodal foundation models, continuous learning, and agentic ai systems for various problems relating to autonomous scientific discovery. work in interdisciplinary collaborations with subject matter experts on various aspects of scientific data generation and processing and methods evaluation. formulate high-quality research ideas and directions in collaboration with mentors in the department. communicate research progress, challenges, and achievements, and engage within and beyond the department on new potential collaborations. position requirements required knowledge, skills, and abilities: ph.d. in computer science or a related field (e.g., engineering, applied mathematics, statistics) strong theoretical understanding and practical experience in machine learning, multimodal foundation models, continuous learning, and agentic ai techniques demonstrated publication record in machine learning field excellent programming and computer science skills preferred knowledge, skills, and abilities: practical experience developing novel ml, multimodal foundation models, continuous learning systems, or agentic ai models. experience with state-of-the-art multimodal foundation models and agentic ai frameworks experience in large-scale deep learning systems, large multimodal foundation model training and/or finetuning, and continuous learning pipelines. experience in multi-modality data analysis (e.g., image, video, text). experience working in multidisciplinary collaborations. other information: initial 2-year term appointment subject to renewal contingent on performance and funding candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness, or other life-changing events this is a fully onsite position located at bnl in upton, ny brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $74050 - $122550 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with t",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $74050 - $122550 / year | $74050 - $122550 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Artificial Intelligence Learning department of the Computing and Data Sciences (CDS) directorate at Brookhaven National Laboratory (BNL) invites exceptional candidates to apply for a post-doctoral research associate position in machine learning (ML). This position offers a unique opportunity to conduct both basic and applied research in concert with collaborators working on diverse scientific…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Quantum Information Science Postdoctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Quantum-Information-Science-Postdoctoral-Research-Associate_JR102220",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "quantum information science postdoctoral research associate the co-design center for quantum advantage (c2qa) at bnl coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen u.s. leadership in quantum information science and technology. the c2qa scientific mission is to deliver advances in materials science and modular architectures that enable scalable, fault-tolerant quantum computing and quantum-limited sensing. the research program is organized around two large-scale focused efforts: achieving quantum advantage through coherence-driven materials design and realizing scalable, modular quantum systems . these efforts integrate vertical co-design, from materials to algorithms, and cross-platform co-design across superconducting, neutral atom, and diamond-based systems, guided by quantitative resource estimates targeting doe-priority scientific applications. position description the co-design center for quantum advantage (c2qa) at bnl is seeking an exceptional postdoctoral research associate to conduct pioneering research on materials for superconducting qubits and diamond quantum sensors, leveraging state-of-the-art electron microscopy facilities at the condensed matter physics and materials science department (cmpms) and the center for functional nanomaterials (cfn). the successful candidate will conduct research at the forefront of electron microscopy to elucidate structure-property relationships in quantum materials and devices, including material origins of quantum decoherence and quantum noise. the successful candidate will perform structure characterization for quantum device applications, such as assessing the structure integrity of crystals and films, probing defects at surface and in the bulk, and mapping defect-induced strain distribution and spin configurations to understand materials’ static and dynamic behavior. research will involve a broad range of advanced techniques, including atomic imaging of surfaces and bulk, nano-probe diffraction (4d-stem), high-energy-resolution, and valence-level energy-loss spectroscopy, cryogenic microscopy, lorentz microscopy and ultrafast electron microscopy under electromagnetic and microwave excitations. this two-year position will be jointly supervised by yimei zhu (cmpms) and mingzhao liu (cfn). the successful candidate will closely collaborate with leading experimental and theoretical groups from materials synthesis and device performance measurements to structural modeling in c2qa. essential duties and responsibilities: as a postdoctoral research associate, roles and responsibilities: conduct electron microscopy studies of superconducting qubits and diamond quantum sensors to understand structure-property relationships. contribute to material/device fabrication to improve material properties, by identifying defects as source of decoherence. participate in intra-team and inter-team collaboration in correlating materials analysis with quantum device performance. required knowledge, skills, and abilities: qualifications for this research associate position: ph.d. in condensed matter physics, materials science, or closely related fields is required within the last 5 years. solid background in electron microscopy and structural characterization. ability to work effectively within a diverse multi-disciplinary and multi-institutional team environment. communicate effectively in writing and presentations and have a record of peer-reviewed publications. committed to fostering an environment of safe scientific work practices. preferred knowledge, skills, and abilities: candidates well-matched to this position with: extensive hands-on experience in advanced electron microscopy, such as aberration-corrected atomic imaging, quantitative electron diffraction (e.g., 4d-stem), monochromated electron energy-loss-spectroscopy, in-situ",
+      "city": null,
+      "col_index": 85,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $75,000 - $81,000 / year | $75,000 - $81,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Co-Design Center for Quantum Advantage (C2QA) at BNL coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen U.S. leadership in quantum information science and technology. The C2QA scientific mission is to deliver advances in material…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Researcher in Quantum Algorithms and Quantum Information Science for Quantum Field Theoretic Applications to Condensed Matter, Nuclear, and High Energy Physics",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Researcher-in-Quantum-Algorithms-and-Quantum-Information-Science-for-Quantum-Field-Theoretic-Applications-to-Condensed-Matter--Nuclear--and-High-Energy-Physics_JR102161",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral researcher in quantum algorithms and quantum information science for quantum field theoretic applications to condensed matter, nuclear, and high energy physics job description the positions being advertised are under the aegis of the co-design center for quantum advantage (c2qa) at bnl, c2qa coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen u.s. leadership in qist. the c2qa scientific mission is to deliver advances in materials science and modular architectures that enable scalable, fault-tolerant quantum computing and quantum-limited sensing. the research program is organized around two large-scale focused efforts: achieving quantum advantage through coherence-driven materials design and realizing scalable, modular quantum systems. these efforts integrate vertical co-design, from materials to algorithms, and cross-platform co-design across superconducting, neutral atom, and diamond-based systems, guided by quantitative resource estimates targeting doe-priority scientific applications. the specific focus of these positions will be on the design of quantum algorithms/co-design of quantum error correcting codes and related quantum information science questions appropriate for nuclear, high energy, and condensed matter applications. the scientists at bnl who are part of c2qa’s theory and algorithm thrust span these different domains in physics. we are thus particularly interested in candidates interested in building bridges between these sub-areas. essential duties and responsibilities: we are looking for a postdoctoral research associate who is interested in the development of quantum algorithms and related quantum informatic questions appropriate for nuclear, high energy, and condensed matter problems. the successful candidate will operate in a friendly and dynamic team environment and will collaborate with theory members of the team across disciplinary boundaries. required knowledge, skills, and abilities: ph.d. in physics or related discipline is required within the last 5 years. candidates must have excellent written and oral communication skills, be self-motivated and able to work both independently and as a part of a team. ability to interact effectively with a diverse group of scientists and technical staff is required. candidates should have proven ability for disseminating research results by writing manuscripts and giving academic presentations. trained as a theorist in either condensed matter, nuclear, or high energy physics interested in quantum algorithm and quantum informatic research that cuts across the different subareas of physics able to work closely and communicate effectively with colleagues focused on other theoretical techniques preferred knowledge, skills, and abilities: some experience with quantum algorithms and quantum information science research expertise in tensor networks and matrix product states expertise in quantum platform software such as qiskit or cuda-q other information: while principally based at brookhaven national laboratory, candidates should be willing to travel to carry out experiments at various national and international facilities. brookhaven laboratory is committed to providing fair, equitable and competitive compensation. this is a multi-level role and the full salary range for this position is $75,000 - $81,000 / year. you will be placed at the level and salary commensurate with your experience. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, mi",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $75,000 - $81,000 / year | $75,000 - $81,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "JOB DESCRIPTION The positions being advertised are under the aegis of the Co-Design Center for Quantum Advantage (C2QA) at BNL, C2QA coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen U.S. leadership in QIST. The C2QA scientific miss…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate -  Large Language Model/Foundational Model",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doc-Research_JR102105",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate -  large language model/foundational model the interdisciplinary science (is) department at brookhaven national laboratory (bnl) is seeking a postdoctoral research associate for a one-year appointment with an opportunity for renewal to perform research using artificial intelligence (ai) and machine learning (ml) with a focus on large language models (llms) and foundation models (fms) relevant to electric power systems. essential duties and responsibilities: develop and implement artificial intelligence (ai) and machine learning (ml) techniques for power system planning, operation, control, and cybersecurity, with a particular focus on grid applications of large language models (llms) and foundation models (fms) to ensure the energy security and operational reliability of electric power systems. required knowledge, skills, and abilities: ph.d. in computer science, electrical engineering, mathematics, physics, or a related field, with a strong foundation in artificial intelligence and machine learning, particularly in llms and fms demonstrated ability to leverage llm and/or fm in advanced technical areas experience with/knowledge of modeling complex engineering systems strong written and verbal communication skills, with the ability to take direction effectively and collaborate within interdisciplinary project teams preferred knowledge, skills, and abilities: knowledge of/experience with modeling, simulation, dynamics, and control of complex systems such as power grids knowledge of/experience in energy systems, including familiarity with commonly used tools, frameworks, cybersecurity, and best practices additional information: bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. candidates must have received a ph.d. by the commencement of employment. brookhaven laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $70,200 - $85,000 . salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory and the energy and photon sciences directorate are committed to your success. we offer a supportive work environment and the resources necessary for you to succeed. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements for federal site access as required by the federal real id act . those not in possession of a real id-compliant document will not be permitted to access the site which includes access to the laboratory for interviews . about us brookhaven national laboratory (www.bnl.gov) delivers discovery science and transformative technology to power and secure the nation’s future. brookhaven lab is a multidisciplinary laboratory with seven nobel prize-winning discoveries, 37 r&d 100 awards, and more than 70 years of pioneering research. the lab is primarily supported by the u.s. department of energy’s (doe) office of science. brookhaven science associates (bsa) operates and manages the laboratory for doe. bsa is a partnership between battelle and the research foundation for the state university of new york on behalf of stony brook university. bsa salutes our veterans and active military",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $70,200 - $85,000 | $70,200 - $85,000",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Interdisciplinary Science (IS) Department at Brookhaven National Laboratory (BNL) is seeking a Postdoctoral Research Associate for a one-year appointment with an opportunity for renewal to perform research using artificial intelligence (AI) and machine learning (ML) with a focus on large language models (LLMs) and foundation models (FMs) relevant to electric power systems. Essential Duties and…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate in Materials Science for Quantum Information Applications",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate-in-Materials-Science-for-Quantum-Information-Applications_JR102203",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate in materials science for quantum information applications brookhaven national laboratory is a multipurpose research institution funded primarily by the u.s. department of energy’s office of science. located on the center of long island, new york, brookhaven lab brings world-class facilities and expertise to the most exciting and important questions in basic and applied science—from the birth of our universe to the sustainable energy technology of tomorrow. we operate cutting-edge large-scale facilities for studies in physics, chemistry, biology, medicine, applied science, and a wide range of advanced technologies. the laboratory's almost 3,000 scientists, engineers, and support staff are joined each year by more than 4,000 visiting researchers from around the world. our award-winning history, including seven nobel prizes, stretches back to 1947, and we continue to unravel mysteries from the nanoscale to the cosmic scale, and everything in between. brookhaven is operated and managed by brookhaven science associates, which was founded by the research foundation for the state university of new york on behalf of stony brook university, and battelle, a nonprofit applied science and technology organization. organization overview at bnl, the energy & photon sciences (eps) directorate, as part of the multi-institute co-design centre for quantum advantage (c2qa) is working to accelerate the transformational advances in quantum information science (qis) that will create solutions for quantum-based technologies. advances in qis are the underpinning of transformational discoveries that rely on brookhaven’s data-driven research, cutting-edge synchrotron science, and leadership in qis, which has led to a 5-year renewal of the center ( https://www.bnl.gov/newsroom/news.php?a=122687 ). as part of the capabilities and science focus of the eps, the national synchrotron light source ii (nsls-ii) is a state-of-the-art 3 gev electron storage ring which operates as an international user facility. nsls-ii offers scientific and industrial researchers an array of instruments (beamlines) using x-ray, ultraviolet, and infrared light to enable discoveries across an array of scientific disciplines. this diversity lends itself well to the variety of important materials investigated by c2qa (bcs superconducting metals, diamond nv centers and other single atom technologies, and even van der waals materials). position description working as a part of the materials thrust inside the co-design center for quantum advantage (c2qa), the successful applicant will undertake synchrotron-based experiments at nsls-ii to help in the characterization, design, and advancement of the materials used in qubit fabrication. qubits are highly prone to errors because of interactions with their environment and defects in the qubit materials —atoms, ions, photons, or electrons—themselves. the successful applicant will work with researchers at nsls-ii, cfn, and other partner institutions within c2qa to understand these microscopic interactions, by using synchrotron-based spectroscopy and diffraction techniques and correlating the chemical, electronic, and structural variations with qubit efficiency and stability measurements. for example, see recently highlighted work https://www.energy.gov/science/bes/articles/revealing-buried-layers-exploring-metal-substrate-interface-layer and additional work pending publication https://arxiv.org/html/2503.03168v1 . essential duties and responsibilities: spearhead a focused effort to enable cutting edge synchrotron science to make significant advances in qis materials. develop methods to collect & analyze x-ray photoelectron spectroscopy (xps), x-ray absorption spectroscopy (xas), x-ray diffraction (xrd) and x-ray reflectivity (xrr) data and correlate these measurements to qubit efficiency measurements to build structure-property relationships. participate in the exploration of coherent x-ray scattering techniques",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $78,000 - $100,000/ year | $78,000 - $100,000/ year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Brookhaven National Laboratory is a multipurpose research institution funded primarily by the U.S. Department of Energy’s Office of Science. Located on the center of Long Island, New York, Brookhaven Lab brings world-class facilities and expertise to the most exciting and important questions in basic and applied science—from the birth of our universe to the sustainable energy technology of tomorro…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Research Associate - Electrochemical Energy Storage",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Research-Associate---Electrochemical-Energy-Storage_JR102313",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "research associate - electrochemical energy storage the chemistry division invites applications for a two-year term research associate position in the electrochemical energy storage (ees) group. the successful candidate will contribute to advanced battery research through materials development and characterization. initial 2-year term appointment subject to renewal contingent on performance and funding. the appointee will conduct research in one or more of the following areas: sulfur, sodium, and lithium batteries. in addition to experimental research, the candidate is expected to integrate artificial intelligence (ai) and machine learning (ml) approaches to accelerate materials discovery and optimization. a key component of the role includes correlating materials design with physical, chemical, and mechanical properties using advanced characterization techniques. essential duties and responsibilities: the research associate will conduct independent and collaborative research on sulfur, sodium, and lithium battery systems within the ees group. responsibilities include designing and synthesizing electrode and electrolyte materials, performing electrochemical evaluations, and conducting advanced structural and chemical characterization using state-of-the-art techniques. the candidate will integrate ai and ml approaches to accelerate materials discovery and data-driven optimization. the position also involves coordinating research activities with academic and industrial collaborators, preparing manuscripts for peer-reviewed journals, and presenting results at scientific conferences and doe program review meetings. required knowledge, skills, and abilities: a phd degree in relevant fields (including but not limited to chemistry, physics, chemical engineering, material science and engineering, or mechanical engineering). industry or research experience (including doctoral research) in rechargeable battery systems . demonstrated research expertise in at least one of these areas: sulfur, sodium, and lithium batteries, supported by a strong publication record. demonstrated experience applying ai and/or machine learning methods to battery materials development. excellent written and oral communication skills for scientific publications and presentations. preferred knowledge, skills, and abilities: experience in synthesis of battery materials. skilled in advanced characterization techniques, including synchrotron, neutron, and electron-based methods. experience in pouch cell fabrication and testing. environmental, health & safety requirements: essential functions such as: lifting of 30 pounds; the ability to run a ½ mile; successfully pass a stress test, climb a ladder or more, etc. additional information: candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining their phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness or other life-changing events. brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $75,000 - $83,000 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements fo",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $75,000 - $83,000 / year | $75,000 - $83,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Chemistry Division invites applications for a two-year term Research Associate position in the Electrochemical Energy Storage (EES) Group. The successful candidate will contribute to advanced battery research through materials development and characterization. Initial 2-year term appointment subject to renewal contingent on performance and funding. The appointee will conduct research in one or…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102271-1",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoctoral research associate the scientific computing applications group in csd has an immediate opening for a postdoctoral research associate to design, develop, and deploy machine-learning and high-performance computing workflows, algorithms, and software in support of department of energy (doe) mission applications across a broad range of scientific domains, including materials, biology, physics, and nuclear science. the successful candidate will partner closely with domain scientists to co-develop and apply cutting-edge machine learning and computational techniques to address scientific computing needs such as scalable ml training and inference, surrogate modeling of scientific processes, workflow automation and adaptive simulation pipelines, and performance analysis and optimization. the candidate will also contribute to and help originate research and proposal ideas in collaboration with staff scientists, supporting both their professional development and the goals of the laboratory. the appointment will be initially for two years, with the possibility of extension and career growth contingent on performance and funding . essential duties and responsibilities: work collaboratively with computer scientists, computational scientists, applied mathematicians, and domain scientists develop software that integrates machine learning and numerical techniques targeting heterogeneous architectures (gpus and accelerators), including doe leadership-class supercomputing facilities, to enable and support scientific research identify and implement strategies for correctness and reproducibility testing, and analyze and optimize software scalability and performance apply software engineering and documentation best practices to ensure usability and maintainability present results at meetings, workshops, and conferences publish findings in conference proceedings and/or peer-reviewed journals required knowledge, skills, and abilities: phd in computational physics, chemistry, materials science, computer science/engineering, applied mathematics, or a related field. strong experience developing, deploying, and optimizing applications and workflows in high-performance computing (hpc) environments. demonstrated programming proficiency in c/c++ (preferred) and python, with experience in additional languages such as fortran considered a plus. strong knowledge of at least one parallel programming model commonly used in hpc, such as mpi, openmp/openacc, cuda, hip, kokkos, or sycl/opencl. hands-on experience with machine learning, including end-to-end training, tuning, and evaluation of at least one class of models. working understanding of common machine learning model classes and their roles in scientific applications, such as deep neural networks (dnns), convolutional neural networks (cnns), transformer models, and graph-based neural networks. familiarity with software engineering best practices, including testing, documentation, source code management, and release procedures. effective written and verbal communication skills, including the ability to work productively with interdisciplinary teams. preferred knowledge, skills, and abilities: experience scaling machine learning training and/or inference on multi-node hpc systems. history of implementing, adapting, or optimizing machine learning architectures for scientific or high-performance computing applications. background in software performance evaluation, profiling, and optimization on cpus and gpus. knowledge of common numerical algorithms used in scientific computing, such as linear solvers, optimization methods, or stochastic sampling techniques (e.g., markov chain monte carlo). experience developing or using advanced computational workflows, including adaptive, automated, or agent-based (agentic) workflows that integrate simulation, data analysis, and/or machine learning. experience with computational workflows on large-scale hpc systems, including leadership-class or pre-exascale/exa",
+      "city": null,
+      "col_index": 85,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "networks (DNNs), convolutional neural networks (CNNs), transformer models, | salary range for this position is $71,900 - $119,000 / year | $71,900 - $119,000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "The Scientific Computing Applications group in CSD has an immediate opening for a Postdoctoral Research Associate to design, develop, and deploy machine-learning and high-performance computing workflows, algorithms, and software in support of Department of Energy (DOE) mission applications across a broad range of scientific domains, including materials, biology, physics, and nuclear science. The s…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "PostDoc – Machine Learning",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/PostDoc---Machine-Learning_JR102144-1",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoc – machine learning brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program the machine learning department of the computing and data sciences (cds) directorate at brookhaven national laboratory (bnl) invites exceptional candidates to apply for a post-doctoral research associate position in machine learning (ml) and artificial intelligence (ai). this position offers a unique opportunity to conduct both basic and applied research in concert with collaborators working on diverse scientific and security problems of interest to bnl and the department of energy (doe). topics of particular interest include: (i) brain-inspired neuromorphic computing algorithm and hardware codesign; (ii) development of novel ai/ml models and adaptation of existing approaches for scientific applications. the position provides access to world-class computing resources, such as the bnl institutional cluster and doe leadership computing facilities. access to these platforms will allow computing at scale, and together with access to unique data sources, will ensure that the successful candidate has the necessary resources to solve challenging doe problems of interest. the successful candidate will join a growing research group with diverse expertise and projects spanning the full breadth of bnl’s and the doe’s missions. this post-doc position presents a unique chance to conduct interdisciplinary collaborative research in bnl programs. essential duties and responsibilities conduct research in brain-inspired neuromorphic computing for various problems relating to microelectronics and scientific discovery. work in interdisciplinary collaborations with subject matter experts on various aspects of scientific data generation and processing and methods evaluation. formulate high-quality research ideas and directions in collaboration with mentors in the department. communicate research progress, challenges, and achievements, and engage within and beyond the department on new potential collaborations. position requirements required knowledge, skills, and abilities: ph.d. in computer science or a related field ( e.g., engineering, applied mathematics, statistics, physics, etc. ) awarded within the past 5 years. strong theoretical understanding and practical experience in neuromorphic computing and/or ai/ml. strong publication record. excellent programming and computer science or electrical engineering skills. preferred knowledge, skills, and abilities experience with neuromorphic computing. experience with hardware design using emerging devices (fefet, reram, spd, etc.) experience working in multidisciplinary collaborations. other information: initial 2-year term appointment subject to renewal contingent on performance and funding candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness, or other life-changing events this is a fully onsite position located at bnl in upton, ny brookhaven national laboratory is committed to providing fair, equitable and competitive compensation. the full salary range for this position is $71900 - $119000 / year. salary offers will be commensurate with the final candidate’s qualification, education and experience and considered with the internal peer group. brookhaven national laboratory requires all non-badged personnel including visitors to produce a real-id or real-id compliant documentation to access brookhaven national laboratory – view more information at www.bnl.gov/real-id . this is due to nationwide identification requirements f",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $71900 - $119000 / year | $71900 - $119000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Brookhaven National Laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. Review more information at BNL | Benefits Program The Machine Learning department of the Computing and Data Sciences (CDS) directorate at Brookhaven National Laboratory (BNL) invites exceptional cand…",
+      "score_components": {
+        "base": 50,
+        "preferred_country": 1,
+        "good_salary": 1,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0
+      }
+    },
+    {
+      "title": "Postdoc - Robotics and Embodied AI",
+      "url": "https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoc---Robotics-and-Embodied-AI_JR102055",
+      "source": "bnl",
+      "also_sources": [],
+      "alt_urls": [],
+      "score": 80,
+      "bucket": "urgent",
+      "reasons": [
+        "preferred country",
+        "affordability 1.55× ≥ 1.5"
+      ],
+      "institutions": [
+        "BNL"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "match_text": "postdoc - robotics and embodied ai brookhaven national laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. review more information at bnl | benefits program brookhaven national lab’s (bnl) ai department welcomes qualified candidates to apply to a new postdoc research position in robotics and embodied ai. the new scientific embodied agents lab (seal) within the computing and data sciences (cds) directorate is working at the intersection of ai and robotics to investigate the challenges and opportunities facing advanced robotics and embodied ai technologies in supporting current scientific workflows and enabling new capabilities. a key motivator for this endeavor is the breadth of experimental science that form the core of bnl’s research focus. we seek to leverage embodied ai to accelerate scientific discovery, enable robust knowledge capture and transfer, and support experimental science in novel ways that cannot be met with traditional automation techniques. we seek candidates with expertise in robotics and ai, and particularly foundation models for robotics and physical interaction, including vlas (vision language action models), agentic ai, and world models. we also seek candidates with hands-on experience with robot hardware including electronics, power systems, controllers, sensors, motors, and custom manufactured parts, including 3d printing. essential duties and responsibilities conduct fundamental and applied research in embodied ai, agentic ai, and robotics, including research with a software-focus (robotics foundation models, world models, simulations), and a hardware-focus (robotic perception, control, manipulation and interaction). collaborate effectively with interdisciplinary teams across bnl and with our academic and industry partners. conceive and execute high-quality research ideas in partnership with ai department colleagues and mentors. publish and communicate research outcomes and participate in proposal and collaboration-building activities. position requirements required knowledge, skills, and abilities: ph.d. in computer science, computer / electrical engineering or related fields (e.g., other science, engineering, applied mathematics, statistics) awarded within the past 5 years. strong theoretical understanding and practical experience in methods and applications from machine learning, artificial intelligence, and robotics research communities. demonstrated publication record in ai/ml and/or robotics fields. excellent programming and computer science skills. preferred knowledge, skills, and abilities practical experience designing and developing novel ai/ml models. experience with state-of-the-art foundation models, agentic ai models, and simulation environments for robotics. hands-on experience with robotics and/or ml-based work with relevant electronics and components (sensors, motors, controllers, etc.). experience with 3d modeling, 3d printing, and custom hardware. experience in developing, training, evaluating, and deploying large ai/ml models in hpc and cluster computing environments. experience with electronics and mechanical diagnostics, maintenance, and customization (e.g. disassembly, soldering, driver troubleshooting, etc.) experience working in multidisciplinary collaborations. other information: initial 2-year term appointment subject to renewal contingent on performance and funding candidates must have received a ph.d. by the commencement of employment. bnl policy requires that after obtaining a phd, eligible candidates for research associate appointments may not exceed a combined total of 5 years of relevant work experience as a post-doc and/or in an r&d position, excluding time associated with family planning, military service, illness, or other life-changing events this is a fully onsite position located at bnl in upton, ny brookhaven national laboratory is comm",
+      "city": "New York",
+      "col_index": 100,
+      "deadline": "Posted 30+ Days Ago",
+      "days_to_deadline": null,
+      "posted": "Posted 30+ Days Ago",
+      "ranks": [
+        "POSTDOC"
+      ],
+      "fields_of_interest": [
+        "hep-ex"
+      ],
+      "experiments": [],
+      "salary_low_local": 65000,
+      "salary_high_local": 90000,
+      "salary_currency": "USD",
+      "salary_source": "NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher",
+      "salary_ppp_usd_low": 65000.0,
+      "salary_ppp_usd_high": 90000.0,
+      "salary_usd_low": 65000.0,
+      "salary_usd_high": 90000.0,
+      "salary_net_local_low": 47450.0,
+      "salary_net_local_high": 65700.0,
+      "salary_net_ppp_usd_low": 47450.0,
+      "salary_net_ppp_usd_high": 65700.0,
+      "salary_net_usd_low": 47450.0,
+      "salary_net_usd_high": 65700.0,
+      "affordability_low": 1.5476190476190477,
+      "affordability_high": 2.142857142857143,
+      "affordability_label": "comfortable",
+      "salary_mentioned_in_post": "salary range for this position is $71900 - $119000 / year | $71900 - $119000 / year",
+      "salary_estimate": null,
+      "llm_summary": null,
+      "description_short": "Brookhaven National Laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. Review more information at BNL | Benefits Program Brookhaven National Lab’s (BNL) AI Department welcomes qualified candidates to apply to a new postdoc research position in robotics and embodied AI.…",
       "score_components": {
         "base": 50,
         "preferred_country": 1,

@@ -1,7 +1,7 @@
 # HEP jobs digest — 2026-05-19
 
-Scanned **170** open postings, **162** new since last run, **162** above report threshold.  
-_sources:_ inspire: 89, ajo: 52, cern: 7, desy: 6, gsi: 6, ATLAS jobs: 10
+Scanned **191** open postings, **183** new since last run, **183** above report threshold.  
+_sources:_ inspire: 89, ajo: 52, cern: 7, desy: 6, gsi: 6, ATLAS jobs: 10, BNL: 21
 
 
 ## 🔥 Urgent (score ≥ 80)
@@ -36,6 +36,20 @@ _sources:_ inspire: 89, ajo: 52, cern: 7, desy: 6, gsi: 6, ATLAS jobs: 10
 - **Why this score:** preferred country; affordability 2.78× ≥ 1.5; keywords: flavor, calorimeter
 
 > The LHCb group at Peking University invites applications for a postdoctoral research position. We are seeking highly motivated candidates to join our team and contribute to the exciting physics program of the LHCb experiment. The primary focus of this position is on the software R&D for upgrade of the Electromagnetic Calorimeter (ECAL) for the High-Luminosity LHC (HL-LHC) era. The upgraded ECAL wi…
+
+
+### [Postdoctoral Research Associate – AI in Nuclear Physics](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---AI-in-Nuclear-Physics_JR102149) — score 100  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 29 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $78500 - $81500 / year | $78500 - $81500 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5; keywords: QCD, heavy ion, flavor, tracking
+
+> The primary research focus of the Brookhaven Physics Department is the exploration of hot and cold QCD using the Relativistic Heavy Ion Collider (RHIC) and the future Electron-Ion Collider (EIC). The sPHENIX Group in the BNL Physics Department plays a central role in the sPHENIX experiment at RHIC, which has been taking physics data since 2023. The group also plays a strong role in developing the…
 
 
 ### [ATLAS Postdoctoral Fellow](https://inspirehep.net/jobs/3152322) — score 95  `inspire`
@@ -1129,6 +1143,286 @@ _sources:_ inspire: 89, ajo: 52, cern: 7, desy: 6, gsi: 6, ATLAS jobs: 10
 - **Why this score:** preferred country; affordability 2.33× ≥ 1.5
 
 > Professorship in Experimental Particle Physics Institute Name University of Wuppertal Institute Address Wuppertal, Germany Posting Date 16 Apr 2026 12:00 Link to Official Posting https://inspirehep.net/jobs/3145021 Contact Name Dean Prof Dr Francesco Knechtli Contact E-Mail fk4-info@uni-wuppertal.de ATLAS Job True
+
+
+### [Postdoctoral Research Associate -  Catalysis, Theoretical Studies](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate----Catalysis--Theoretical-Studies_JR102396) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 4 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $82,000- $85,000 / year | $82,000- $85,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Chemistry Division has an opening a Postdoctoral Research Associate in catalysis. The successful candidate will be devoted to theoretical studies, involving description of electrochemical environment, understanding of reaction mechanisms and active sites under reaction conditions, and catalyst optimization. Essential Duties and Responsibilities: Provide mechanistic understanding of the catalyt…
+
+
+### [Coherent Soft X-ray (CSX) Scattering Beamline Post-Doctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Coherent-Soft-X-ray--CSX--Scattering-Beamline-Post-Doctoral-Research-Associate_JR102360) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 4 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $74,000 | $74,000.00 - $88,000_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> POSITION DESCRIPTION Taking advantage of the unique qualities of the CSX beamline, the selected candidate will perform scientific research aligned with the beamline scientific program and, if possible, bring new scientific directions. The selected candidate will provide user support and will contribute to the beamline development activities. As a member of the Electronic Structure Techniques (EST)…
+
+
+### [Postdoctoral Research Associate in Infrared Materials Science for Quantum Information Applications](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate-in-Infrared-Materials-Science-for-Quantum-Information-Applications_JR102445) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 5 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $74,050 | $74,050.00 - $90,000_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Working as a part of the Materials Thrust inside the Co-design Center for Quantum Advantage (C2QA), the successful applicant will undertake infrared studies of materials using both synchrotron and conventional lab sources at NSLS-II to help in the characterization, design, and advancement of the materials used in Qubit fabrication. Qubits are highly prone to errors because of interactions with the…
+
+
+### [Post Doctoral Research Associate, Nuclear Data](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctoral-Reasearch-Associate--Nuclear-Data_JR102298) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** US  (cost index 85 vs NYC=100)
+- **Deadline:** Posted 6 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $71900 - $85000 / year | $71900 - $85000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> JOB DESCRIPTION Brookhaven National Laboratory’s Department of Nuclear Science and Security advances cutting-edge research, development, and technical innovation to ensure the safe and secure use of nuclear technologies. The Department serves as a resource in these and related areas to support the missions of the Department of Energy (DOE), the Nuclear Regulatory Commission (NRC), and other nation…
+
+
+### [Postdoctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102395) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 11 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $82,000- $85,000 / year | $82,000- $85,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Chemistry Division has an opening for a Postdoctoral Research Associate position in catalysis. The successful candidate will be working on synthesis , catalytic evaluation, and characterization to elucidate active sites and catalyst stability under reaction conditions. Essential Duties and Responsibilities: Provide mechanistic understanding of the catalytic behaviors observed under reaction co…
+
+
+### [Post Doctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctoral-Research-Associate_JR102455) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 11 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $71900 - $85000 / year | $71900 - $85000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Position Description The Nuclear Science and Security Department has an opening for a Post Doc to assist with the development of AI/ML algorithms for remote sensing of uranium containing materials. These activities will be based on existing and new, high-quality laboratory spectral data that will be acquired as part of a multi-institutional and multi-disciplinary effort. The position will require…
+
+
+### [Postdoctoral Research Associate – AI/ML for Biological Sciences](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---AI-ML-for-Biological-Sciences_JR102398) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 18 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $ $71,900 - $119,000 / year | $71,900 - $119,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Brookhaven National Laboratory’s Computing and Data Sciences (CDS) Directorate seeks a Postdoctoral Research Associate – AI/ML for Biological Science for an on-site position in the AI Department. The successful candidate will contribute to interdisciplinary research projects at the intersection of artificial intelligence, machine learning, and domain science, with a particular emphasis on biology.…
+
+
+### [Post Doctorate Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doctorate-Research-Associate_JR102404) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** US  (cost index 85 vs NYC=100)
+- **Deadline:** Posted 19 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $74050 - $122550 / year | $74050 - $122550 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Position Description The REDWOOD project funded by DOE ASCR is meant to study the challenges of scientific payloads resilience in the heterogeneous distributed computing in environments such as those in HEP, NP, astro-particle physics, and fusion science, as well as other data intensive physics and astrophysics projects. The program of work proposed herein is carried out under the REDWOOD project.…
+
+
+### [Postdoctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102340) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** Princeton, US  (cost index 80 vs NYC=100)
+- **Deadline:** Posted 29 Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $82,000- $85,00 / year | $82,000- $85,00 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Chemistry Division (http://www.bnl.gov/chemistry) of Brookhaven National Laboratory (BNL, http://www.bnl.gov) seeks postdoctoral Research Associates to join the DOE-funded Center for Hybrid Approaches in Solar Energy to Liquid Fuels (CHASE), a Fuels from Sunlight Center led by the University of North Carolina at Chapel Hill (UNC). In addition to BNL, CHASE includes collaborators at Princeton U…
+
+
+### [Postdoctoral Research Associate - Hybrid Approaches in Solar Energy](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---Hybrid-Approaches-in-Solar-Energy_JR102330) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** Princeton, US  (cost index 80 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $82,000- $85,000/ year | $82,000- $85,000/ year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Chemistry Division (http://www.bnl.gov/chemistry) of Brookhaven National Laboratory (BNL, http://www.bnl.gov) seeks a Postdoctoral Research Associate to join the newly DOE-funded Center for Hybrid Approaches in Solar Energy to Liquid Fuels (CHASE), a Fuels from Sunlight Center that will be led by the University of North Carolina at Chapel Hill (UNC). In addition to BNL, it includes collaborato…
+
+
+### [Postdoctoral Research Associate - Electric Power System](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate---Electric-Power-System_JR102329) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $70,200 - $85,000 | $70,200 - $85,000_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Interdisciplinary Science (IS) Department at Brookhaven National Laboratory (BNL) is seeking a Postdoctoral Research Associate. The appointment will be for a one-year appointment with an opportunity for a one-year renewal to perform research in the area of electric power grids. Essential Duties and Responsibilities: Perform cyber-physical system modeling and simulation for the power grid. Perf…
+
+
+### [PostDoc – Machine Learning](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/PostDoc---Machine-Learning_JR102346-1) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $74050 - $122550 / year | $74050 - $122550 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Artificial Intelligence Learning department of the Computing and Data Sciences (CDS) directorate at Brookhaven National Laboratory (BNL) invites exceptional candidates to apply for a post-doctoral research associate position in machine learning (ML). This position offers a unique opportunity to conduct both basic and applied research in concert with collaborators working on diverse scientific…
+
+
+### [Quantum Information Science Postdoctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Quantum-Information-Science-Postdoctoral-Research-Associate_JR102220) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** US  (cost index 85 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $75,000 - $81,000 / year | $75,000 - $81,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Co-Design Center for Quantum Advantage (C2QA) at BNL coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen U.S. leadership in quantum information science and technology. The C2QA scientific mission is to deliver advances in material…
+
+
+### [Postdoctoral Researcher in Quantum Algorithms and Quantum Information Science for Quantum Field Theoretic Applications to Condensed Matter, Nuclear, and High Energy Physics](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Researcher-in-Quantum-Algorithms-and-Quantum-Information-Science-for-Quantum-Field-Theoretic-Applications-to-Condensed-Matter--Nuclear--and-High-Energy-Physics_JR102161) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $75,000 - $81,000 / year | $75,000 - $81,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> JOB DESCRIPTION The positions being advertised are under the aegis of the Co-Design Center for Quantum Advantage (C2QA) at BNL, C2QA coordinates a team of leading experts from national laboratories, academic institutions, and industry partners, assembled to address challenges facing scalable quantum computing and provide breakthroughs to strengthen U.S. leadership in QIST. The C2QA scientific miss…
+
+
+### [Postdoctoral Research Associate -  Large Language Model/Foundational Model](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Post-Doc-Research_JR102105) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $70,200 - $85,000 | $70,200 - $85,000_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Interdisciplinary Science (IS) Department at Brookhaven National Laboratory (BNL) is seeking a Postdoctoral Research Associate for a one-year appointment with an opportunity for renewal to perform research using artificial intelligence (AI) and machine learning (ML) with a focus on large language models (LLMs) and foundation models (FMs) relevant to electric power systems. Essential Duties and…
+
+
+### [Postdoctoral Research Associate in Materials Science for Quantum Information Applications](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate-in-Materials-Science-for-Quantum-Information-Applications_JR102203) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $78,000 - $100,000/ year | $78,000 - $100,000/ year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Brookhaven National Laboratory is a multipurpose research institution funded primarily by the U.S. Department of Energy’s Office of Science. Located on the center of Long Island, New York, Brookhaven Lab brings world-class facilities and expertise to the most exciting and important questions in basic and applied science—from the birth of our universe to the sustainable energy technology of tomorro…
+
+
+### [Research Associate - Electrochemical Energy Storage](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Research-Associate---Electrochemical-Energy-Storage_JR102313) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $75,000 - $83,000 / year | $75,000 - $83,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Chemistry Division invites applications for a two-year term Research Associate position in the Electrochemical Energy Storage (EES) Group. The successful candidate will contribute to advanced battery research through materials development and characterization. Initial 2-year term appointment subject to renewal contingent on performance and funding. The appointee will conduct research in one or…
+
+
+### [Postdoctoral Research Associate](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoctoral-Research-Associate_JR102271-1) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** US  (cost index 85 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _networks (DNNs), convolutional neural networks (CNNs), transformer models, | salary range for this position is $71,900 - $119,000 / year | $71,900 - $119,000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> The Scientific Computing Applications group in CSD has an immediate opening for a Postdoctoral Research Associate to design, develop, and deploy machine-learning and high-performance computing workflows, algorithms, and software in support of Department of Energy (DOE) mission applications across a broad range of scientific domains, including materials, biology, physics, and nuclear science. The s…
+
+
+### [PostDoc – Machine Learning](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/PostDoc---Machine-Learning_JR102144-1) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $71900 - $119000 / year | $71900 - $119000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Brookhaven National Laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. Review more information at BNL | Benefits Program The Machine Learning department of the Computing and Data Sciences (CDS) directorate at Brookhaven National Laboratory (BNL) invites exceptional cand…
+
+
+### [Postdoc - Robotics and Embodied AI](https://bnl.wd1.myworkdayjobs.com/en-US/Externa/job/Upton-NY/Postdoc---Robotics-and-Embodied-AI_JR102055) — score 80  `bnl`
+- **Institutions:** BNL
+- **Location:** New York, US  (cost index 100 vs NYC=100)
+- **Deadline:** Posted 30+ Days Ago
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary range for this position is $71900 - $119000 / year | $71900 - $119000 / year_
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Brookhaven National Laboratory is committed to employee success and we believe that a comprehensive employee benefits program is an important and meaningful part of the compensation employees receive. Review more information at BNL | Benefits Program Brookhaven National Lab’s (BNL) AI Department welcomes qualified candidates to apply to a new postdoc research position in robotics and embodied AI.…
 
 
 ## ✅ Worth applying (score 65–79)

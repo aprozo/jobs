@@ -859,7 +859,8 @@ class WorkdaySource(JobSource):
                  search_text: str = "postdoc", country: str | None = None,
                  institution: str | None = None,
                  max_results: int = 100, fetch_descriptions: bool = True,
-                 default_field: str = "hep-ex"):
+                 default_field: str = "hep-ex",
+                 applied_facets: dict | None = None):
         self.name = name
         self.source_key = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
         self.tenant = tenant
@@ -870,6 +871,7 @@ class WorkdaySource(JobSource):
         self.max_results = max_results
         self.fetch_descriptions = fetch_descriptions
         self.default_field = default_field
+        self.applied_facets = applied_facets or {}
 
     def _api(self, path: str) -> str:
         return (f"https://{self.tenant}.wd1.myworkdayjobs.com"
@@ -884,7 +886,7 @@ class WorkdaySource(JobSource):
                 "limit": page_size,
                 "offset": offset,
                 "searchText": self.search_text,
-                "appliedFacets": {},
+                "appliedFacets": self.applied_facets,
             }
             url = self._api("/jobs")
             log.info("[%s] %s offset=%d", self.source_key, url, offset)
@@ -1088,6 +1090,7 @@ def build_sources(cfg: dict) -> list[JobSource]:
                     max_results=entry.get("max_results", 100),
                     fetch_descriptions=entry.get("fetch_descriptions", True),
                     default_field=entry.get("default_field", "hep-ex"),
+                    applied_facets=entry.get("applied_facets"),
                 ))
             else:
                 log.warning("unknown source type: %s", t)

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HEP jobs — ranked</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='28'%3E🔬%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='4' width='24' height='24' rx='4' fill='none' stroke='%2338bdf8' stroke-width='2.5'/%3E%3C/svg%3E">
 </head>
 <body>
   <header class="hero">
@@ -22,14 +22,13 @@
       </div>
 
       <ul class="stat-tiles" id="stat-tiles" aria-label="Score buckets — click to filter">
-        <li class="stat urgent"   data-bucket="urgent"><span class="n">—</span><span class="lab">🔥 Urgent</span></li>
-        <li class="stat apply"    data-bucket="apply"><span class="n">—</span><span class="lab">✅ Apply</span></li>
-        <li class="stat consider" data-bucket="consider"><span class="n">—</span><span class="lab">🤔 Consider</span></li>
-        <li class="stat skim"     data-bucket="skim"><span class="n">—</span><span class="lab">👀 Maybe</span></li>
+        <li class="stat urgent"   data-bucket="urgent"><span class="n">—</span><span class="lab">Urgent</span></li>
+        <li class="stat apply"    data-bucket="apply"><span class="n">—</span><span class="lab">Apply</span></li>
+        <li class="stat consider" data-bucket="consider"><span class="n">—</span><span class="lab">Consider</span></li>
+        <li class="stat skim"     data-bucket="skim"><span class="n">—</span><span class="lab">Maybe</span></li>
       </ul>
 
       <form id="subscribe-form" class="subscribe" aria-label="Email me when new jobs appear">
-        <span class="sub-icon" aria-hidden="true">📬</span>
         <input id="subscribe-email" type="email" placeholder="your@email — get daily digest" autocomplete="email" required>
         <button type="submit">Subscribe</button>
         <span class="sub-status" id="subscribe-status" role="status"></span>
@@ -40,8 +39,8 @@
   <nav class="toolbar" id="toolbar">
     <div class="toolbar-inner">
       <input type="search" id="search" placeholder="Search title / institution…" autocomplete="off">
-      <button class="toolbar-btn" id="open-scoring" type="button" title="Adjust scoring">⚙️ Scoring</button>
-      <button class="toolbar-btn ghost" id="reset-filters" type="button" title="Reset all filters">↺ Reset</button>
+      <button class="toolbar-btn" id="open-scoring" type="button" title="Adjust scoring">Scoring</button>
+      <button class="toolbar-btn ghost" id="reset-filters" type="button" title="Reset all filters">Reset</button>
       <div class="toolbar-spacer"></div>
       <fieldset id="source-filter" class="chip-fieldset">
         <legend>Source</legend>
@@ -62,11 +61,11 @@
   </nav>
 
   <details class="scoring-panel" id="scoring-panel">
-    <summary><span class="cog">⚙️</span> Scoring — weights, lists & thresholds</summary>
+    <summary>Scoring — weights, lists &amp; thresholds</summary>
     <div class="scoring-body">
       <p class="scoring-intro">
         Every job starts at <strong>50</strong>. Each signal below shifts the score up or down by its weight.
-        Final score clamped to 0–100 and bucketed: 🔥 ≥80 / ✅ 65–79 / 🤔 50–64 / 👀 &lt;50.
+        Final score clamped to 0–100 and bucketed: Urgent ≥80 / Apply 65–79 / Consider 50–64 / Maybe &lt;50.
         Tweak the sliders, lists and thresholds — preferences persist locally on your device.
       </p>
       <ul class="criteria-list" id="criteria-list">
@@ -99,14 +98,7 @@
   </main>
 
   <footer>
-    <p>
-      Sources: INSPIRE-HEP, AcademicJobsOnline (HEP/HET), CERN Careers, EURAXESS.
-      Refreshed weekdays 07:00 UTC by GitHub Actions.
-    </p>
-    <p class="small">
-      Subscribe form posts to <code id="subscribe-endpoint-hint">Formspree</code>.
-      Email-on-new-jobs requires the maintainer to add your address to <code>subscribers.yaml</code>.
-    </p>
+    <p>Refreshed weekdays 07:00 UTC.</p>
   </footer>
 
   <div id="job-modal" class="modal" hidden aria-hidden="true" aria-labelledby="modal-title" role="dialog">
@@ -125,7 +117,7 @@
         <div class="description" id="modal-description"></div>
       </section>
       <footer class="modal-actions">
-        <a id="modal-link" class="open-link" href="#" target="_blank" rel="noopener">Open posting →</a>
+        <a id="modal-link" class="open-link primary-cta" href="#" target="_blank" rel="noopener">Open posting ↗</a>
         <span id="modal-alt-urls" class="modal-alt-urls"></span>
       </footer>
     </div>

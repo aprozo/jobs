@@ -1,17 +1,10 @@
 "use strict";
 
-const FLAG = {
-  US: "🇺🇸", DE: "🇩🇪", CH: "🇨🇭", NL: "🇳🇱", GB: "🇬🇧", FR: "🇫🇷",
-  IT: "🇮🇹", CZ: "🇨🇿", JP: "🇯🇵", CN: "🇨🇳", KR: "🇰🇷", IL: "🇮🇱",
-  CA: "🇨🇦", SE: "🇸🇪", NO: "🇳🇴", DK: "🇩🇰", ES: "🇪🇸", PL: "🇵🇱",
-  AT: "🇦🇹", BE: "🇧🇪", FI: "🇫🇮", IN: "🇮🇳", RU: "🇷🇺",
-};
-
 const BUCKET_LABEL = {
-  urgent: "🔥 Urgent",
-  apply: "✅ Worth applying",
-  consider: "🤔 Consider",
-  skim: "👀 Maybe",
+  urgent: "Urgent",
+  apply: "Worth applying",
+  consider: "Consider",
+  skim: "Maybe",
 };
 
 // Each entry merges a weight with the list or threshold that activates it.
@@ -429,9 +422,8 @@ function populateCountryFilter(jobs) {
   const root = document.getElementById("country-filter");
   const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   for (const [c, n] of entries) {
-    const flag = FLAG[c] || "";
     root.insertAdjacentHTML("beforeend",
-      `<label data-country="${escapeHtml(c)}">${flag} ${escapeHtml(c)} <span class="muted">${n}</span></label>`);
+      `<label data-country="${escapeHtml(c)}">${escapeHtml(c)} <span class="muted">${n}</span></label>`);
   }
   root.querySelectorAll("label[data-country]").forEach(lbl => {
     lbl.addEventListener("click", (e) => {
@@ -556,14 +548,13 @@ function render() {
 }
 
 function rowHtml(j) {
-  const flag = FLAG[j.country] || "";
   const dl = formatDeadline(j);
   const sal = formatSalaryColumn(j);
   const aff = formatAffordability(j);
   const cc = j.country || "—";
   const place = j.city
-    ? `<span class="city">${escapeHtml(j.city)}</span>`
-    : `<span class="country-code muted">${escapeHtml(cc)}</span>`;
+    ? `<span class="city">${escapeHtml(j.city)}</span> <span class="country-code muted">${escapeHtml(cc)}</span>`
+    : `<span class="country-code">${escapeHtml(cc)}</span>`;
   const also = (j.also_sources && j.also_sources.length)
     ? `<span class="also-sources" title="Also listed in">${
         j.also_sources.map(s => `<span class="src-tag">${escapeHtml(s)}</span>`).join("")
@@ -577,7 +568,7 @@ function rowHtml(j) {
           ? `<span class="institutions">${escapeHtml(j.institutions.slice(0, 2).join(" · "))}</span>`
           : ""}
       </td>
-      <td class="where"><span class="country-flag" title="${escapeHtml(cc)}">${flag || cc}</span>${place}</td>
+      <td class="where">${place}</td>
       <td>${dl}</td>
       <td class="salary">${sal}</td>
       <td class="affordability">${aff}</td>
@@ -610,6 +601,17 @@ const EFFECTIVE_TAX_RATE = {
   US: 0.27, DE: 0.34, FR: 0.25, GB: 0.23, CH: 0.13, IT: 0.31, NL: 0.30,
   ES: 0.23, SE: 0.32, DK: 0.36, NO: 0.30, JP: 0.20, CN: 0.15, CA: 0.27,
   IL: 0.22, IN: 0.10, KR: 0.18, AT: 0.32, BE: 0.34, PL: 0.25, CZ: 0.22,
+};
+// Typical annual single-postdoc cost-of-living in local currency. Mirrors
+// salary_data.ANNUAL_LIVING_COST_LOCAL — used to compute a precise
+// affordability ratio for postings with an explicit pay figure.
+const ANNUAL_LIVING_COST_LOCAL = {
+  US: [42000, "USD"], CH: [54000, "CHF"], DE: [24000, "EUR"], FR: [24000, "EUR"],
+  GB: [24000, "GBP"], IT: [18000, "EUR"], NL: [24000, "EUR"], ES: [16000, "EUR"],
+  SE: [240000, "SEK"], DK: [240000, "DKK"], NO: [300000, "NOK"],
+  JP: [2400000, "JPY"], CN: [90000, "CNY"], CA: [38000, "CAD"],
+  AT: [22000, "EUR"], CZ: [240000, "CZK"], PL: [60000, "PLN"],
+  IL: [130000, "ILS"], KR: [25000000, "KRW"], IN: [450000, "INR"],
 };
 
 function _parseNumberWithSuffix(s) {
@@ -658,6 +660,33 @@ function postedUsdMonthly(p) {
   if (!fx) return null;
   const annualUsd = (p.period === "mo" ? p.amount * 12 : p.amount) * fx;
   return annualUsd / 12;
+}
+
+// Recompute affordability ratio from a precise posted figure.
+// Returns null if we can't compare currencies or lack a cost basket.
+function postedAffordability(p, country) {
+  if (!p || !country) return null;
+  const cost = ANNUAL_LIVING_COST_LOCAL[country];
+  if (!cost) return null;
+  const [costAmt, costCur] = cost;
+  const annualPay = p.period === "mo" ? p.amount * 12 : p.amount;
+  let payIn = annualPay, costIn = costAmt;
+  if (p.currency !== costCur) {
+    const fxPay  = USD_FX_PER_UNIT[p.currency];
+    const fxCost = USD_FX_PER_UNIT[costCur];
+    if (!fxPay || !fxCost) return null;
+    payIn  = annualPay * fxPay;
+    costIn = costAmt   * fxCost;
+  }
+  return payIn / costIn;
+}
+
+function affordabilityLabel(ratio) {
+  if (ratio == null) return "";
+  if (ratio >= 1.5) return "comfortable";
+  if (ratio >= 1.2) return "OK";
+  if (ratio >= 1.0) return "tight";
+  return "below local cost-of-living";
 }
 
 // US benchmark cost-of-living indices (NYC = 100). Used to project the job's
@@ -860,10 +889,20 @@ function openModal(url) {
   document.getElementById("modal-reasons").innerHTML =
     reasonsArr.map(r => `<li>${escapeHtml(r)}</li>`).join("");
 
+  const precise = extractPrecisePay(j.salary_mentioned_in_post);
+  let affordHtml = "";
+  if (precise) {
+    const r = postedAffordability(precise, j.country);
+    if (r != null) {
+      affordHtml = `${r.toFixed(2)}× <span class="muted">(${affordabilityLabel(r)} — from posting)</span>`;
+    }
+  }
+  if (!affordHtml && j.affordability_low != null && j.affordability_high != null) {
+    affordHtml = `${j.affordability_low.toFixed(2)}×–${j.affordability_high.toFixed(2)}× <span class="muted">(${escapeHtml(j.affordability_label || "")})</span>`;
+  }
+
   const dl = [
-    (j.affordability_low != null && j.affordability_high != null)
-      ? dlItem("Affordability",
-          `${j.affordability_low.toFixed(2)}×–${j.affordability_high.toFixed(2)}× <span class="muted">(${escapeHtml(j.affordability_label || "")})</span>`) : "",
+    affordHtml ? dlItem("Affordability", affordHtml) : "",
     j.col_index ? dlItem("Cost-of-living", `${j.col_index} <span class="muted">(NYC=100)</span>`) : "",
     j.llm_summary ? dlItem("LLM summary", escapeHtml(j.llm_summary)) : "",
     j.salary_mentioned_in_post ? dlItem("Mentioned in posting", escapeHtml(j.salary_mentioned_in_post.slice(0, 400))) : "",
@@ -875,7 +914,7 @@ function openModal(url) {
 
   const link = document.getElementById("modal-link");
   link.href = j.url;
-  link.textContent = "Open posting →";
+  link.textContent = "Open posting";
 
   const alt = document.getElementById("modal-alt-urls");
   if (j.alt_urls && j.alt_urls.length) {
