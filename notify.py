@@ -106,7 +106,8 @@ def _days_to_deadline(deadline: str | None) -> int | None:
 def write_json_digest(path, entries, *, n_total: int, n_new: int,
                       per_source: dict[str, int] | None = None,
                       config_summary: dict | None = None,
-                      default_weights: dict | None = None) -> None:
+                      default_weights: dict | None = None,
+                      site_meta: dict | None = None) -> None:
     """Write a machine-readable digest for the static site.
 
     `entries` is a list of (Job, JobEnrichment, score, reasons, components).
@@ -127,6 +128,8 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
             "title": job.title,
             "url": job.url,
             "source": job.source,
+            "also_sources": list((job.raw or {}).get("also_sources", [])),
+            "alt_urls": list((job.raw or {}).get("alt_urls", [])),
             "score": int(score),
             "bucket": _bucket_for(int(score)),
             "reasons": list(reasons or []),
@@ -148,10 +151,14 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
             "salary_source": enr.salary_source,
             "salary_ppp_usd_low": enr.salary_ppp_usd_low,
             "salary_ppp_usd_high": enr.salary_ppp_usd_high,
+            "salary_usd_low": getattr(enr, "salary_usd_low", None),
+            "salary_usd_high": getattr(enr, "salary_usd_high", None),
             "salary_net_local_low": enr.salary_net_local_low,
             "salary_net_local_high": enr.salary_net_local_high,
             "salary_net_ppp_usd_low": enr.salary_net_ppp_usd_low,
             "salary_net_ppp_usd_high": enr.salary_net_ppp_usd_high,
+            "salary_net_usd_low": getattr(enr, "salary_net_usd_low", None),
+            "salary_net_usd_high": getattr(enr, "salary_net_usd_high", None),
             "affordability_low": enr.affordability_low,
             "affordability_high": enr.affordability_high,
             "affordability_label": _affordability_label(enr.affordability_low),
@@ -169,6 +176,7 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
         "per_source": per_source or {},
         "config_summary": config_summary or {},
         "default_weights": default_weights or {},
+        "site_meta": site_meta or {},
         "jobs": jobs_out,
     }
     Path(path).parent.mkdir(parents=True, exist_ok=True)

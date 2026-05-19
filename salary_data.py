@@ -168,6 +168,36 @@ def to_ppp_usd(amount: float, currency: str) -> float | None:
     return amount * factor
 
 
+# Approximate nominal spot FX rates (USD per 1 unit of local currency).
+# Mid-2026 baseline; update annually. Used for the "nominal USD/month"
+# salary column shown to readers comparing absolute take-home in dollars.
+# Source: average of xe.com / wise.com mid-market quotes.
+USD_FX_PER_UNIT = {
+    "USD": 1.00,
+    "EUR": 1.08,
+    "GBP": 1.27,
+    "CHF": 1.12,
+    "JPY": 0.0067,
+    "CAD": 0.74,
+    "SEK": 0.095,
+    "DKK": 0.144,
+    "NOK": 0.094,
+    "CNY": 0.14,
+    "CZK": 0.044,
+    "PLN": 0.25,
+    "ILS": 0.27,
+    "KRW": 0.00073,
+    "INR": 0.012,
+}
+
+
+def to_usd(amount: float, currency: str) -> float | None:
+    factor = USD_FX_PER_UNIT.get(currency)
+    if factor is None:
+        return None
+    return amount * factor
+
+
 # Approximate effective tax + mandatory social-security rate on a single postdoc
 # gross income. Includes income tax + employee social contributions where they
 # come out of the headline salary. Sources: OECD Taxing Wages 2024 single-no-children

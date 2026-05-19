@@ -17,7 +17,7 @@ from typing import Any
 
 from salary_data import (
     POSTDOC_SCALES, PPP_USD_PER_UNIT, COL_INDEX_BY_CITY, COL_INDEX_BY_COUNTRY,
-    to_ppp_usd, affordability_ratio, net_after_tax,
+    to_ppp_usd, to_usd, affordability_ratio, net_after_tax,
 )
 
 log = logging.getLogger("hep-jobs.enrich")
@@ -43,6 +43,10 @@ class JobEnrichment:
     salary_net_local_high: float | None = None
     salary_net_ppp_usd_low: float | None = None
     salary_net_ppp_usd_high: float | None = None
+    salary_usd_low: float | None = None         # nominal spot-FX gross
+    salary_usd_high: float | None = None
+    salary_net_usd_low: float | None = None     # nominal spot-FX net
+    salary_net_usd_high: float | None = None
 
 
 # ----------- regex-based extractors -------------------------------------------
@@ -296,20 +300,26 @@ def enrich_job(job, cfg: dict, conn: sqlite3.Connection) -> JobEnrichment:
         sal_low, sal_high, sal_cur, sal_src = scale
         ppp_low = to_ppp_usd(sal_low, sal_cur)
         ppp_high = to_ppp_usd(sal_high, sal_cur)
+        usd_low = to_usd(sal_low, sal_cur)
+        usd_high = to_usd(sal_high, sal_cur)
         afford = affordability_ratio(sal_low, sal_high, sal_cur, country)
         afford_low, afford_high = afford if afford else (None, None)
         net_low = net_after_tax(sal_low, country or "", is_cern=is_cern)
         net_high = net_after_tax(sal_high, country or "", is_cern=is_cern)
         net_ppp_low = to_ppp_usd(net_low, sal_cur) if net_low else None
         net_ppp_high = to_ppp_usd(net_high, sal_cur) if net_high else None
+        net_usd_low = to_usd(net_low, sal_cur) if net_low else None
+        net_usd_high = to_usd(net_high, sal_cur) if net_high else None
     else:
         sal_low = sal_high = None
         sal_cur = None
         sal_src = None
         ppp_low = ppp_high = None
+        usd_low = usd_high = None
         afford_low = afford_high = None
         net_low = net_high = None
         net_ppp_low = net_ppp_high = None
+        net_usd_low = net_usd_high = None
 
     col_idx = (COL_INDEX_BY_CITY.get(city) if city else None) \
               or (COL_INDEX_BY_COUNTRY.get(country) if country else None)
@@ -346,6 +356,10 @@ def enrich_job(job, cfg: dict, conn: sqlite3.Connection) -> JobEnrichment:
         salary_net_local_high=net_high,
         salary_net_ppp_usd_low=net_ppp_low,
         salary_net_ppp_usd_high=net_ppp_high,
+        salary_usd_low=usd_low,
+        salary_usd_high=usd_high,
+        salary_net_usd_low=net_usd_low,
+        salary_net_usd_high=net_usd_high,
     )
 
     conn.execute(

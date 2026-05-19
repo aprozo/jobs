@@ -4,6 +4,7 @@ __pycache__/
 /digest.md
 /digest.json
 hep-jobs-monitor.zip
+hep_jobs.sqlite
 # intermediate artifacts used only for one-time manual seeding
 /manual_dump.json
 /manual_dump.jsonl

@@ -193,24 +193,19 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], 
     components: dict = {
         "base": 50,
         "preferred_country": 0,
-        "avoid_country": 0,
         "good_salary": 0,
-        "low_salary": 0,
         "keyword_match": 0,
         "keyword_matched": [],
         "keyword_avoid": 0,
         "keyword_avoided": [],
         "preferred_experiment": 0,
-        "short_deadline": 0,
     }
     s = 50
     reasons: list[str] = []
 
-    # Country / region preferences. Merge heuristic-derived job.countries with
-    # the more authoritative enr.country (set by LLM / manual extraction), so
-    # the score reflects whatever country attribution the page actually shows.
+    # Country preference. Merge heuristic-derived job.countries with the more
+    # authoritative enr.country (set by LLM / manual extraction).
     pref_countries = [c.upper() for c in scoring.get("preferred_countries", [])]
-    avoid_countries = [c.upper() for c in scoring.get("avoid_countries", [])]
     job_country_set = {c.upper() for c in (job.countries or [])}
     if enr.country:
         job_country_set.add(enr.country.upper())
@@ -218,36 +213,22 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], 
         components["preferred_country"] = 1
         s += scoring.get("weight_preferred_country", 15)
         reasons.append("preferred country")
-    if any(c in avoid_countries for c in job_country_set):
-        components["avoid_country"] = 1
-        s -= scoring.get("weight_avoid_country", 30)
-        reasons.append("avoided country")
 
     # Salary: prefer affordability ratio (local-cost-adjusted) over raw PPP.
-    # Fall back to PPP threshold if affordability isn't computable.
     min_afford = scoring.get("min_affordability_ratio", 1.5)
     if enr.affordability_low is not None:
         if enr.affordability_low >= min_afford:
             components["good_salary"] = 1
             s += scoring.get("weight_good_salary", 15)
             reasons.append(f"affordability {enr.affordability_low:.2f}× ≥ {min_afford}")
-        elif enr.affordability_high is not None and enr.affordability_high < 1.0:
-            components["low_salary"] = 1
-            s -= scoring.get("weight_low_salary", 15)
-            reasons.append("affordability < 1× local cost")
     else:
-        # No affordability data — fall back to absolute PPP-USD floor
         min_ppp = scoring.get("min_salary_ppp_usd", 0)
         if enr.salary_ppp_usd_low and enr.salary_ppp_usd_low >= min_ppp:
             components["good_salary"] = 1
             s += scoring.get("weight_good_salary", 15)
             reasons.append(f"PPP salary ≥ ${min_ppp:,}")
-        elif enr.salary_ppp_usd_high and enr.salary_ppp_usd_high < min_ppp:
-            components["low_salary"] = 1
-            s -= scoring.get("weight_low_salary", 15)
-            reasons.append(f"PPP salary < ${min_ppp:,}")
 
-    # Experiment / keyword match (word-boundary; multi-word phrases match literally)
+    # Keyword match (word-boundary; multi-word phrases match literally).
     desc_low = (job.description + " " + job.title).lower()
     def _has(kw: str) -> bool:
         kw = kw.lower()
@@ -262,12 +243,13 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], 
         components["keyword_match"] = min(len(hit_kw), 3)
         s += scoring.get("weight_keyword_match", 10) * components["keyword_match"]
         reasons.append(f"keywords: {', '.join(hit_kw[:5])}")
+
     avoid_kw = scoring.get("keywords_avoid", [])
     hit_avoid = [k for k in avoid_kw if _has(k)]
     components["keyword_avoided"] = hit_avoid
     if hit_avoid:
         components["keyword_avoid"] = 1
-        s -= scoring.get("weight_keyword_avoid", 20)
+        s -= scoring.get("weight_keyword_avoid", 10)
         reasons.append(f"avoid keywords: {', '.join(hit_avoid)}")
 
     # Experiment list
@@ -276,17 +258,6 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], 
         components["preferred_experiment"] = 1
         s += scoring.get("weight_preferred_experiment", 10)
         reasons.append("preferred experiment")
-
-    # Deadline
-    if job.deadline:
-        try:
-            days = (dt.date.fromisoformat(job.deadline) - dt.date.today()).days
-            if days < scoring.get("min_days_to_deadline", 10):
-                components["short_deadline"] = 1
-                s -= scoring.get("weight_short_deadline", 15)
-                reasons.append(f"only {days} days to deadline")
-        except ValueError:
-            pass
 
     return max(0, min(100, s)), reasons, components
 
@@ -404,6 +375,116 @@ def main(argv: list[str] | None = None) -> int:
 
     log.info("fetched %d jobs total, %d new/rescored", n_total, len(new_jobs))
 
+    # ------- Cross-source dedup -----------------------------------------------
+    # Same posting often shows up on multiple feeds (INSPIRE ↔ ATLAS RSS,
+    # INSPIRE ↔ AcademicJobsOnline, etc.). Pair-find via two signals:
+    #   (1) URL cross-reference: one description mentions the other's URL
+    #   (2) Title token-set Jaccard ≥ 0.6 after stopword stripping, gated by
+    #       institution overlap (or one side empty) AND, when both sides have
+    #       a known country, country overlap.
+    # Then union-find groups, keep the richest description as primary, attach
+    # `raw["also_sources"]` / `raw["alt_urls"]` from the rest.
+    _DEDUP_STOP = {
+        "and", "of", "in", "at", "the", "a", "an", "on", "for", "to", "with",
+        "or", "position", "positions", "opening", "opportunity",
+        "opportunities", "two", "one", "new",
+    }
+
+    def _toks(t: str) -> set[str]:
+        return {w for w in re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).split()
+                if w and w not in _DEDUP_STOP and len(w) > 1}
+
+    # Map URL → posting index. Also harvest URLs found inside each description
+    # so we can spot "see also: https://inspirehep.net/jobs/123" style links.
+    _URL_RE = re.compile(r"https?://[^\s<>\"'()]+")
+    n_items = len(new_jobs)
+    url_to_idx: dict[str, int] = {new_jobs[i][0].url: i for i in range(n_items)}
+    refs_in: dict[int, set[str]] = {}   # idx → set of URLs cited in its description
+    for i in range(n_items):
+        desc = new_jobs[i][0].description or ""
+        if not desc:
+            continue
+        refs_in[i] = {u.rstrip('.,;:)]') for u in _URL_RE.findall(desc)[:50]}
+
+    # Union-find
+    parent = list(range(n_items))
+
+    def _find(x: int) -> int:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def _union(a: int, b: int) -> None:
+        ra, rb = _find(a), _find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    # Pre-compute token sets, institution sets, country sets per item
+    tokens: list[set[str]] = [_toks(e[0].title) for e in new_jobs]
+    insts:  list[set[str]] = [{i.upper() for i in (e[0].institutions or [])} for e in new_jobs]
+    cntys:  list[set[str]] = [{c.upper() for c in (e[0].countries or [])} for e in new_jobs]
+
+    n_pairs = 0
+    for i in range(n_items):
+        ji = new_jobs[i][0]
+        for j in range(i + 1, n_items):
+            jj = new_jobs[j][0]
+            if ji.source == jj.source:
+                continue
+            # URL cross-reference: either description cites the other's URL
+            cross_ref = (
+                (jj.url in refs_in.get(i, ()))
+                or (ji.url in refs_in.get(j, ()))
+            )
+            if cross_ref:
+                _union(i, j)
+                n_pairs += 1
+                continue
+            ti, tj = tokens[i], tokens[j]
+            if not ti or not tj:
+                continue
+            inter = len(ti & tj)
+            if inter < 2:
+                continue
+            jac = inter / len(ti | tj)
+            if jac < 0.6:
+                continue
+            ia, ib = insts[i], insts[j]
+            if ia and ib and not (ia & ib):
+                continue
+            ci, cj = cntys[i], cntys[j]
+            if ci and cj and not (ci & cj):
+                continue
+            _union(i, j)
+            n_pairs += 1
+
+    groups_idx: dict[int, list[int]] = {}
+    for i in range(n_items):
+        groups_idx.setdefault(_find(i), []).append(i)
+
+    deduped: list[tuple] = []
+    n_merged = 0
+    for _, idxs in groups_idx.items():
+        if len(idxs) == 1:
+            deduped.append(new_jobs[idxs[0]])
+            continue
+        items = [new_jobs[k] for k in idxs]
+        items.sort(key=lambda t: -len(t[0].description or ""))
+        primary = items[0]
+        others = items[1:]
+        also = sorted({t[0].source for t in others if t[0].source != primary[0].source})
+        alt_urls = [t[0].url for t in others if t[0].url != primary[0].url]
+        if also:
+            primary[0].raw["also_sources"] = also
+        if alt_urls:
+            primary[0].raw["alt_urls"] = alt_urls
+        n_merged += len(others)
+        deduped.append(primary)
+    if n_merged:
+        log.info("dedup: %d candidate pairs → %d duplicates merged", n_pairs, n_merged)
+    new_jobs = deduped
+
     min_report = cfg.get("scoring", {}).get("min_report_score", 40)
     digest = [t for t in new_jobs if t[2] >= min_report]
     digest.sort(key=lambda t: -t[2])
@@ -416,26 +497,25 @@ def main(argv: list[str] | None = None) -> int:
         scoring_cfg = cfg.get("scoring", {})
         config_summary = {
             "preferred_countries": scoring_cfg.get("preferred_countries", []),
-            "avoid_countries": scoring_cfg.get("avoid_countries", []),
             "keywords_must_have": scoring_cfg.get("keywords_must_have", []),
             "keywords_avoid": scoring_cfg.get("keywords_avoid", []),
             "preferred_experiments": scoring_cfg.get("preferred_experiments", []),
             "min_affordability_ratio": scoring_cfg.get("min_affordability_ratio"),
-            "min_days_to_deadline": scoring_cfg.get("min_days_to_deadline"),
         }
         default_weights = {
             "preferred_country": scoring_cfg.get("weight_preferred_country", 15),
-            "avoid_country": scoring_cfg.get("weight_avoid_country", 30),
             "good_salary": scoring_cfg.get("weight_good_salary", 15),
-            "low_salary": scoring_cfg.get("weight_low_salary", 15),
             "keyword_match": scoring_cfg.get("weight_keyword_match", 10),
-            "keyword_avoid": scoring_cfg.get("weight_keyword_avoid", 20),
+            "keyword_avoid": scoring_cfg.get("weight_keyword_avoid", 10),
             "preferred_experiment": scoring_cfg.get("weight_preferred_experiment", 10),
-            "short_deadline": scoring_cfg.get("weight_short_deadline", 15),
+        }
+        site_meta = {
+            "subscribe_url": cfg.get("email", {}).get("subscribe_url", ""),
+            "github_repo":   "aprozo/jobs",
         }
         write_json_digest(args.json_out, digest, n_total=n_total, n_new=len(new_jobs),
                           per_source=n_per_source, config_summary=config_summary,
-                          default_weights=default_weights)
+                          default_weights=default_weights, site_meta=site_meta)
         print(f"wrote {args.json_out} with {len(digest)} entries")
 
     if cfg.get("email", {}).get("enabled") and digest and not args.dry_run:

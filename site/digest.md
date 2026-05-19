@@ -1,7 +1,7 @@
 # HEP jobs digest — 2026-05-19
 
-Scanned **141** open postings, **141** new since last run, **141** above report threshold.  
-_sources:_ inspire: 89, ajo: 52
+Scanned **170** open postings, **162** new since last run, **162** above report threshold.  
+_sources:_ inspire: 89, ajo: 52, cern: 7, desy: 6, gsi: 6, ATLAS jobs: 10
 
 
 ## 🔥 Urgent (score ≥ 80)
@@ -53,6 +53,21 @@ _sources:_ inspire: 89, ajo: 52
 > ATLAS Postdoctoral Fellow with Carleton University (May 2026) The Carleton University Particle Physics Group in Ottawa, Canada, invites applications for a postdoctoral fellow position on the ATLAS experiment at the CERN LHC. The Carleton ATLAS group currently consists of six faculty members: Alain Bellerive, Dag Gillberg, Kevin Graham, Jesse Heilman, Thomas Koffas, and Manuella Vincter. The group…
 
 
+### [Researcher (Postdoc)](https://inspirehep.net/jobs/3156829) — score 90  `inspire`
+- **Institutions:** KEK, Tsukuba
+- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
+- **Deadline:** 2026-07-20
+- **Rank:** POSTDOC
+- **Experiments:** KEK-BF-BELLE-II
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** exp=Belle II; topics=B-meson decays, CP violation, tau physics, dark sector, drift chamber; 3y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5; keywords: trigger
+
+> The successful candidate will participate in one of the following sub-system groups of the Belle II detector under the responsibility of KEK --- the central drift chamber, trigger system, data acquisition system, computing, and mechanical engineering --- and engage in upgrade projects through design and development. Furthermore, the candidate will participate in physics analyses promoted by the KE…
+
+
 ### [Postdoc in Real-Time Data Analysis with LHCb](https://inspirehep.net/jobs/3154558) — score 90  `inspire`
 - **Institutions:** Indiana U., Bloomington (main)
 - **Location:** Bloomington, US  (cost index 85 vs NYC=100)
@@ -82,6 +97,21 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** preferred country; affordability 2.33× ≥ 1.5; keywords: flavor
 
 > The Intelligent Hardware Lab (IHL) within the Cluster of Excellence Color meets Flavor, an initiative between the University of Bonn, TU Dortmund University, the University of Siegen, and FZ Jülich, invites applications for a full-time position as an IHL Fellow starting as soon as possible (ideally from 1 July 2026). The position is embedded in the IHL, a cross-institutional initiative within Tech…
+
+
+### [Postdoc position in Theoretical Nuclear and Particle Physics](https://inspirehep.net/jobs/3153706) — score 90  `inspire`
+- **Institutions:** RIKEN (main), Osaka U., Nagoya U.
+- **Location:** Wako, JP  (cost index 60 vs NYC=100)
+- **Deadline:** 2026-06-07
+- **Rank:** POSTDOC
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Mentioned in posting:** _salary will be approximately JPY 420,000 or more || LLM: JPY 420,000/month_
+- **Summary:** topics=lattice QCD, heavy-quark exotics, tetraquarks, pentaquarks, hadron interactions; 2y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5; keywords: QCD
+
+> 1. Available Position: Postdoctoral Researcher, one position 2. Job description / Affiliation The position is funded by JSPS Grants-in-Aid for Scientific Research (S) "Revealing the mysteries of heavy-quark exotics from QCD" (2023/04-2028/03) PI: Takumi Doi (RIKEN) Co-I: Noriyoshi Ishii (Osaka U.), Tetsuo Hyodo (Osaka U.), Masayasu Harada (Nagoya U.), Yoichi Ikeda (Osaka U.), Etsuko Itou (Kyoto U.…
 
 
 ### [Two Postdoctoral positions in LHCb](https://inspirehep.net/jobs/3150346) — score 90  `inspire`
@@ -191,6 +221,33 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** preferred country; affordability 1.55× ≥ 1.5; keywords: tracking
 
 > The experimental particle physics group working in LHCb is soliciting applications for a position of Postdoctoral Research Associate to work in the LHCb experiment at LHC, and its upgrades. The Syracuse team is involved in physics analysis, software tasks associated with the optimization of the performance of the Upstream Tracker (UT) detector, and major R&D initiatives to optimize the technology…
+
+
+### [Postdoc position on Belle II experiment](https://inspirehep.net/jobs/3108692) — score 90  `inspire`
+- **Institutions:** Fudan U., Shanghai
+- **Location:** Shanghai, CN  (cost index 65 vs NYC=100)
+- **Deadline:** 2026-06-30
+- **Rank:** POSTDOC
+- **Experiments:** KEK-BF-BELLE-II
+- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
+  _scale: Wide variation; TYC and Hundred Talents top out higher_
+- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
+- **Mentioned in posting:** _ || LLM: 250,000 CNY pre-tax_
+- **Summary:** exp=Belle II; topics=semileptonic B decays, BSM searches, ML for HEP; 2y
+- **Why this score:** preferred country; affordability 2.78× ≥ 1.5; keywords: flavor
+
+> The Belle II experiment ( https://www.belle2.org/ ) at the asymmetric-energy accelerator SuperKEKB is at the high-precision frontier of particle physics research, having set a new world record luminosity in 2024. The Belle II group at Fudan University, comprising approximately 30 members including five faculty members, several postdocs, and a steady stream of students, conducts a diverse research…
+
+
+### [Postdoctoral researcher on ATLAS at CERN](https://atlas.cern/Job-Posting/postdoctoral-researcher-atlas-cern) — score 90  `atlas`
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5; keywords: trigger
+
+> Postdoctoral researcher on ATLAS at CERN Institute Name TRIUMF Posting Date 09 Apr 2026 12:00 Link to Official Posting https://inspirehep.net/jobs/3141690 Contact Name Isabel Trigger Contact E-Mail Isabel.Trigger@triumf.ca ATLAS Job True
 
 
 ### [Junior Faculty Positions in Particle and Nuclear Physics](https://inspirehep.net/jobs/3129038) — score 85  `inspire`
@@ -394,6 +451,21 @@ _sources:_ inspire: 89, ajo: 52
 > The experimental physics group of Prof. Igor Ostrovskiy at the Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, is looking for 1-2 excellent postdocs with background in high energy, nuclear, or astroparticle physics. The group currently consists of two postdocs, graduate and visiting students, engineering and technical staff, and is leading preparations for the next-generation…
 
 
+### [Postdoc position on AI/ML modelling of nuclear data for dark matter indirect searches with cosmic-rays](https://inspirehep.net/jobs/3148249) — score 80  `inspire`
+- **Institutions:** LPSC, Grenoble
+- **Location:** Grenoble, FR  (cost index 65 vs NYC=100)
+- **Deadline:** 2026-05-28
+- **Rank:** POSTDOC
+- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
+  _scale: CNRS/IN2P3 contract postdoc_
+- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
+- **Mentioned in posting:** _Net salary (after taxes) ranges from 2300 to 2500 euros per month || LLM: 2300-2500 euros per month net_
+- **Summary:** exp=Euclid, Rubin-LSST; topics=AI/ML, nuclear cross-sections, dark matter indirect detection, cosmic rays, symbolic regression; 2y
+- **Why this score:** preferred country; affordability 1.67× ≥ 1.5
+
+> The Laboratoire de Physique Subatomique et de Cosmologie ( LPSC ) in Grenoble, France, invites applications for an 18-month postdoctoral position to work on the MACHINE-XS project. It aims to improve indirect dark matter searches with cosmic rays by using AI and Machine Learning to model nuclear reaction cross-sections (for the full science case, see Maurin et al., 2026 ). The goal of the project…
+
+
 ### [Postdoctoral Position in Neutrino Physics – SBND and DUNE Experiments](https://inspirehep.net/jobs/3147418) — score 80  `inspire`
 - **Institutions:** IRL PPC, Chicago
 - **Location:** Chicago, US  (cost index 72 vs NYC=100)
@@ -527,21 +599,6 @@ _sources:_ inspire: 89, ajo: 52
 > Research Associate Position in Experimental Particle Physics with the University of Arizona The University of Arizona (UA) Physics department invites applications for a Postdoctoral Research Associate to pursue research related to Experimental Particle Physics. The successful candidate will help lead one of the UA Run 3 data analysis efforts at the ATLAS experiment at the CERN Large Hadron Collide…
 
 
-### [Postdoctoral Research Fellow for ATLAS experiment](https://inspirehep.net/jobs/3115406) — score 80  `inspire`
-- **Institutions:** SDU, Qingdao
-- **Location:** Qingdao, CN  (cost index 55 vs NYC=100)
-- **Deadline:** 2026-05-31
-- **Rank:** POSTDOC
-- **Experiments:** CERN-LHC-ATLAS
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Summary:** exp=ATLAS; topics=Higgs Yukawa couplings, di-Higgs, Higgs invisible, BSM searches; 2y
-- **Why this score:** preferred country; affordability 2.78× ≥ 1.5
-
-> The Institute of Frontier and Interdisciplinary Science at Shandong University, Qingdao, invites applications for an immediate postdoctoral position to join the ATLAS experiment. The successful candidate will be part of the ATLAS collaboration at CERN, primarily based in Qingdao, with opportunities for short or extended stays at CERN as needed. The appointee will contribute significantly to key AT…
-
-
 ### [Career Information Session - Chinese Academy of Sciences](https://inspirehep.net/jobs/3112248) — score 80  `inspire`
 - **Institutions:** Beijing, Inst. High Energy Phys.
 - **Location:** Beijing, CN  (cost index 58 vs NYC=100)
@@ -554,20 +611,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** preferred country; affordability 2.78× ≥ 1.5
 
 > Exploring Career Opportunities at China’s Premier Particle Physics Laboratory CERN Local Time: Monday, 2 February 2026, 09:30–11:30 Venue: Room 40/S2-B01 Salle bohr, CERN Remote participation available via Zoom Zoom Meeting ID: 636 5895 1402 Passcode: ihep2026 Beijing Time: Monday, 2 February 2026, 16:30–18:30 About the Event The Institute of High Energy Physics (IHEP) of the Chinese Academy of Sc…
-
-
-### [Tenure Track/Faculty Position in Physics at SISSA](https://inspirehep.net/jobs/3109675) — score 80  `inspire`
-- **Institutions:** SISSA, Trieste
-- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
-- **Deadline:** 2026-06-10
-- **Rank:** JUNIOR, SENIOR
-- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
-  _scale: INFN Assegno di Ricerca; type A vs B differs_
-- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
-- **Summary:** topics=theoretical particle physics, astrophysics, cosmology, condensed matter, scientific data science
-- **Why this score:** preferred country; affordability 1.78× ≥ 1.5
-
-> SISSA for Women in Physics The Physics Area at the "Scuola Internazionale Superiore di Studi Avanzati" (SISSA) in Trieste, Italy, invites expressions of interest for a faculty position from outstanding female candidates with a strong research record in any of the fields covered by the Area (Astrophysics and Cosmology, Astroparticle and Gravitational Physics, Condensed Matter Physics, Statistical P…
 
 
 ### [Job openings for the nucleon structure study](https://inspirehep.net/jobs/2946705) — score 80  `inspire`
@@ -642,6 +685,31 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
 - **Summary:** topics=high energy physics; 2y
 - **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [RESEARCHER2603](https://academicjobsonline.org/ajo/jobs/32063) — score 80  `ajo`
+- **Institutions:** KEK , Institute of Particle and Nuclear Studies / Belle Group
+- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** exp=Belle II; topics=B physics, CP violation; 3y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5
+
+> 
+
+
+### [POSTDOC20](https://academicjobsonline.org/ajo/jobs/31520) — score 80  `ajo`
+- **Institutions:** KEK , QUP
+- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=quantum measurement, QUP; 2y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5
 
 > 
 
@@ -744,18 +812,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [PD1](https://academicjobsonline.org/ajo/jobs/31869) — score 80  `ajo`
-- **Institutions:** University of Genoa , Department of Theoretical Physics
-- **Location:** Genoa, IT  (cost index 58 vs NYC=100)
-- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
-  _scale: INFN Assegno di Ricerca; type A vs B differs_
-- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
-- **Summary:** topics=theoretical physics; 2y
-- **Why this score:** preferred country; affordability 1.78× ≥ 1.5
-
-> 
-
-
 ### [POSTDOC](https://academicjobsonline.org/ajo/jobs/31302) — score 80  `ajo`
 - **Institutions:** University of Minnesota , School of Physics and Astronomy Searches
 - **Location:** Minneapolis, US  (cost index 85 vs NYC=100)
@@ -765,6 +821,42 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
 - **Summary:** topics=physics, astronomy; 2y
 - **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [CD3_2025](https://academicjobsonline.org/ajo/jobs/30810) — score 80  `ajo`
+- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
+- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=Kavli IPMU CD3 fellowship, physics, mathematics, astronomy; 3y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5
+
+> 
+
+
+### [CMB2026](https://academicjobsonline.org/ajo/jobs/31759) — score 80  `ajo`
+- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
+- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=CMB, cosmology, Kavli IPMU; 3y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5
+
+> 
+
+
+### [EPP2026](https://academicjobsonline.org/ajo/jobs/31694) — score 80  `ajo`
+- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
+- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
+- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
+  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
+- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=experimental particle physics, Kavli IPMU; 3y
+- **Why this score:** preferred country; affordability 1.79× ≥ 1.5
 
 > 
 
@@ -781,18 +873,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [TENURE_TRACK_PHYSICS](https://academicjobsonline.org/ajo/jobs/31529) — score 80  `ajo`
-- **Institutions:** SISSA , Physics Area
-- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
-- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
-  _scale: INFN Assegno di Ricerca; type A vs B differs_
-- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
-- **Summary:** topics=physics, tenure-track
-- **Why this score:** preferred country; affordability 1.78× ≥ 1.5
-
-> 
-
-
 ### [PDA](https://academicjobsonline.org/ajo/jobs/31376) — score 80  `ajo`
 - **Institutions:** University of Hawaii at Manoa -- Henning group , Physics and Astronomy -- Henning group (HEP Theory)
 - **Location:** Honolulu, US  (cost index 85 vs NYC=100)
@@ -805,37 +885,253 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
+### [POSTDOC](https://academicjobsonline.org/ajo/jobs/31285) — score 80  `ajo`
+- **Institutions:** Yonsei University , String Theory Group, Department of Physics
+- **Location:** Seoul, KR  (cost index 70 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 45,000,000–70,000,000 KRW (~\$45,000–70,000 PPP-USD)  
+  _scale: IBS / university postdoc_
+- **Local affordability:** 1.80×–2.80× typical annual cost (comfortable)
+- **Summary:** topics=string theory; 2y
+- **Why this score:** preferred country; affordability 1.80× ≥ 1.5
+
+> 
+
+
+### [Computational Physicist](https://jobs.smartrecruiters.com/CERN/744000126629629) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Deadline:** 2026-06-14
+- **Rank:** JUNIOR
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> In this role, you will join a multidisciplinary team of laser physicists, control engineers, and machine learning specialists to develop the automation layer of TALISMAN, a project aimed at automating laser ionization for the production of medically relevant radionuclides. The work combines hands-on laboratory activities with the design, prototyping, and implementation of control algorithms and so…
+
+
+### [Applied Physicist](https://jobs.smartrecruiters.com/CERN/744000124677331) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Deadline:** 2026-05-26
+- **Rank:** PHD
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> You will play a key role in ensuring that advanced simulation tools accurately reflect experimental behaviour of superconducting magnet systems. You will work closely with experimental test teams and simulation developers to validate, analyse and improve computational models, with particular emphasis on quench protection and ramp loss phenomena in Low-Temperature Superconductor (LTS) and High-Temp…
+
+
+### [Applied Scientist in Materials Engineering](https://jobs.smartrecruiters.com/CERN/744000123867509) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Deadline:** 2026-05-20
+- **Rank:** PHD
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> As an Experienced Project Graduate, you will contribute to quality control and strategic materials development at CERN. In collaboration with international partners and industry, you will investigate microstructure-property relationships, failure mechanisms, and the impact of processing conditions on the performance of materials and components for next-generation high-field accelerator magnets and…
+
+
+### [Doctoral Student Programme 2026-3](https://jobs.smartrecruiters.com/CERN/744000118184655) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** Geneva, CH  (cost index 110 vs NYC=100)
+- **Rank:** PHD
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> What you'll do You will spend up to 36 months working on your doctoral thesis in a truly unique environment where science, technology and innovation meet. You’ll be part of an international community of experts, gaining experience at the forefront of research and engineering. Your responsibilities · Carry out your doctoral research in collaboration with CERN and your home university. · Contribute…
+
+
+### [Experimental Physicist](https://jobs.smartrecruiters.com/CERN/744000117650137) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> Introduction You will be part of the Experimental Physics (EP) Department which carries out research in the field of experimental particle physics . This Department aims to provide a stimulating scientific atmosphere and remains an important reference centre for the European physics community. It contributes to the education and training of young scientists. Functions Take a leading role in all as…
+
+
+### [Theoretical Physicist](https://jobs.smartrecruiters.com/CERN/744000117226307) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** CH  (cost index 110 vs NYC=100)
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. Using the world's largest and most complex scientific instruments, they study the basic constituents of matter - fundamental particles that are made to collide together at close to the speed of light. The process gives physicists clues about how particles interac…
+
+
+### [Non-Member State Postdoc Fellowship Programme (Theoretical Physics)](https://jobs.smartrecruiters.com/CERN/744000080108845) — score 80  `cern`
+- **Institutions:** CERN
+- **Location:** Geneva, CH  (cost index 110 vs NYC=100)
+- **Rank:** JUNIOR
+- **Typical salary range:** 84,000–115,000 CHF (~\$79,800–109,250 PPP-USD)  
+  _scale: CERN Fellow CHF 7004-7425/month tax-free; PSI/ETH/EPFL CHF 90-115k pre-tax_
+- **Local affordability:** 1.56×–2.13× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.56× ≥ 1.5
+
+> At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. Using the world's largest and most complex scientific instruments, they study the basic constituents of matter - fundamental particles that are made to collide together at close to the speed of light. The process gives physicists clues about how particles interac…
+
+
+### [Postdoc in FEL Physics](https://v22.desy.de/e67416/records313935/index_eng.html) — score 80  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> Development of machine learning tools for photon and electron beam diagnostics  Benchmarking simulations and experiments when there is an opportunity  Encoding data from non-invasive single-shot diagnostics together with beam data investigation of photon pulse properties based on the transverse structure  Support of FLASH operation   Presentation of the achieved results in journals and at conferen…
+
+
+### [PhD student - Lasers for Inertial Confinement Fusion](https://v22.desy.de/e67416/e313769/index_eng.html) — score 80  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** PHD
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> Your research project  Implement nonlinear multi-pass cells for spectral broadening of UV light  Investigate third-order nonlinearities for energetic temporally incoherent drive fields  Specify together with the laser development team the laser parameters for optimized frequency conversion  Simulate your experiments and adjust your setups to the numerical predictions  General tasks  Collaborate cl…
+
+
+### [Research Associate for the ERC Project](https://v22.desy.de/e67416/records312276/index_eng.html) — score 80  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [DESY-Fellowships in Photon Science](https://v22.desy.de/e67416/e308908/index_eng.html) — score 80  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> Condensed matter physics  Atoms, Molecules and Optics  Laser physics  Detector development  Structural Chemistry  Structural Biology
+
+
+### [Postdoc Detector Development & Construction for the ATLAS Phase-II Upgrade](https://v22.desy.de/e67416/records100151/index_ger.html) — score 80  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> Development of testing procedures and setups in coordination with the international ITk strip tracker project  Assembly and quality control of ITk strip tracker modules  Supervision of students  Documentation of procedures and results and presentation in international meetings  Own research in either detector physics or HEP data analysis
+
+
+### [PhD Position (all genders) – Modelling and Experimental Evaluation of Incoherent Pulses in High-Energy Laser Systemsrgielasersystemen für die Fusion](https://www.gsi.de/en/jobscareer/job_offers/job_offers/doktorandin-w-m-d-zur-modellierung-und-experimenteller-evaluation-von-focal-zooming-in-hochenergielasersystemen-fuer-die-fusion-1755) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** PHD
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Postdoc (all genders) – Development of Simulation Codes for  High-Energy Laser Systems for Fusion rfusion](https://www.gsi.de/en/jobscareer/job_offers/job_offers/postdoc-w-m-d-entwicklung-von-simulationscodes-fuer-hochenergielasersysteme-im-kontext-der-laserfusion-1747) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Interface and Integration Engineer for Research Facilities (all genders)](https://www.gsi.de/en/jobscareer/job_offers/job_offers/interface-and-integration-engineer-for-research-facilities-all-genders-1745) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Research Software engineer for Theory (all genders)](https://www.gsi.de/en/jobscareer/job_offers/job_offers/forschungs-software-entwicklerin-fuer-die-abteilung-theory-1737) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Doctoral Scientist / Researcher (m/f/d) in Atomic and Quantum Physics and High-Precision Mass Spectrometry of Highly-Charged Ions Part-time 65%](https://www.gsi.de/en/jobscareer/job_offers/job_offers/doktorandin-mit-schwerpunkt-atom-quantenphysikspektroskopie-hochgeladener-ionen-in-teilzeit-65-1716) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Doctoral Scientist  in Atomic and Quantum Physics and Spectroscopy of Highly-Charged Ions](https://www.gsi.de/en/jobscareer/job_offers/job_offers/doktorandin-mit-schwerpunkt-atom-quantenphysik-spektroskopie-hochgeladener-ionen-1713) — score 80  `gsi`
+- **Institutions:** GSI, FAIR
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> 
+
+
+### [Research Assistant Professor - Computational Particle Physics](https://atlas.cern/Job-Posting/research-assistant-professor-computational-particle-physics) — score 80  `atlas`
+- **Location:** Chicago, US  (cost index 72 vs NYC=100)
+- **Rank:** JUNIOR
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> Research Assistant Professor - Computational Particle Physics Institute Name Enrico Fermi Institute Institute Address Chicago, IL, USA Posting Date 17 Apr 2026 12:00 Link to Official Posting https://apply.interfolio.com/184441 Contact Name David Miller Contact E-Mail davemilr@uchicago.edu ATLAS Job True
+
+
+### [Professorship in Experimental Particle Physics](https://atlas.cern/Job-Posting/professorship-experimental-particle-physics) — score 80  `atlas`
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5
+
+> Professorship in Experimental Particle Physics Institute Name University of Wuppertal Institute Address Wuppertal, Germany Posting Date 16 Apr 2026 12:00 Link to Official Posting https://inspirehep.net/jobs/3145021 Contact Name Dean Prof Dr Francesco Knechtli Contact E-Mail fk4-info@uni-wuppertal.de ATLAS Job True
+
+
 ## ✅ Worth applying (score 65–79)
-
-
-### [Researcher (Postdoc)](https://inspirehep.net/jobs/3156829) — score 75  `inspire`
-- **Institutions:** KEK, Tsukuba
-- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
-- **Deadline:** 2026-07-20
-- **Rank:** POSTDOC
-- **Experiments:** KEK-BF-BELLE-II
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** exp=Belle II; topics=B-meson decays, CP violation, tau physics, dark sector, drift chamber; 3y
-- **Why this score:** affordability 1.79× ≥ 1.5; keywords: trigger
-
-> The successful candidate will participate in one of the following sub-system groups of the Belle II detector under the responsibility of KEK --- the central drift chamber, trigger system, data acquisition system, computing, and mechanical engineering --- and engage in upgrade projects through design and development. Furthermore, the candidate will participate in physics analyses promoted by the KE…
-
-
-### [Postdoc position in Theoretical Nuclear and Particle Physics](https://inspirehep.net/jobs/3153706) — score 75  `inspire`
-- **Institutions:** RIKEN (main), Osaka U., Nagoya U.
-- **Location:** Wako, JP  (cost index 60 vs NYC=100)
-- **Deadline:** 2026-06-07
-- **Rank:** POSTDOC
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Mentioned in posting:** _salary will be approximately JPY 420,000 or more || LLM: JPY 420,000/month_
-- **Summary:** topics=lattice QCD, heavy-quark exotics, tetraquarks, pentaquarks, hadron interactions; 2y
-- **Why this score:** affordability 1.79× ≥ 1.5; keywords: QCD
-
-> 1. Available Position: Postdoctoral Researcher, one position 2. Job description / Affiliation The position is funded by JSPS Grants-in-Aid for Scientific Research (S) "Revealing the mysteries of heavy-quark exotics from QCD" (2023/04-2028/03) PI: Takumi Doi (RIKEN) Co-I: Noriyoshi Ishii (Osaka U.), Tetsuo Hyodo (Osaka U.), Masayasu Harada (Nagoya U.), Yoichi Ikeda (Osaka U.), Etsuko Itou (Kyoto U.…
 
 
 ### [Postdoctoral Position on the CMS tracker upgrade for HL-LHC](https://inspirehep.net/jobs/3143023) — score 75  `inspire`
@@ -969,22 +1265,6 @@ _sources:_ inspire: 89, ajo: 52
 > The research group led by Prof. Bin Yan at the Institute of High Energy Physics, Chinese Academy of Sciences (IHEP-CAS, Beijing), invites applications for a postdoctoral position in QCD spin physics and collider phenomenology. The successful candidate will work on the phenomenology of QCD spin effects in probing physics beyond the Standard Model, quantum entanglement in high-energy processes, and…
 
 
-### [Postdoc position on Belle II experiment](https://inspirehep.net/jobs/3108692) — score 75  `inspire`
-- **Institutions:** Fudan U., Shanghai
-- **Location:** Shanghai, CN  (cost index 65 vs NYC=100)
-- **Deadline:** 2026-06-30
-- **Rank:** POSTDOC
-- **Experiments:** KEK-BF-BELLE-II
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Mentioned in posting:** _ || LLM: 250,000 CNY pre-tax_
-- **Summary:** exp=Belle II; topics=semileptonic B decays, BSM searches, ML for HEP; 2y
-- **Why this score:** affordability 2.78× ≥ 1.5; keywords: flavor
-
-> The Belle II experiment ( https://www.belle2.org/ ) at the asymmetric-energy accelerator SuperKEKB is at the high-precision frontier of particle physics research, having set a new world record luminosity in 2024. The Belle II group at Fudan University, comprising approximately 30 members including five faculty members, several postdocs, and a steady stream of students, conducts a diverse research…
-
-
 ### [Faculties in High Enegy Physics](https://inspirehep.net/jobs/2939269) — score 75  `inspire`
 - **Institutions:** Jilin U.
 - **Location:** Changchun, CN  (cost index 55 vs NYC=100)
@@ -1013,6 +1293,63 @@ _sources:_ inspire: 89, ajo: 52
 > The Universidad Técnica Federico Santa María (UTFSM), Chile, invite applications for sponsoring postdoctoral research fellowships to the FONDECYT Postdoc program (call for proposals to be announced soon in this link: https://www.anid.cl/concursos/ ) : The candidate will work within the ATLAS UTFSM group in the Campus San Joaquín, Santiago. The FONDECYT fellowship is expected to begin on March, 202…
 
 
+### [Theory Fellowships - Physics Department](https://inspirehep.net/jobs/3152680) — score 70  `inspire`
+- **Institutions:** King's Coll. London
+- **Location:** London, GB  (cost index 79 vs NYC=100)
+- **Deadline:** 2026-06-15
+- **Rank:** JUNIOR, OTHER, POSTDOC
+- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
+  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
+- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
+- **Summary:** exp=AION, ATLAS, CTA, LIGO; topics=theoretical particle physics, dark matter, cosmology, gravitational waves, numerical relativity
+- **Why this score:** preferred country; affordability 1.58× ≥ 1.5; avoid keywords: gravitational wave
+
+> The Theoretical Particle Physics and Cosmology (TPPC) group within the Physics department of King’s College London welcomes expressions of interest to apply with us for:- Royal Society University Research Fellowships Ernest Rutherford STFC Fellowships Marie Curie Individual Fellowships Daphne Jackson Fellowships to be hosted by our group. The TPPC group is a vibrant, international research team in…
+
+
+### [Experimental Neutrino Physics Postdoctoral Associate (MicroBooNE, SBND, DUNE)](https://inspirehep.net/jobs/3152344) — score 70  `inspire`
+- **Institutions:** IIT, Chicago (main)
+- **Location:** Chicago, US  (cost index 72 vs NYC=100)
+- **Deadline:** 2026-05-25
+- **Rank:** POSTDOC
+- **Experiments:** Fermilab-FNAL-Booster-SBND, Fermilab-MI-DUNE, Fermilab-FNAL-Booster-E-0974
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** exp=MicroBooNE, SBND, DUNE, MAD; topics=neutrino physics, LArTPC, sterile neutrino oscillations, BSM, AI/ML reconstruction; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5; avoid keywords: neutrino oscillation
+
+> The Neutrino Physics group at Illinois Institute of Technology (Illinois Tech) in Chicago invites applications for Postdoctoral Associate positions. The group is led by professor Bryce Littlejohn and is currently most heavily involved in the SBND, MAD, and DUNE experiments. The group seeks one postdoctoral researcher to work on a subset of these experiments, with projects and duties directed towar…
+
+
+### [Postdoctoral research position in experimental neutrino physics](https://inspirehep.net/jobs/3142416) — score 70  `inspire`
+- **Institutions:** LPC, Caen, ENSICAEN
+- **Location:** Caen, FR  (cost index 65 vs NYC=100)
+- **Deadline:** 2026-06-30
+- **Rank:** POSTDOC
+- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
+  _scale: CNRS/IN2P3 contract postdoc_
+- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
+- **Summary:** exp=nuSCOPE, ENUBET, NuTag; topics=neutrino physics, tagged neutrino beam, LAr-TPC, neutrino oscillation, short-baseline; 2y
+- **Why this score:** preferred country; affordability 1.67× ≥ 1.5; avoid keywords: neutrino oscillation, gravitational wave
+
+> Fixed-term (CDD) postdoc researcher contract to explore the physics potential of a monitored and tagged neutrino beam for precise short-baseline neutrino physics. The position will be within the framework of the nuSCOPE project at CERN, which is formed by the merger of the ENUBET and NuTag collaborations. The Laboratoire de Physique Corpusculaire de Caen ( LPC Caen ) has a long-standing involvemen…
+
+
+### [Post-Doctoral Researcher Positions in Theoretical Astroparticle Physics (Axion Phenomenology)](https://inspirehep.net/jobs/3125540) — score 70  `inspire`
+- **Institutions:** Annecy, LAPTH
+- **Location:** Annecy, FR  (cost index 65 vs NYC=100)
+- **Deadline:** 2026-08-31
+- **Rank:** POSTDOC
+- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
+  _scale: CNRS/IN2P3 contract postdoc_
+- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=axion phenomenology, supernovae, neutron stars, gamma-ray astrophysics, multi-messenger; 2y
+- **Why this score:** preferred country; affordability 1.67× ≥ 1.5; avoid keywords: gravitational wave
+
+> Job Announcement: Post-Doctoral Researcher Positions in Theoretical Astroparticle Physics (Axion Phenomenology) Location: The Laboratoire d'Annecy de Physique Théorique (LAPTh) at the French National Centre for Scientific Research (CNRS) Description: The Laboratoire d’Annecy de Physique Théorique (LAPTh, CNRS/USMB) invites invites expressions of interest for one postdoctoral position focused on th…
+
+
 ### [SQUASH Fellowship Program: 2nd International Call for Postdoctoral Researchers](https://inspirehep.net/jobs/3124549) — score 70  `inspire`
 - **Institutions:** Stefan Inst., Ljubljana
 - **Location:** Ljubljana, SI
@@ -1023,6 +1360,18 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** keywords: QCD, flavor
 
 > The particle theory group at the Jožef Stefan Institute invites outstanding researchers to apply for a SQUASH postdoctoral position. The SQUASH Program is a prestigious Marie Skłodowska-Curie COFUND initiative offering 3-year postdoctoral positions in quantum science and technology. This is an innovative, intersectoral training and career-development program, co-funded by the Marie Skłodowska-Curi…
+
+
+### [PhD position in SRF cavity control for gravitational wave searches](https://v22.desy.de/e67416/records313903/index_eng.html) — score 70  `desy`
+- **Institutions:** DESY
+- **Location:** DE  (cost index 65 vs NYC=100)
+- **Rank:** PHD
+- **Typical salary range:** 56,000–70,000 EUR (~\$72,800–91,000 PPP-USD)  
+  _scale: TV-L E13 100%, Stufe 2-4 (2025 scale)_
+- **Local affordability:** 2.33×–2.92× typical annual cost (comfortable)
+- **Why this score:** preferred country; affordability 2.33× ≥ 1.5; avoid keywords: gravitational wave
+
+> Further development of high-precision RF field control of superconducting radio frequency (SRF) cavities used in gravitational wave search experiments.  Further development of carrier suppression interferometer (CSI)-based techniques and their integration to the low-level RF (LLRF) system  Development, production, test and operation of state-of-the-art RF measurement devices, to be installed at ou…
 
 
 ### [Assistant Professor Position](https://inspirehep.net/jobs/3154967) — score 65  `inspire`
@@ -1039,18 +1388,6 @@ _sources:_ inspire: 89, ajo: 52
 > Centre for Cosmology and Science Popularization (CCSP), SGT University, Gurugram, Delhi-NCR, Haryana 122505, India CALL FOR THE APPLICATION FOR ASSISTANT PROFESSOR (INDIAN CANDIDATE) POSITION IN PHYSICS AT CCSP, SGT UNIVERSITY Dated: 13th May 2026 ADVERTISEMENT Applications are invited for a position of Assistant Professor in the field of Astrophysics, Gravity Waves, Numerical Relativity, and Stru…
 
 
-### [Postdoctoral Fellow](https://inspirehep.net/jobs/3154091) — score 65  `inspire`
-- **Institutions:** Mexico U., ICN
-- **Location:** Mexico City, MX
-- **Deadline:** 2026-06-19
-- **Rank:** POSTDOC
-- **Typical salary range:** n/a 
-- **Summary:** exp=ALICE, MPD-NICA, Pierre Auger, JEM-EUSO; topics=astroparticle physics, effective field theory, heavy-ion physics, neutrino physics, cosmic rays; 2y
-- **Why this score:** preferred country
-
-> POSTDOCTORAL POSITION INSTITUTO DE CIENCIAS NUCLEARES UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO The High Energy Physics Department of the Institute of Nuclear Science (ICN) at the National Autonomous University of Mexico (UNAM) in Mexico City, Mexico is seeking candidates for a 1+1 year postdoctoral position in the fields of theoretical and experimental particle physics, starting on March 2027. The…
-
-
 ### [2 to 3 Postdoctoral Positions in Theoretical Particle Physics](https://inspirehep.net/jobs/3151973) — score 65  `inspire`
 - **Institutions:** Hui Zhou, Inst. Modern Phys.
 - **Location:** Huizhou, CN  (cost index 55 vs NYC=100)
@@ -1063,21 +1400,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** affordability 2.78× ≥ 1.5
 
 > The Neutrino Theory Group at the Institute of Modern Physics (IMP), Chinese Academy of Sciences (CAS), invites applications for 2 to 3 postdoctoral positions in theoretical particle physics. The successful candidate is expected to take up the position immediately or a later date upon mutual negotiation. The appointment is initially for 2 years, with the possibility of extension to a third year bas…
-
-
-### [Postdoc position on AI/ML modelling of nuclear data for dark matter indirect searches with cosmic-rays](https://inspirehep.net/jobs/3148249) — score 65  `inspire`
-- **Institutions:** LPSC, Grenoble
-- **Location:** Grenoble, FR  (cost index 65 vs NYC=100)
-- **Deadline:** 2026-05-28
-- **Rank:** POSTDOC
-- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
-  _scale: CNRS/IN2P3 contract postdoc_
-- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
-- **Mentioned in posting:** _Net salary (after taxes) ranges from 2300 to 2500 euros per month || LLM: 2300-2500 euros per month net_
-- **Summary:** exp=Euclid, Rubin-LSST; topics=AI/ML, nuclear cross-sections, dark matter indirect detection, cosmic rays, symbolic regression; 2y
-- **Why this score:** preferred country; affordability 1.67× ≥ 1.5; only 9 days to deadline
-
-> The Laboratoire de Physique Subatomique et de Cosmologie ( LPSC ) in Grenoble, France, invites applications for an 18-month postdoctoral position to work on the MACHINE-XS project. It aims to improve indirect dark matter searches with cosmic rays by using AI and Machine Learning to model nuclear reaction cross-sections (for the full science case, see Maurin et al., 2026 ). The goal of the project…
 
 
 ### [Postdoctoral position in fixed-target experimental physics](https://inspirehep.net/jobs/3148015) — score 65  `inspire`
@@ -1123,6 +1445,20 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** affordability 2.78× ≥ 1.5
 
 > Young Talent Faculty Position in Silicon Detector Development at IHEP, Chinese Academy of Sciences IHEP Introduction: The Institute of High Energy Physics (IHEP), Chinese Academy of Sciences (CAS), located in Beijing, is one of the leading research institutions in high-energy physics worldwide. With over 1,500 full-time staff and more than 900 postdoctoral researchers and graduate students, IHEP p…
+
+
+### [Associate Senior Lecturer/Assistant Professor in Computational Science](https://inspirehep.net/jobs/3142417) — score 65  `inspire`
+- **Institutions:** Lund U.
+- **Location:** Lund, SE  (cost index 70 vs NYC=100)
+- **Deadline:** 2026-05-25
+- **Rank:** JUNIOR
+- **Typical salary range:** 480,000–600,000 SEK (~\$55,200–69,000 PPP-USD)  
+  _scale: Postdoctor contract, typical 2024 levels_
+- **Local affordability:** 2.00×–2.50× typical annual cost (comfortable)
+- **Summary:** topics=computational science, ESS, MAX IV, simulation, modelling
+- **Why this score:** affordability 2.00× ≥ 1.5
+
+> We are looking for an up-and-coming researcher who wants to conduct pioneering research to take up a position as Assistant Professor in Computational Science. Computational science research is conducted across the Faculty of Science and organised in research clusters at all departments . In addition, such research is also carried out at the Institute of Advanced Neutron and X‑ray Science (LINXS) ,…
 
 
 ### [Faculty Positions in Theoretical and Experimental Fundamental Physics](https://inspirehep.net/jobs/3139129) — score 65  `inspire`
@@ -1226,6 +1562,20 @@ _sources:_ inspire: 89, ajo: 52
 > The astroparticle physics group at the Department of Physics at Tsinghua University ( https://www.tsinghua.edu.cn/en/ ) invites applications for postdoctoral research fellows. The group, led by Prof. Fei Gao ( https://www.phys.tsinghua.edu.cn/phyen/info/1070/1288.htm ), has 2 positions opening for neutrino and dark matter physics with the XENONnT experiment. Successful applicants are expected to p…
 
 
+### [Tenure Track/Faculty Position in Physics at SISSA](https://inspirehep.net/jobs/3109675) — score 65  `inspire`
+- **Institutions:** SISSA, Trieste
+- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
+- **Deadline:** 2026-06-10
+- **Rank:** JUNIOR, SENIOR
+- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
+  _scale: INFN Assegno di Ricerca; type A vs B differs_
+- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
+- **Summary:** topics=theoretical particle physics, astrophysics, cosmology, condensed matter, scientific data science
+- **Why this score:** affordability 1.78× ≥ 1.5
+
+> SISSA for Women in Physics The Physics Area at the "Scuola Internazionale Superiore di Studi Avanzati" (SISSA) in Trieste, Italy, invites expressions of interest for a faculty position from outstanding female candidates with a strong research record in any of the fields covered by the Area (Astrophysics and Cosmology, Astroparticle and Gravitational Physics, Condensed Matter Physics, Statistical P…
+
+
 ### [NSFC Excellent Young Scientists Fund (Overseas) Projects](https://inspirehep.net/jobs/3095733) — score 65  `inspire`
 - **Institutions:** Nanjing Normal U., Sch. Phys. Sci. Technol.
 - **Location:** Nanjing, CN  (cost index 55 vs NYC=100)
@@ -1290,31 +1640,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
 - **Summary:** topics=high energy theory; 2y
 - **Why this score:** affordability 2.78× ≥ 1.5
-
-> 
-
-
-### [RESEARCHER2603](https://academicjobsonline.org/ajo/jobs/32063) — score 65  `ajo`
-- **Institutions:** KEK , Institute of Particle and Nuclear Studies / Belle Group
-- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** exp=Belle II; topics=B physics, CP violation; 3y
-- **Why this score:** affordability 1.79× ≥ 1.5
-
-> 
-
-
-### [POSTDOC20](https://academicjobsonline.org/ajo/jobs/31520) — score 65  `ajo`
-- **Institutions:** KEK , QUP
-- **Location:** Tsukuba, JP  (cost index 60 vs NYC=100)
-- **Rank:** POSTDOC
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=quantum measurement, QUP; 2y
-- **Why this score:** affordability 1.79× ≥ 1.5
 
 > 
 
@@ -1394,38 +1719,14 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [CD3_2025](https://academicjobsonline.org/ajo/jobs/30810) — score 65  `ajo`
-- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
-- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=Kavli IPMU CD3 fellowship, physics, mathematics, astronomy; 3y
-- **Why this score:** affordability 1.79× ≥ 1.5
-
-> 
-
-
-### [CMB2026](https://academicjobsonline.org/ajo/jobs/31759) — score 65  `ajo`
-- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
-- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=CMB, cosmology, Kavli IPMU; 3y
-- **Why this score:** affordability 1.79× ≥ 1.5
-
-> 
-
-
-### [EPP2026](https://academicjobsonline.org/ajo/jobs/31694) — score 65  `ajo`
-- **Institutions:** University of Tokyo , Kavli Institute for the Physics and Mathematics of the Universe
-- **Location:** Kashiwa, JP  (cost index 60 vs NYC=100)
-- **Typical salary range:** 4,300,000–5,500,000 JPY (~\$40,850–52,250 PPP-USD)  
-  _scale: JSPS Standard / KEK postdoc; +¥1.5M research grant common_
-- **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=experimental particle physics, Kavli IPMU; 3y
-- **Why this score:** affordability 1.79× ≥ 1.5
+### [PD1](https://academicjobsonline.org/ajo/jobs/31869) — score 65  `ajo`
+- **Institutions:** University of Genoa , Department of Theoretical Physics
+- **Location:** Genoa, IT  (cost index 58 vs NYC=100)
+- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
+  _scale: INFN Assegno di Ricerca; type A vs B differs_
+- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
+- **Summary:** topics=theoretical physics; 2y
+- **Why this score:** affordability 1.78× ≥ 1.5
 
 > 
 
@@ -1468,6 +1769,18 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
+### [TENURE_TRACK_PHYSICS](https://academicjobsonline.org/ajo/jobs/31529) — score 65  `ajo`
+- **Institutions:** SISSA , Physics Area
+- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
+- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
+  _scale: INFN Assegno di Ricerca; type A vs B differs_
+- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
+- **Summary:** topics=physics, tenure-track
+- **Why this score:** affordability 1.78× ≥ 1.5
+
+> 
+
+
 ### [LATTICEQCD_FACULTYPOSITION](https://academicjobsonline.org/ajo/jobs/30435) — score 65  `ajo`
 - **Institutions:** Tsung-Dao Lee Institute
 - **Location:** Shanghai, CN  (cost index 65 vs NYC=100)
@@ -1493,34 +1806,7 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [POSTDOC](https://academicjobsonline.org/ajo/jobs/31285) — score 65  `ajo`
-- **Institutions:** Yonsei University , String Theory Group, Department of Physics
-- **Location:** Seoul, KR  (cost index 70 vs NYC=100)
-- **Rank:** POSTDOC
-- **Typical salary range:** 45,000,000–70,000,000 KRW (~\$45,000–70,000 PPP-USD)  
-  _scale: IBS / university postdoc_
-- **Local affordability:** 1.80×–2.80× typical annual cost (comfortable)
-- **Summary:** topics=string theory; 2y
-- **Why this score:** affordability 1.80× ≥ 1.5
-
-> 
-
-
 ## 🤔 Consider (score 50–64)
-
-
-### [Theory Fellowships - Physics Department](https://inspirehep.net/jobs/3152680) — score 60  `inspire`
-- **Institutions:** King's Coll. London
-- **Location:** London, GB  (cost index 79 vs NYC=100)
-- **Deadline:** 2026-06-15
-- **Rank:** JUNIOR, OTHER, POSTDOC
-- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
-  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
-- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
-- **Summary:** exp=AION, ATLAS, CTA, LIGO; topics=theoretical particle physics, dark matter, cosmology, gravitational waves, numerical relativity
-- **Why this score:** preferred country; affordability 1.58× ≥ 1.5; avoid keywords: gravitational wave
-
-> The Theoretical Particle Physics and Cosmology (TPPC) group within the Physics department of King’s College London welcomes expressions of interest to apply with us for:- Royal Society University Research Fellowships Ernest Rutherford STFC Fellowships Marie Curie Individual Fellowships Daphne Jackson Fellowships to be hosted by our group. The TPPC group is a vibrant, international research team in…
 
 
 ### [PhD / Postdoc position](https://inspirehep.net/jobs/3152602) — score 60  `inspire`
@@ -1538,34 +1824,6 @@ _sources:_ inspire: 89, ajo: 52
 > The physics unit at SCE Sami Shamoon College of Engineering (campuses located in Ashdod & Be’er Sheva, Israel) invites applications for PhD and postdoctoral research positions. We are seeking outstanding and motivated candidates to join our group in one or more of the following research areas: Mathematical foundations of quantum mechanics (e.g., the role of limits in quantum calculations) Experime…
 
 
-### [Postdoctoral research position in experimental neutrino physics](https://inspirehep.net/jobs/3142416) — score 60  `inspire`
-- **Institutions:** LPC, Caen, ENSICAEN
-- **Location:** Caen, FR  (cost index 65 vs NYC=100)
-- **Deadline:** 2026-06-30
-- **Rank:** POSTDOC
-- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
-  _scale: CNRS/IN2P3 contract postdoc_
-- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
-- **Summary:** exp=nuSCOPE, ENUBET, NuTag; topics=neutrino physics, tagged neutrino beam, LAr-TPC, neutrino oscillation, short-baseline; 2y
-- **Why this score:** preferred country; affordability 1.67× ≥ 1.5; avoid keywords: neutrino oscillation, gravitational wave
-
-> Fixed-term (CDD) postdoc researcher contract to explore the physics potential of a monitored and tagged neutrino beam for precise short-baseline neutrino physics. The position will be within the framework of the nuSCOPE project at CERN, which is formed by the merger of the ENUBET and NuTag collaborations. The Laboratoire de Physique Corpusculaire de Caen ( LPC Caen ) has a long-standing involvemen…
-
-
-### [Post-Doctoral Researcher Positions in Theoretical Astroparticle Physics (Axion Phenomenology)](https://inspirehep.net/jobs/3125540) — score 60  `inspire`
-- **Institutions:** Annecy, LAPTH
-- **Location:** Annecy, FR  (cost index 65 vs NYC=100)
-- **Deadline:** 2026-08-31
-- **Rank:** POSTDOC
-- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
-  _scale: CNRS/IN2P3 contract postdoc_
-- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=axion phenomenology, supernovae, neutron stars, gamma-ray astrophysics, multi-messenger; 2y
-- **Why this score:** preferred country; affordability 1.67× ≥ 1.5; avoid keywords: gravitational wave
-
-> Job Announcement: Post-Doctoral Researcher Positions in Theoretical Astroparticle Physics (Axion Phenomenology) Location: The Laboratoire d'Annecy de Physique Théorique (LAPTh) at the French National Centre for Scientific Research (CNRS) Description: The Laboratoire d’Annecy de Physique Théorique (LAPTh, CNRS/USMB) invites invites expressions of interest for one postdoctoral position focused on th…
-
-
 ### [High energy physics Ph.D. and/or M.Sc. positions](https://inspirehep.net/jobs/2765629) — score 60  `inspire`
 - **Institutions:** Ariel U. Ctr., Samaria
 - **Location:** Ariel, IL  (cost index 75 vs NYC=100)
@@ -1578,6 +1836,73 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** keywords: QCD
 
 > The Physics Department of Ariel University, Israel, invites applications for Ph.D. and and/or M.Sc . positions. The starting date is in 2026 year fall and this negotiable. The subjects of research are high energy QCD and gravity physics, broadly defined. The successful candidates will work under the supervision of Prof. Sergey Bondarenko https://www.ariel.ac.il/Projects/trp/GeneralInformation.asp?…
+
+
+### [Assistant Professor in Experimental High Energy Physics (ATLAS), with a focus on the Tile Calorimeter](https://atlas.cern/Job-Posting/assistant-professor-experimental-high-energy-physics-atlas-focus-tile-calorimeter) — score 60  `atlas`
+- **Rank:** JUNIOR
+- **Typical salary range:** n/a 
+- **Why this score:** keywords: calorimeter
+
+> Assistant Professor in Experimental High Energy Physics (ATLAS), with a focus on the Tile Calorimeter Institute Name The United Arab Emirates University Posting Date 27 Apr 2026 12:00 Link to Official Posting https://jobs.uaeu.ac.ae/Postings/PostingDetails/5132 ATLAS Job True
+
+
+### [Postdoc position in hep-ph/hep-th](https://inspirehep.net/jobs/3152305) — score 55  `inspire`
+- **Institutions:** Nanjing Normal U., Sch. Phys. Sci. Technol.
+- **Location:** Nanjing, CN  (cost index 55 vs NYC=100)
+- **Deadline:** 2026-06-30
+- **Rank:** POSTDOC
+- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
+  _scale: Wide variation; TYC and Hundred Talents top out higher_
+- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
+- **Mentioned in posting:** _ || LLM: up to 600,000 RMB/year_
+- **Summary:** topics=ultralight dark matter, effective field theory, black hole physics, gravitational waves; 2y
+- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
+
+> The Center for Particle Physics, Astrophysics, and Cosmology (NNU-PP) at Nanjing Normal University invites applications for 1-2 postdoctoral research positions. We seek outstanding candidates to join our group in one or more of the following areas, including but not limited to: Ultralight Dark Datter Effective Field Theory Black Hole Physics and Gravitational Wave About NNU-PP Our research center…
+
+
+### [Postdoctoral positions in theoretical high energy physics and cosmology](https://inspirehep.net/jobs/3098532) — score 55  `inspire`
+- **Institutions:** Beijing, Inst. Tech.
+- **Location:** Beijing, CN  (cost index 58 vs NYC=100)
+- **Deadline:** 2026-06-30
+- **Rank:** POSTDOC, JUNIOR
+- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
+  _scale: Wide variation; TYC and Hundred Talents top out higher_
+- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
+- **Mentioned in posting:** _ || LLM: 180,000-300,000 CNY/year pre-tax_
+- **Summary:** topics=cosmology, high-energy nuclear theory, gravitational waves, BSM, AGN jets
+- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
+
+> The School of Physics, Beijing Institute of Technology, is inviting applications for postdoctoral fellows working in particle phenomenology, high-energy nuclear theory, high-energy astrophysics, or cosmology, starting around autumn 2026. Beijing Institute of Technology is one of the top universities in China, the first science and engineering university founded by the Chinese Communist Party in 19…
+
+
+### [Postdoctoral Position in Dark Sector Phenomenology](https://inspirehep.net/jobs/3089244) — score 55  `inspire`
+- **Institutions:** ICTP-AP, Beijing
+- **Location:** Beijing, CN  (cost index 58 vs NYC=100)
+- **Deadline:** 2026-07-31
+- **Rank:** POSTDOC
+- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
+  _scale: Wide variation; TYC and Hundred Talents top out higher_
+- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
+- **Mentioned in posting:** _ || LLM: ~320,000 CNY/year pre-tax_
+- **Summary:** topics=dark matter physics, particle phenomenology, astrophysics, gravitational waves; 3y
+- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
+
+> The International Centre for Theoretical Physics-Asia Pacific (ICTP-AP) operates in affiliation to the University of Chinese Academy of Sciences (UCAS), and is under the auspices of UNESCO, in cooperation with the Chinese Academy of Sciences (CAS), the National Science Foundation China (NSFC) and the Abdus Salam International Centre for Theoretical Physics (ICTP, Trieste). More information about U…
+
+
+### [Junior/Senior Faculty Positions in Cosmology and relative fields](https://inspirehep.net/jobs/2966128) — score 55  `inspire`
+- **Institutions:** Shenyang, Northeast U. Tech.
+- **Location:** Shenyang, CN  (cost index 55 vs NYC=100)
+- **Deadline:** 2026-09-01
+- **Rank:** JUNIOR, SENIOR
+- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
+  _scale: Wide variation; TYC and Hundred Talents top out higher_
+- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
+- **Summary:** topics=observational cosmology, dark energy, neutrino cosmology, gravitational wave astronomy, 21 cm cosmology
+- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
+
+> The Key Laboratory of Cosmology and Astrophysics (Liaoning) at the College of Sciences, Northeastern University (China), invites applications for junior/Senior positions in broad areas, including observational cosmology, astronomy and astrophysics, particle cosmology, computational physics, gravitational wave physics, and related fields. The current faculty in the cosmology and astrophysics group…
 
 
 ### [Invitation for fellowship applications](https://inspirehep.net/jobs/3154984) — score 50  `inspire`
@@ -1600,20 +1925,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Summary:** topics=EUV nanophotonics, free-electron physics, ultra-high vacuum, electron beam systems, SEM/TEM
 
 > The L. J. Wong Group invites applications for a Senior Research Fellow (Experimental) to lead the development of high-brightness, nanostructured Extreme Ultraviolet (EUV) sources. . As a Falling Walls 2024 Winner in Physical Sciences for "Breaking the Wall of Quantum X-ray Tech." ( https://falling-walls.com/foundation/people/liang-jie-wong ), our group is at the forefront of miniaturizing radiatio…
-
-
-### [Associate Senior Lecturer/Assistant Professor in Computational Science](https://inspirehep.net/jobs/3142417) — score 50  `inspire`
-- **Institutions:** Lund U.
-- **Location:** Lund, SE  (cost index 70 vs NYC=100)
-- **Deadline:** 2026-05-25
-- **Rank:** JUNIOR
-- **Typical salary range:** 480,000–600,000 SEK (~\$55,200–69,000 PPP-USD)  
-  _scale: Postdoctor contract, typical 2024 levels_
-- **Local affordability:** 2.00×–2.50× typical annual cost (comfortable)
-- **Summary:** topics=computational science, ESS, MAX IV, simulation, modelling
-- **Why this score:** affordability 2.00× ≥ 1.5; only 6 days to deadline
-
-> We are looking for an up-and-coming researcher who wants to conduct pioneering research to take up a position as Assistant Professor in Computational Science. Computational science research is conducted across the Faculty of Science and organised in research clusters at all departments . In addition, such research is also carried out at the Institute of Advanced Neutron and X‑ray Science (LINXS) ,…
 
 
 ### [FONDECYT postdoctoral research projects in Physics](https://inspirehep.net/jobs/3139327) — score 50  `inspire`
@@ -1752,15 +2063,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [PTCP2](https://academicjobsonline.org/ajo/jobs/29809) — score 50  `ajo`
-- **Institutions:** Hong Kong University of Science and Technology , Physics
-- **Location:** Hong Kong, HK
-- **Typical salary range:** n/a 
-- **Summary:** topics=experimental particle physics, instrumentation
-
-> 
-
-
 ### [ITHEMS_NCTS_PD](https://academicjobsonline.org/ajo/jobs/32031) — score 50  `ajo`
 - **Institutions:** National Center for Theoretical Sciences , Physics Division (NTU)
 - **Location:** Taipei, TW
@@ -1833,78 +2135,8 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-## 👀 Maybe (score < 50)
-
-
-### [Experimental Neutrino Physics Postdoctoral Associate (MicroBooNE, SBND, DUNE)](https://inspirehep.net/jobs/3152344) — score 45  `inspire`
-- **Institutions:** IIT, Chicago (main)
-- **Location:** Chicago, US  (cost index 72 vs NYC=100)
-- **Deadline:** 2026-05-25
+### [Postdoctoral Researcher: ATLAS Higgs Studies + FCC ALLEGRO Detector R&D](https://atlas.cern/Job-Posting/postdoctoral-researcher-atlas-higgs-studies-fcc-allegro-detector-rd) — score 50  `atlas`
 - **Rank:** POSTDOC
-- **Experiments:** Fermilab-FNAL-Booster-SBND, Fermilab-MI-DUNE, Fermilab-FNAL-Booster-E-0974
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** exp=MicroBooNE, SBND, DUNE, MAD; topics=neutrino physics, LArTPC, sterile neutrino oscillations, BSM, AI/ML reconstruction; 2y
-- **Why this score:** preferred country; affordability 1.55× ≥ 1.5; avoid keywords: neutrino oscillation; only 6 days to deadline
+- **Typical salary range:** n/a 
 
-> The Neutrino Physics group at Illinois Institute of Technology (Illinois Tech) in Chicago invites applications for Postdoctoral Associate positions. The group is led by professor Bryce Littlejohn and is currently most heavily involved in the SBND, MAD, and DUNE experiments. The group seeks one postdoctoral researcher to work on a subset of these experiments, with projects and duties directed towar…
-
-
-### [Postdoc position in hep-ph/hep-th](https://inspirehep.net/jobs/3152305) — score 45  `inspire`
-- **Institutions:** Nanjing Normal U., Sch. Phys. Sci. Technol.
-- **Location:** Nanjing, CN  (cost index 55 vs NYC=100)
-- **Deadline:** 2026-06-30
-- **Rank:** POSTDOC
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Mentioned in posting:** _ || LLM: up to 600,000 RMB/year_
-- **Summary:** topics=ultralight dark matter, effective field theory, black hole physics, gravitational waves; 2y
-- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
-
-> The Center for Particle Physics, Astrophysics, and Cosmology (NNU-PP) at Nanjing Normal University invites applications for 1-2 postdoctoral research positions. We seek outstanding candidates to join our group in one or more of the following areas, including but not limited to: Ultralight Dark Datter Effective Field Theory Black Hole Physics and Gravitational Wave About NNU-PP Our research center…
-
-
-### [Postdoctoral positions in theoretical high energy physics and cosmology](https://inspirehep.net/jobs/3098532) — score 45  `inspire`
-- **Institutions:** Beijing, Inst. Tech.
-- **Location:** Beijing, CN  (cost index 58 vs NYC=100)
-- **Deadline:** 2026-06-30
-- **Rank:** POSTDOC, JUNIOR
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Mentioned in posting:** _ || LLM: 180,000-300,000 CNY/year pre-tax_
-- **Summary:** topics=cosmology, high-energy nuclear theory, gravitational waves, BSM, AGN jets
-- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
-
-> The School of Physics, Beijing Institute of Technology, is inviting applications for postdoctoral fellows working in particle phenomenology, high-energy nuclear theory, high-energy astrophysics, or cosmology, starting around autumn 2026. Beijing Institute of Technology is one of the top universities in China, the first science and engineering university founded by the Chinese Communist Party in 19…
-
-
-### [Postdoctoral Position in Dark Sector Phenomenology](https://inspirehep.net/jobs/3089244) — score 45  `inspire`
-- **Institutions:** ICTP-AP, Beijing
-- **Location:** Beijing, CN  (cost index 58 vs NYC=100)
-- **Deadline:** 2026-07-31
-- **Rank:** POSTDOC
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Mentioned in posting:** _ || LLM: ~320,000 CNY/year pre-tax_
-- **Summary:** topics=dark matter physics, particle phenomenology, astrophysics, gravitational waves; 3y
-- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
-
-> The International Centre for Theoretical Physics-Asia Pacific (ICTP-AP) operates in affiliation to the University of Chinese Academy of Sciences (UCAS), and is under the auspices of UNESCO, in cooperation with the Chinese Academy of Sciences (CAS), the National Science Foundation China (NSFC) and the Abdus Salam International Centre for Theoretical Physics (ICTP, Trieste). More information about U…
-
-
-### [Junior/Senior Faculty Positions in Cosmology and relative fields](https://inspirehep.net/jobs/2966128) — score 45  `inspire`
-- **Institutions:** Shenyang, Northeast U. Tech.
-- **Location:** Shenyang, CN  (cost index 55 vs NYC=100)
-- **Deadline:** 2026-09-01
-- **Rank:** JUNIOR, SENIOR
-- **Typical salary range:** 250,000–450,000 CNY (~\$55,000–99,000 PPP-USD)  
-  _scale: Wide variation; TYC and Hundred Talents top out higher_
-- **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
-- **Summary:** topics=observational cosmology, dark energy, neutrino cosmology, gravitational wave astronomy, 21 cm cosmology
-- **Why this score:** affordability 2.78× ≥ 1.5; avoid keywords: gravitational wave
-
-> The Key Laboratory of Cosmology and Astrophysics (Liaoning) at the College of Sciences, Northeastern University (China), invites applications for junior/Senior positions in broad areas, including observational cosmology, astronomy and astrophysics, particle cosmology, computational physics, gravitational wave physics, and related fields. The current faculty in the cosmology and astrophysics group…
+> Postdoctoral Researcher: ATLAS Higgs Studies + FCC ALLEGRO Detector R&D Institute Name LAPP Institute Address Annecy, France Posting Date 15 Apr 2026 12:00 Link to Official Posting https://inspirehep.net/jobs/3133186 Contact Name Marco Delmastro Contact E-Mail marco.delmastro@cern.ch ATLAS Job True

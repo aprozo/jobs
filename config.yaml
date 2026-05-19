@@ -16,17 +16,50 @@ sources:
     sections: [HEP, HET]
     fetch_descriptions: false
 
-  # ATLAS jobs RSS — disabled (URL 404s; revisit if/when feed is restored).
-  # - type: rss
-  #   name: ATLAS jobs
-  #   url: https://atlas.cern/Discover/Collaboration/Jobs/rss.xml
-  #   key: atlas
+  - type: cern
+    name: CERN Careers
+    fetch_descriptions: true       # adds ~1 detail call per posting (~60 total)
+    only_research: false           # set true to skip non-research roles
+
+  # - type: euraxess
+  #   name: EURAXESS (Physics)
+  #   domains: [Physics]
+  #   keywords: ""
+  #   max_pages: 5
+  #   fetch_descriptions: false
+
+  - type: desy
+    name: DESY (Hamburg/Zeuthen)
+    fetch_descriptions: false        # set true for richer detail (~30 detail calls)
+
+  - type: gsi
+    name: GSI / FAIR (Darmstadt)
+    fetch_descriptions: false
+
+  - type: rss
+    name: ATLAS jobs
+    url: https://atlas.cern/jobs/feed.xml
+    key: atlas
+    default_field: hep-ex
+
+  # BNL careers — Workday-hosted. The URL we were given
+  # (https://bnl.wd1.myworkdayjobs.com/en-US/Externa…) was truncated and the
+  # `External` site_id returns 404; both ExternalCareerSite and BNL_Career_Site
+  # also failed probes. Uncomment once the right slug is confirmed from the
+  # live address bar after opening https://jobs.bnl.gov in a real browser.
+  # - type: workday
+  #   name: BNL careers
+  #   tenant: bnl
+  #   site_id: <FILL IN>
+  #   search_text: postdoc
+  #   country: US
+  #   institution: BNL
+  #   fetch_descriptions: true
   #   default_field: hep-ex
 
 # ---------- Scoring ---------------------------------------------------------
 scoring:
-  preferred_countries: [US, DE, CH, NL, GB, FR, IT, CZ]
-  avoid_countries: []
+  preferred_countries: [US, DE, CH, NL, GB, FR, JP, KR]
 
   min_affordability_ratio: 1.5
   min_salary_ppp_usd: 65000
@@ -40,13 +73,13 @@ scoring:
     - ALICE
     - EIC
     - ePIC
+    - Belle II
   keywords_must_have:
     - jet
     - QCD
     - heavy ion
     - flavor
     - parton
-    - unfolding
     - calorimeter
     - trigger
     - tracking
@@ -55,17 +88,13 @@ scoring:
     - neutrino oscillation
     - gravitational wave
 
-  min_days_to_deadline: 10
   min_report_score: 40
 
   weight_preferred_country: 15
-  weight_avoid_country: 30
   weight_good_salary: 15
-  weight_low_salary: 15
   weight_keyword_match: 10
-  weight_keyword_avoid: 20
+  weight_keyword_avoid: 10
   weight_preferred_experiment: 10
-  weight_short_deadline: 15
 
 # ---------- LLM enrichment ---------------------------------------------------
 # Active provider: 'manual'. Reads pre-computed per-job extractions from
@@ -85,6 +114,10 @@ llm:
 #   model: gemini-2.5-flash
 #   min_interval_s: 6.5             # env var: GEMINI_API_KEY
 
-# ---------- Email digest (off; the site is the notification channel) --------
+# ---------- Email subscribe + digest ----------------------------------------
+# Two channels:
+#  - Formspree subscribe form on the page → forwards subscriber's email to you.
+#  - Workflow can mail a digest to addresses listed in subscribers.yaml (TODO).
 email:
   enabled: false
+  subscribe_url: "https://formspree.io/f/xpqnweqv"  # Formspree endpoint

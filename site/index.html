@@ -8,73 +8,73 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='28'%3E🔬%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <h1>HEP jobs — ranked</h1>
-      <div class="meta">
-        <span id="updated-at">loading…</span>
-        <span class="sep">·</span>
-        <span id="counts"></span>
-        <span class="sep">·</span>
-        <a href="https://github.com/aprozo/jobs" target="_blank" rel="noopener">source</a>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>HEP jobs — ranked</h1>
+        <p class="hero-sub">
+          <span id="updated-at">loading…</span>
+          <span class="dot">·</span>
+          <span id="counts">—</span>
+          <span class="dot">·</span>
+          <a href="https://github.com/aprozo/jobs" target="_blank" rel="noopener">source</a>
+        </p>
       </div>
+
+      <ul class="stat-tiles" id="stat-tiles" aria-label="Score buckets — click to filter">
+        <li class="stat urgent"   data-bucket="urgent"><span class="n">—</span><span class="lab">🔥 Urgent</span></li>
+        <li class="stat apply"    data-bucket="apply"><span class="n">—</span><span class="lab">✅ Apply</span></li>
+        <li class="stat consider" data-bucket="consider"><span class="n">—</span><span class="lab">🤔 Consider</span></li>
+        <li class="stat skim"     data-bucket="skim"><span class="n">—</span><span class="lab">👀 Maybe</span></li>
+      </ul>
+
+      <form id="subscribe-form" class="subscribe" aria-label="Email me when new jobs appear">
+        <span class="sub-icon" aria-hidden="true">📬</span>
+        <input id="subscribe-email" type="email" placeholder="your@email — get daily digest" autocomplete="email" required>
+        <button type="submit">Subscribe</button>
+        <span class="sub-status" id="subscribe-status" role="status"></span>
+      </form>
     </div>
   </header>
 
-  <section class="filters" id="filters">
-    <div class="filter-row">
+  <nav class="toolbar" id="toolbar">
+    <div class="toolbar-inner">
       <input type="search" id="search" placeholder="Search title / institution…" autocomplete="off">
-      <label class="slider-label">
-        min score: <output id="min-score-val">0</output>
-        <input type="range" id="min-score" min="0" max="100" value="0">
-      </label>
-    </div>
-    <div class="filter-row">
-      <fieldset>
-        <legend>Bucket</legend>
-        <label><input type="checkbox" class="bucket-filter" value="urgent" checked> 🔥 Urgent</label>
-        <label><input type="checkbox" class="bucket-filter" value="apply" checked> ✅ Apply</label>
-        <label><input type="checkbox" class="bucket-filter" value="consider" checked> 🤔 Consider</label>
-        <label><input type="checkbox" class="bucket-filter" value="skim" checked> 👀 Maybe</label>
-      </fieldset>
-      <fieldset id="source-filter">
+      <button class="toolbar-btn" id="open-scoring" type="button" title="Adjust scoring">⚙️ Scoring</button>
+      <button class="toolbar-btn ghost" id="reset-filters" type="button" title="Reset all filters">↺ Reset</button>
+      <div class="toolbar-spacer"></div>
+      <fieldset id="source-filter" class="chip-fieldset">
         <legend>Source</legend>
-        <!-- populated from data -->
       </fieldset>
-      <fieldset id="country-filter">
-        <legend>Country</legend>
-        <!-- populated from data -->
-      </fieldset>
+      <details class="more-filters">
+        <summary>More filters</summary>
+        <div class="more-body">
+          <label class="slider-label">
+            min score: <output id="min-score-val">0</output>
+            <input type="range" id="min-score" min="0" max="100" value="0">
+          </label>
+          <fieldset id="country-filter" class="chip-fieldset">
+            <legend>Country <span class="legend-hint">— pick to filter (empty = all)</span></legend>
+          </fieldset>
+        </div>
+      </details>
     </div>
-  </section>
+  </nav>
 
   <details class="scoring-panel" id="scoring-panel">
-    <summary><span class="cog">⚙️</span> Scoring — click to adjust weights</summary>
+    <summary><span class="cog">⚙️</span> Scoring — weights, lists & thresholds</summary>
     <div class="scoring-body">
       <p class="scoring-intro">
         Every job starts at <strong>50</strong>. Each signal below shifts the score up or down by its weight.
-        Final score is clamped to 0–100 and bucketed into 🔥 Urgent (≥80) / ✅ Apply (65–79) / 🤔 Consider (50–64) / 👀 Maybe (&lt;50).
-        Tweak the sliders to re-rank the table — preferences persist locally.
+        Final score clamped to 0–100 and bucketed: 🔥 ≥80 / ✅ 65–79 / 🤔 50–64 / 👀 &lt;50.
+        Tweak the sliders, lists and thresholds — preferences persist locally on your device.
       </p>
-      <h3 class="panel-h">Weights</h3>
-      <ul class="weights-list" id="weights-list">
+      <ul class="criteria-list" id="criteria-list">
         <!-- populated by app.js -->
       </ul>
-
-      <h3 class="panel-h">Lists</h3>
-      <p class="panel-sub">Edit comma-separated values. Empty list = no matches in that category.</p>
-      <div class="lists-editor" id="lists-editor">
-        <!-- populated by app.js -->
-      </div>
-
-      <h3 class="panel-h">Thresholds</h3>
-      <div class="thresholds-editor" id="thresholds-editor">
-        <!-- populated by app.js -->
-      </div>
-
       <div class="scoring-footer">
         <button id="reset-weights" type="button">Reset all to repo defaults</button>
-        <span class="reset-hint">Changes save locally. Permanent changes go in <code>config.yaml</code> on GitHub.</span>
+        <span class="reset-hint">Local-only. Permanent changes go in <code>config.yaml</code> on GitHub.</span>
       </div>
     </div>
   </details>
@@ -85,23 +85,51 @@
         <tr>
           <th data-sort="score" class="sortable active desc">Score</th>
           <th data-sort="title" class="sortable">Title</th>
-          <th data-sort="source" class="sortable">Source</th>
-          <th data-sort="country" class="sortable">Country</th>
+          <th data-sort="country" class="sortable">Where</th>
           <th data-sort="deadline" class="sortable">Deadline</th>
-          <th data-sort="salary_ppp_usd_high" class="sortable">Salary / month</th>
+          <th data-sort="salary_usd_high" class="sortable">Salary / month</th>
           <th data-sort="affordability_low" class="sortable">Affordability</th>
         </tr>
       </thead>
       <tbody id="jobs-body">
-        <tr><td colspan="7" class="loading">Loading digest.json…</td></tr>
+        <tr><td colspan="6" class="loading">Loading digest.json…</td></tr>
       </tbody>
     </table>
     <p id="empty-state" class="empty hidden">No postings match current filters.</p>
   </main>
 
   <footer>
-    Refreshed weekdays at 07:00 UTC by GitHub Actions. Scoring config is committed to the repo.
+    <p>
+      Sources: INSPIRE-HEP, AcademicJobsOnline (HEP/HET), CERN Careers, EURAXESS.
+      Refreshed weekdays 07:00 UTC by GitHub Actions.
+    </p>
+    <p class="small">
+      Subscribe form posts to <code id="subscribe-endpoint-hint">Formspree</code>.
+      Email-on-new-jobs requires the maintainer to add your address to <code>subscribers.yaml</code>.
+    </p>
   </footer>
+
+  <div id="job-modal" class="modal" hidden aria-hidden="true" aria-labelledby="modal-title" role="dialog">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="document">
+      <button class="modal-close" type="button" aria-label="Close" data-close>&times;</button>
+      <header class="modal-header">
+        <h2 id="modal-title"></h2>
+        <p id="modal-institution" class="modal-institution"></p>
+        <ul class="modal-meta" id="modal-meta"></ul>
+      </header>
+      <section class="modal-body">
+        <ul class="reasons" id="modal-reasons"></ul>
+        <dl class="detail-grid" id="modal-detail"></dl>
+        <div id="modal-salary"></div>
+        <div class="description" id="modal-description"></div>
+      </section>
+      <footer class="modal-actions">
+        <a id="modal-link" class="open-link" href="#" target="_blank" rel="noopener">Open posting →</a>
+        <span id="modal-alt-urls" class="modal-alt-urls"></span>
+      </footer>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
