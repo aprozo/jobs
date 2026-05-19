@@ -48,6 +48,24 @@
     </div>
   </section>
 
+  <details class="scoring-panel" id="scoring-panel">
+    <summary><span class="cog">⚙️</span> Scoring — click to adjust weights</summary>
+    <div class="scoring-body">
+      <p class="scoring-intro">
+        Every job starts at <strong>50</strong>. Each signal below shifts the score up or down by its weight.
+        Final score is clamped to 0–100 and bucketed into 🔥 Urgent (≥80) / ✅ Apply (65–79) / 🤔 Consider (50–64) / 👀 Maybe (&lt;50).
+        Tweak the sliders to re-rank the table — preferences persist locally.
+      </p>
+      <ul class="weights-list" id="weights-list">
+        <!-- populated by app.js -->
+      </ul>
+      <div class="scoring-footer">
+        <button id="reset-weights" type="button">Reset to repo defaults</button>
+        <span class="reset-hint">Permanent changes go in <code>config.yaml</code> on GitHub.</span>
+      </div>
+    </div>
+  </details>
+
   <main>
     <table id="jobs-table">
       <thead>
@@ -57,11 +75,12 @@
           <th data-sort="source" class="sortable">Source</th>
           <th data-sort="country" class="sortable">Country</th>
           <th data-sort="deadline" class="sortable">Deadline</th>
-          <th data-sort="salary_high_local" class="sortable">Salary / month</th>
+          <th data-sort="salary_ppp_usd_high" class="sortable">Salary / month</th>
+          <th data-sort="affordability_low" class="sortable">Affordability</th>
         </tr>
       </thead>
       <tbody id="jobs-body">
-        <tr><td colspan="6" class="loading">Loading digest.json…</td></tr>
+        <tr><td colspan="7" class="loading">Loading digest.json…</td></tr>
       </tbody>
     </table>
     <p id="empty-state" class="empty hidden">No postings match current filters.</p>

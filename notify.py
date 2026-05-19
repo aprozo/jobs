@@ -27,7 +27,8 @@ def _fmt_ppp(low, high) -> str:
 
 def write_markdown_digest(path, entries, *, n_total: int, n_new: int,
                            per_source: dict[str, int] | None = None) -> None:
-    """`entries` is a list of (Job, JobEnrichment, score, reasons)."""
+    """`entries` is a list of (Job, JobEnrichment, score, reasons[, components])."""
+    entries = [(t[0], t[1], t[2], t[3]) for t in entries]
     today = dt.date.today().isoformat()
     out: list[str] = []
     out.append(f"# HEP jobs digest — {today}\n")
@@ -104,14 +105,21 @@ def _days_to_deadline(deadline: str | None) -> int | None:
 
 def write_json_digest(path, entries, *, n_total: int, n_new: int,
                       per_source: dict[str, int] | None = None,
-                      config_summary: dict | None = None) -> None:
+                      config_summary: dict | None = None,
+                      default_weights: dict | None = None) -> None:
     """Write a machine-readable digest for the static site.
 
-    `entries` is a list of (Job, JobEnrichment, score, reasons). All entries
-    are emitted unfiltered — the page applies user-facing filters client-side.
+    `entries` is a list of (Job, JobEnrichment, score, reasons, components).
+    All entries are emitted unfiltered — the page applies user-facing filters
+    client-side.
     """
     jobs_out: list[dict] = []
-    for job, enr, score, reasons in entries:
+    for item in entries:
+        if len(item) == 5:
+            job, enr, score, reasons, components = item
+        else:
+            job, enr, score, reasons = item
+            components = {}
         desc = job.description or ""
         short = desc[:400].rstrip() + ("…" if len(desc) > 400 else "")
         jobs_out.append({
@@ -148,6 +156,7 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
             "salary_estimate": enr.salary_estimate,
             "llm_summary": enr.llm_summary,
             "description_short": short,
+            "score_components": components,
         })
 
     payload = {
@@ -156,6 +165,7 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
         "n_new": n_new,
         "per_source": per_source or {},
         "config_summary": config_summary or {},
+        "default_weights": default_weights or {},
         "jobs": jobs_out,
     }
     Path(path).parent.mkdir(parents=True, exist_ok=True)

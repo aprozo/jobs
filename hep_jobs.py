@@ -181,37 +181,64 @@ def _infer_countries(regions: list[str], insts: list[str], desc: str) -> list[st
 
 # ---------- scoring -------------------------------------------------------------------
 
-def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str]]:
-    """Return (score 0..100, reasons[])."""
+def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], dict]:
+    """Return (score 0..100, reasons[], components{}).
+
+    `components` is a per-job dict of raw signal flags (0/1 or small counts)
+    that the static site uses to recompute scores client-side when the user
+    tweaks weights. Keep these decoupled from current weights — the JS layer
+    multiplies them by user-controlled weights at render time.
+    """
+    scoring = cfg.get("scoring", {})
+    components: dict = {
+        "base": 50,
+        "preferred_country": 0,
+        "avoid_country": 0,
+        "good_salary": 0,
+        "low_salary": 0,
+        "keyword_match": 0,
+        "keyword_matched": [],
+        "keyword_avoid": 0,
+        "keyword_avoided": [],
+        "preferred_experiment": 0,
+        "short_deadline": 0,
+    }
     s = 50
     reasons: list[str] = []
-    scoring = cfg.get("scoring", {})
 
     # Country / region preferences
     pref_countries = [c.upper() for c in scoring.get("preferred_countries", [])]
     avoid_countries = [c.upper() for c in scoring.get("avoid_countries", [])]
     if any(c in pref_countries for c in job.countries):
-        s += scoring.get("weight_preferred_country", 15); reasons.append("preferred country")
+        components["preferred_country"] = 1
+        s += scoring.get("weight_preferred_country", 15)
+        reasons.append("preferred country")
     if any(c in avoid_countries for c in job.countries):
-        s -= scoring.get("weight_avoid_country", 30); reasons.append("avoided country")
+        components["avoid_country"] = 1
+        s -= scoring.get("weight_avoid_country", 30)
+        reasons.append("avoided country")
 
     # Salary: prefer affordability ratio (local-cost-adjusted) over raw PPP.
     # Fall back to PPP threshold if affordability isn't computable.
     min_afford = scoring.get("min_affordability_ratio", 1.5)
     if enr.affordability_low is not None:
         if enr.affordability_low >= min_afford:
+            components["good_salary"] = 1
             s += scoring.get("weight_good_salary", 15)
             reasons.append(f"affordability {enr.affordability_low:.2f}× ≥ {min_afford}")
         elif enr.affordability_high is not None and enr.affordability_high < 1.0:
+            components["low_salary"] = 1
             s -= scoring.get("weight_low_salary", 15)
-            reasons.append(f"affordability < 1× local cost")
+            reasons.append("affordability < 1× local cost")
     else:
         # No affordability data — fall back to absolute PPP-USD floor
         min_ppp = scoring.get("min_salary_ppp_usd", 0)
         if enr.salary_ppp_usd_low and enr.salary_ppp_usd_low >= min_ppp:
+            components["good_salary"] = 1
             s += scoring.get("weight_good_salary", 15)
             reasons.append(f"PPP salary ≥ ${min_ppp:,}")
         elif enr.salary_ppp_usd_high and enr.salary_ppp_usd_high < min_ppp:
+            components["low_salary"] = 1
             s -= scoring.get("weight_low_salary", 15)
             reasons.append(f"PPP salary < ${min_ppp:,}")
 
@@ -225,18 +252,23 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str]]:
 
     keywords = scoring.get("keywords_must_have", [])
     hit_kw = [k for k in keywords if _has(k)]
+    components["keyword_matched"] = hit_kw[:5]
     if hit_kw:
-        s += scoring.get("weight_keyword_match", 10) * min(len(hit_kw), 3)
+        components["keyword_match"] = min(len(hit_kw), 3)
+        s += scoring.get("weight_keyword_match", 10) * components["keyword_match"]
         reasons.append(f"keywords: {', '.join(hit_kw[:5])}")
     avoid_kw = scoring.get("keywords_avoid", [])
     hit_avoid = [k for k in avoid_kw if _has(k)]
+    components["keyword_avoided"] = hit_avoid
     if hit_avoid:
+        components["keyword_avoid"] = 1
         s -= scoring.get("weight_keyword_avoid", 20)
         reasons.append(f"avoid keywords: {', '.join(hit_avoid)}")
 
     # Experiment list
     pref_exp = [e.lower() for e in scoring.get("preferred_experiments", [])]
     if any(e.lower() in pref_exp for e in job.experiments):
+        components["preferred_experiment"] = 1
         s += scoring.get("weight_preferred_experiment", 10)
         reasons.append("preferred experiment")
 
@@ -245,12 +277,13 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str]]:
         try:
             days = (dt.date.fromisoformat(job.deadline) - dt.date.today()).days
             if days < scoring.get("min_days_to_deadline", 10):
+                components["short_deadline"] = 1
                 s -= scoring.get("weight_short_deadline", 15)
                 reasons.append(f"only {days} days to deadline")
         except ValueError:
             pass
 
-    return max(0, min(100, s)), reasons
+    return max(0, min(100, s)), reasons, components
 
 
 # ---------- state DB ------------------------------------------------------------------
@@ -342,7 +375,7 @@ def main(argv: list[str] | None = None) -> int:
         sources = [s for s in sources if s.name == args.only_source
                    or getattr(s, "source_key", None) == args.only_source]
 
-    new_jobs: list[tuple[Job, JobEnrichment, int, list[str]]] = []
+    new_jobs: list[tuple[Job, JobEnrichment, int, list[str], dict]] = []
     n_total = 0
     n_per_source: dict[str, int] = {}
     for source in sources:
@@ -353,12 +386,12 @@ def main(argv: list[str] | None = None) -> int:
                 n_total += 1
                 n_this += 1
                 enr = enrich_job(job, cfg, conn)
-                score, reasons = score_job(job, enr, cfg)
+                score, reasons, components = score_job(job, enr, cfg)
                 is_new = True
                 if not args.dry_run:
                     is_new = mark_seen(conn, job, score)
                 if is_new or args.rescore_all:
-                    new_jobs.append((job, enr, score, reasons))
+                    new_jobs.append((job, enr, score, reasons, components))
         except Exception as e:  # noqa: BLE001
             log.error("source %s failed: %s", source.name, e)
         n_per_source[source.name] = n_this
@@ -383,9 +416,21 @@ def main(argv: list[str] | None = None) -> int:
             "keywords_avoid": scoring_cfg.get("keywords_avoid", []),
             "preferred_experiments": scoring_cfg.get("preferred_experiments", []),
             "min_affordability_ratio": scoring_cfg.get("min_affordability_ratio"),
+            "min_days_to_deadline": scoring_cfg.get("min_days_to_deadline"),
+        }
+        default_weights = {
+            "preferred_country": scoring_cfg.get("weight_preferred_country", 15),
+            "avoid_country": scoring_cfg.get("weight_avoid_country", 30),
+            "good_salary": scoring_cfg.get("weight_good_salary", 15),
+            "low_salary": scoring_cfg.get("weight_low_salary", 15),
+            "keyword_match": scoring_cfg.get("weight_keyword_match", 10),
+            "keyword_avoid": scoring_cfg.get("weight_keyword_avoid", 20),
+            "preferred_experiment": scoring_cfg.get("weight_preferred_experiment", 10),
+            "short_deadline": scoring_cfg.get("weight_short_deadline", 15),
         }
         write_json_digest(args.json_out, digest, n_total=n_total, n_new=len(new_jobs),
-                          per_source=n_per_source, config_summary=config_summary)
+                          per_source=n_per_source, config_summary=config_summary,
+                          default_weights=default_weights)
         print(f"wrote {args.json_out} with {len(digest)} entries")
 
     if cfg.get("email", {}).get("enabled") and digest and not args.dry_run:

@@ -136,6 +136,130 @@ fieldset label {
   white-space: nowrap;
 }
 
+.scoring-panel {
+  max-width: 1200px;
+  margin: 0.75rem auto 0;
+  padding: 0 1.25rem;
+}
+
+.scoring-panel summary {
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem 0.8rem;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  list-style: none;
+}
+.scoring-panel summary::-webkit-details-marker { display: none; }
+.scoring-panel summary::before {
+  content: "▸ ";
+  display: inline-block;
+  width: 1em;
+  transition: transform 0.15s ease;
+}
+.scoring-panel[open] summary::before { transform: rotate(90deg); }
+.scoring-panel summary:hover { color: var(--text); }
+.scoring-panel summary .cog { margin-right: 0.25rem; }
+
+.scoring-body {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  padding: 0.9rem 1rem 1rem;
+  margin-top: -1px;
+}
+
+.scoring-intro {
+  margin: 0 0 0.8rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.scoring-intro strong { color: var(--text); }
+
+.weights-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.7rem 1rem;
+}
+
+.weight-row {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem 0.6rem;
+}
+.weight-row.pos { border-left-color: var(--apply); }
+.weight-row.neg { border-left-color: var(--urgent); }
+
+.w-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-size: 0.86rem;
+  margin-bottom: 0.3rem;
+}
+.w-sign {
+  font-weight: 700;
+  width: 0.9em;
+  text-align: center;
+}
+.weight-row.pos .w-sign { color: var(--apply); }
+.weight-row.neg .w-sign { color: var(--urgent); }
+.w-label { flex: 1; font-weight: 500; }
+.w-value {
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  min-width: 1.6em;
+  text-align: right;
+}
+
+.w-slider {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.w-desc {
+  font-size: 0.76rem;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 0.3rem;
+}
+.w-detail { opacity: 0.85; }
+
+.scoring-footer {
+  margin-top: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+#reset-weights {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+#reset-weights:hover { background: var(--border); }
+.reset-hint { font-size: 0.76rem; color: var(--muted); }
+.reset-hint code {
+  background: var(--panel-2);
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -311,12 +435,14 @@ footer {
   text-align: center;
 }
 
-/* Mobile: collapse the score/source/country/deadline cells, keep title prominent */
+/* Mobile: hide source, country, salary, affordability — keep score+title+deadline */
 @media (max-width: 700px) {
   th, td { padding: 0.5rem 0.55rem; font-size: 0.85rem; }
   th:nth-child(3), td:nth-child(3),
   th:nth-child(4), td:nth-child(4),
-  th:nth-child(6), td:nth-child(6) { display: none; }
+  th:nth-child(6), td:nth-child(6),
+  th:nth-child(7), td:nth-child(7) { display: none; }
   .filter-row { gap: 0.5rem; }
   fieldset label { margin-right: 0.4rem; }
+  .weights-list { grid-template-columns: 1fr; }
 }

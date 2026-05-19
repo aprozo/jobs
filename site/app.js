@@ -14,11 +14,33 @@ const BUCKET_LABEL = {
   skim: "👀 Maybe",
 };
 
+const WEIGHT_META = [
+  { key: "preferred_country",    sign: "+", label: "Preferred country",
+    desc: "Job's country is in your wishlist." },
+  { key: "avoid_country",        sign: "−", label: "Avoided country",
+    desc: "Country is blacklisted. Heavy penalty by default." },
+  { key: "good_salary",          sign: "+", label: "Good salary",
+    desc: "Affordability ratio ≥ min (default 1.5×), or PPP-USD above floor." },
+  { key: "low_salary",           sign: "−", label: "Low salary",
+    desc: "Affordability < 1× local cost, or PPP-USD below floor." },
+  { key: "keyword_match",        sign: "+", label: "Keyword match (×N, max 3)",
+    desc: "Each must-have keyword in title/description (capped at 3 hits)." },
+  { key: "keyword_avoid",        sign: "−", label: "Avoid keyword present",
+    desc: "Description contains any avoid-keyword. Flat penalty, doesn't stack." },
+  { key: "preferred_experiment", sign: "+", label: "Preferred experiment",
+    desc: "Job lists one of your preferred experiments (STAR, ATLAS, …)." },
+  { key: "short_deadline",       sign: "−", label: "Short deadline",
+    desc: "Less than min_days_to_deadline (default 10) days to apply." },
+];
+
 const STATE = {
   jobs: [],
   sortKey: "score",
   sortDir: "desc",
   expanded: new Set(),
+  defaultWeights: {},
+  weights: {},
+  configSummary: {},
 };
 
 async function init() {
@@ -27,16 +49,112 @@ async function init() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     STATE.jobs = data.jobs || [];
+    STATE.defaultWeights = data.default_weights || {};
+    STATE.configSummary = data.config_summary || {};
+    STATE.weights = loadWeights() || { ...STATE.defaultWeights };
     renderHeader(data);
     populateSourceFilter(data.per_source || {});
     populateCountryFilter(STATE.jobs);
+    buildScoringPanel();
     wireFilters();
     wireSorting();
+    recomputeScores();
     render();
   } catch (err) {
     document.getElementById("jobs-body").innerHTML =
-      `<tr><td colspan="6" class="loading">Failed to load digest.json: ${escapeHtml(err.message)}</td></tr>`;
+      `<tr><td colspan="7" class="loading">Failed to load digest.json: ${escapeHtml(err.message)}</td></tr>`;
   }
+}
+
+function loadWeights() {
+  try {
+    const s = localStorage.getItem("hep-jobs-weights");
+    return s ? JSON.parse(s) : null;
+  } catch { return null; }
+}
+
+function saveWeights() {
+  try { localStorage.setItem("hep-jobs-weights", JSON.stringify(STATE.weights)); }
+  catch {}
+}
+
+function buildScoringPanel() {
+  const list = document.getElementById("weights-list");
+  const fmtConfig = {
+    preferred_country: () => (STATE.configSummary.preferred_countries || []).join(", ") || "(none)",
+    avoid_country:     () => (STATE.configSummary.avoid_countries || []).join(", ") || "(none configured)",
+    keyword_match:     () => (STATE.configSummary.keywords_must_have || []).slice(0, 8).join(", "),
+    keyword_avoid:     () => (STATE.configSummary.keywords_avoid || []).join(", ") || "(none)",
+    preferred_experiment: () => (STATE.configSummary.preferred_experiments || []).join(", "),
+    good_salary:       () => `affordability ≥ ${STATE.configSummary.min_affordability_ratio ?? 1.5}×`,
+    low_salary:        () => "affordability < 1× local cost",
+    short_deadline:    () => `< ${STATE.configSummary.min_days_to_deadline ?? 10} days to deadline`,
+  };
+  list.innerHTML = "";
+  for (const m of WEIGHT_META) {
+    const v = STATE.weights[m.key] ?? STATE.defaultWeights[m.key] ?? 0;
+    const detail = (fmtConfig[m.key] || (() => ""))();
+    list.insertAdjacentHTML("beforeend", `
+      <li class="weight-row ${m.sign === '+' ? 'pos' : 'neg'}">
+        <div class="w-head">
+          <span class="w-sign">${m.sign}</span>
+          <span class="w-label">${escapeHtml(m.label)}</span>
+          <output class="w-value" data-out="${m.key}">${v}</output>
+        </div>
+        <input type="range" class="w-slider" data-weight="${m.key}" min="0" max="50" value="${v}">
+        <div class="w-desc">${escapeHtml(m.desc)}${detail ? ` <span class="w-detail">— ${escapeHtml(detail)}</span>` : ""}</div>
+      </li>
+    `);
+  }
+  list.querySelectorAll(".w-slider").forEach(s => {
+    s.addEventListener("input", () => {
+      const k = s.dataset.weight;
+      STATE.weights[k] = Number(s.value);
+      document.querySelector(`[data-out="${k}"]`).textContent = s.value;
+      saveWeights();
+      recomputeScores();
+      render();
+    });
+  });
+  document.getElementById("reset-weights").addEventListener("click", () => {
+    STATE.weights = { ...STATE.defaultWeights };
+    try { localStorage.removeItem("hep-jobs-weights"); } catch {}
+    for (const m of WEIGHT_META) {
+      const v = STATE.defaultWeights[m.key] ?? 0;
+      const slider = document.querySelector(`[data-weight="${m.key}"]`);
+      const out = document.querySelector(`[data-out="${m.key}"]`);
+      if (slider) slider.value = v;
+      if (out) out.textContent = v;
+    }
+    recomputeScores();
+    render();
+  });
+}
+
+function recomputeScores() {
+  const w = STATE.weights;
+  for (const j of STATE.jobs) {
+    const c = j.score_components || {};
+    let s = c.base ?? 50;
+    s += (w.preferred_country     || 0) * (c.preferred_country     || 0);
+    s -= (w.avoid_country         || 0) * (c.avoid_country         || 0);
+    s += (w.good_salary           || 0) * (c.good_salary           || 0);
+    s -= (w.low_salary            || 0) * (c.low_salary            || 0);
+    s += (w.keyword_match         || 0) * (c.keyword_match         || 0);
+    s -= (w.keyword_avoid         || 0) * (c.keyword_avoid         || 0);
+    s += (w.preferred_experiment  || 0) * (c.preferred_experiment  || 0);
+    s -= (w.short_deadline        || 0) * (c.short_deadline        || 0);
+    s = Math.max(0, Math.min(100, Math.round(s)));
+    j.score = s;
+    j.bucket = bucketFor(s);
+  }
+}
+
+function bucketFor(s) {
+  if (s >= 80) return "urgent";
+  if (s >= 65) return "apply";
+  if (s >= 50) return "consider";
+  return "skim";
 }
 
 function renderHeader(data) {
@@ -180,6 +298,7 @@ function rowHtml(j) {
   const flag = FLAG[j.country] || "";
   const dl = formatDeadline(j);
   const sal = formatSalaryColumn(j);
+  const aff = formatAffordability(j);
   return `
     <tr class="job-row" data-url="${escapeHtml(j.url)}">
       <td><span class="score-badge ${j.bucket}">${j.score}</span></td>
@@ -193,7 +312,16 @@ function rowHtml(j) {
       <td><span class="country-flag">${flag}</span>${escapeHtml(j.country || "—")}</td>
       <td>${dl}</td>
       <td class="salary">${sal}</td>
+      <td class="affordability">${aff}</td>
     </tr>`;
+}
+
+function formatAffordability(j) {
+  if (j.affordability_low == null || j.affordability_high == null) {
+    return '<span class="muted">—</span>';
+  }
+  const lab = j.affordability_label ? `<span class="label">${escapeHtml(j.affordability_label)}</span>` : "";
+  return `${j.affordability_low.toFixed(2)}×–${j.affordability_high.toFixed(2)}×${lab}`;
 }
 
 function formatSalaryColumn(j) {
@@ -243,7 +371,7 @@ function detailRowHtml(j) {
 
   return `
     <tr class="detail-row">
-      <td colspan="6">
+      <td colspan="7">
         ${reasons ? `<ul class="reasons">${reasons}</ul>` : ""}
         <dl class="detail-grid">${dl}</dl>
         ${j.description_short
