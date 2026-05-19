@@ -56,12 +56,25 @@
         Final score is clamped to 0–100 and bucketed into 🔥 Urgent (≥80) / ✅ Apply (65–79) / 🤔 Consider (50–64) / 👀 Maybe (&lt;50).
         Tweak the sliders to re-rank the table — preferences persist locally.
       </p>
+      <h3 class="panel-h">Weights</h3>
       <ul class="weights-list" id="weights-list">
         <!-- populated by app.js -->
       </ul>
+
+      <h3 class="panel-h">Lists</h3>
+      <p class="panel-sub">Edit comma-separated values. Empty list = no matches in that category.</p>
+      <div class="lists-editor" id="lists-editor">
+        <!-- populated by app.js -->
+      </div>
+
+      <h3 class="panel-h">Thresholds</h3>
+      <div class="thresholds-editor" id="thresholds-editor">
+        <!-- populated by app.js -->
+      </div>
+
       <div class="scoring-footer">
-        <button id="reset-weights" type="button">Reset to repo defaults</button>
-        <span class="reset-hint">Permanent changes go in <code>config.yaml</code> on GitHub.</span>
+        <button id="reset-weights" type="button">Reset all to repo defaults</button>
+        <span class="reset-hint">Changes save locally. Permanent changes go in <code>config.yaml</code> on GitHub.</span>
       </div>
     </div>
   </details>

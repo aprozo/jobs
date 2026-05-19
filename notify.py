@@ -122,6 +122,7 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
             components = {}
         desc = job.description or ""
         short = desc[:400].rstrip() + ("…" if len(desc) > 400 else "")
+        match_text = ((job.title or "") + " " + desc)[:4000].lower()
         jobs_out.append({
             "title": job.title,
             "url": job.url,
@@ -131,6 +132,8 @@ def write_json_digest(path, entries, *, n_total: int, n_new: int,
             "reasons": list(reasons or []),
             "institutions": list(job.institutions or []),
             "country": enr.country,
+            "countries": list(job.countries or []),
+            "match_text": match_text,
             "city": enr.city,
             "col_index": enr.col_index,
             "deadline": job.deadline,

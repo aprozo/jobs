@@ -33,6 +33,14 @@ const WEIGHT_META = [
     desc: "Less than min_days_to_deadline (default 10) days to apply." },
 ];
 
+const LIST_META = [
+  { key: "preferred_countries",   label: "Preferred countries",   placeholder: "US, DE, CH …" },
+  { key: "avoid_countries",       label: "Avoided countries",     placeholder: "(none)" },
+  { key: "keywords_must_have",    label: "Must-have keywords",    placeholder: "jet, QCD, heavy ion …" },
+  { key: "keywords_avoid",        label: "Avoid keywords",        placeholder: "dark matter direct detection, …" },
+  { key: "preferred_experiments", label: "Preferred experiments", placeholder: "ATLAS, CMS, STAR …" },
+];
+
 const STATE = {
   jobs: [],
   sortKey: "score",
@@ -40,6 +48,10 @@ const STATE = {
   expanded: new Set(),
   defaultWeights: {},
   weights: {},
+  defaultLists: {},
+  lists: {},
+  defaultThresholds: {},
+  thresholds: {},
   configSummary: {},
 };
 
@@ -50,8 +62,24 @@ async function init() {
     const data = await res.json();
     STATE.jobs = data.jobs || [];
     STATE.defaultWeights = data.default_weights || {};
-    STATE.configSummary = data.config_summary || {};
-    STATE.weights = loadWeights() || { ...STATE.defaultWeights };
+    const cs = data.config_summary || {};
+    STATE.configSummary = cs;
+    STATE.defaultLists = {
+      preferred_countries:   (cs.preferred_countries   || []).slice(),
+      avoid_countries:       (cs.avoid_countries       || []).slice(),
+      keywords_must_have:    (cs.keywords_must_have    || []).slice(),
+      keywords_avoid:        (cs.keywords_avoid        || []).slice(),
+      preferred_experiments: (cs.preferred_experiments || []).slice(),
+    };
+    STATE.defaultThresholds = {
+      min_affordability_ratio: cs.min_affordability_ratio != null ? cs.min_affordability_ratio : 1.5,
+      min_days_to_deadline:    cs.min_days_to_deadline    != null ? cs.min_days_to_deadline    : 10,
+    };
+    const saved = loadPrefs() || {};
+    STATE.weights    = saved.weights    || Object.assign({}, STATE.defaultWeights);
+    STATE.lists      = saved.lists      || JSON.parse(JSON.stringify(STATE.defaultLists));
+    STATE.thresholds = saved.thresholds || Object.assign({}, STATE.defaultThresholds);
+
     renderHeader(data);
     populateSourceFilter(data.per_source || {});
     populateCountryFilter(STATE.jobs);
@@ -66,34 +94,62 @@ async function init() {
   }
 }
 
-function loadWeights() {
+const PREFS_KEY = "hep-jobs-prefs-v2";
+
+function loadPrefs() {
   try {
-    const s = localStorage.getItem("hep-jobs-weights");
+    const s = localStorage.getItem(PREFS_KEY);
     return s ? JSON.parse(s) : null;
   } catch { return null; }
 }
+function savePrefs() {
+  try {
+    localStorage.setItem(PREFS_KEY, JSON.stringify({
+      weights: STATE.weights,
+      lists: STATE.lists,
+      thresholds: STATE.thresholds,
+    }));
+  } catch {}
+}
 
-function saveWeights() {
-  try { localStorage.setItem("hep-jobs-weights", JSON.stringify(STATE.weights)); }
-  catch {}
+function parseList(raw) {
+  return raw.split(/[,\n]/).map(s => s.trim()).filter(Boolean);
+}
+
+function listToText(items) {
+  return (items || []).join(", ");
+}
+
+function hasKeyword(text, kw) {
+  if (!text || !kw) return false;
+  const k = kw.toLowerCase();
+  if (k.includes(" ") || k.includes("-")) return text.includes(k);
+  return new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(text);
 }
 
 function buildScoringPanel() {
+  buildWeightsList();
+  buildListsEditor();
+  buildThresholdsEditor();
+  document.getElementById("reset-weights").addEventListener("click", () => {
+    STATE.weights    = { ...STATE.defaultWeights };
+    STATE.lists      = JSON.parse(JSON.stringify(STATE.defaultLists));
+    STATE.thresholds = { ...STATE.defaultThresholds };
+    try { localStorage.removeItem(PREFS_KEY); } catch {}
+    buildWeightsList();
+    buildListsEditor();
+    buildThresholdsEditor();
+    recomputeScores();
+    render();
+  });
+}
+
+function buildWeightsList() {
   const list = document.getElementById("weights-list");
-  const fmtConfig = {
-    preferred_country: () => (STATE.configSummary.preferred_countries || []).join(", ") || "(none)",
-    avoid_country:     () => (STATE.configSummary.avoid_countries || []).join(", ") || "(none configured)",
-    keyword_match:     () => (STATE.configSummary.keywords_must_have || []).slice(0, 8).join(", "),
-    keyword_avoid:     () => (STATE.configSummary.keywords_avoid || []).join(", ") || "(none)",
-    preferred_experiment: () => (STATE.configSummary.preferred_experiments || []).join(", "),
-    good_salary:       () => `affordability ≥ ${STATE.configSummary.min_affordability_ratio ?? 1.5}×`,
-    low_salary:        () => "affordability < 1× local cost",
-    short_deadline:    () => `< ${STATE.configSummary.min_days_to_deadline ?? 10} days to deadline`,
-  };
   list.innerHTML = "";
   for (const m of WEIGHT_META) {
-    const v = STATE.weights[m.key] ?? STATE.defaultWeights[m.key] ?? 0;
-    const detail = (fmtConfig[m.key] || (() => ""))();
+    const v = (STATE.weights[m.key] != null ? STATE.weights[m.key]
+              : (STATE.defaultWeights[m.key] != null ? STATE.defaultWeights[m.key] : 0));
     list.insertAdjacentHTML("beforeend", `
       <li class="weight-row ${m.sign === '+' ? 'pos' : 'neg'}">
         <div class="w-head">
@@ -102,7 +158,7 @@ function buildScoringPanel() {
           <output class="w-value" data-out="${m.key}">${v}</output>
         </div>
         <input type="range" class="w-slider" data-weight="${m.key}" min="0" max="50" value="${v}">
-        <div class="w-desc">${escapeHtml(m.desc)}${detail ? ` <span class="w-detail">— ${escapeHtml(detail)}</span>` : ""}</div>
+        <div class="w-desc">${escapeHtml(m.desc)}</div>
       </li>
     `);
   }
@@ -111,42 +167,120 @@ function buildScoringPanel() {
       const k = s.dataset.weight;
       STATE.weights[k] = Number(s.value);
       document.querySelector(`[data-out="${k}"]`).textContent = s.value;
-      saveWeights();
+      savePrefs();
       recomputeScores();
       render();
     });
   });
-  document.getElementById("reset-weights").addEventListener("click", () => {
-    STATE.weights = { ...STATE.defaultWeights };
-    try { localStorage.removeItem("hep-jobs-weights"); } catch {}
-    for (const m of WEIGHT_META) {
-      const v = STATE.defaultWeights[m.key] ?? 0;
-      const slider = document.querySelector(`[data-weight="${m.key}"]`);
-      const out = document.querySelector(`[data-out="${m.key}"]`);
-      if (slider) slider.value = v;
-      if (out) out.textContent = v;
-    }
-    recomputeScores();
-    render();
+}
+
+function buildListsEditor() {
+  const root = document.getElementById("lists-editor");
+  root.innerHTML = "";
+  for (const m of LIST_META) {
+    const items = STATE.lists[m.key] || [];
+    const text = listToText(items);
+    root.insertAdjacentHTML("beforeend", `
+      <div class="list-row">
+        <label class="list-label" for="list-${m.key}">${escapeHtml(m.label)}</label>
+        <textarea id="list-${m.key}" class="list-input" data-list="${m.key}"
+          placeholder="${escapeHtml(m.placeholder)}" rows="2">${escapeHtml(text)}</textarea>
+        <div class="list-chips" data-chips="${m.key}">${chipsHtml(items)}</div>
+      </div>
+    `);
+  }
+  root.querySelectorAll("textarea.list-input").forEach(ta => {
+    ta.addEventListener("input", () => {
+      const k = ta.dataset.list;
+      const items = parseList(ta.value);
+      STATE.lists[k] = items;
+      document.querySelector(`[data-chips="${k}"]`).innerHTML = chipsHtml(items);
+      savePrefs();
+      recomputeScores();
+      render();
+    });
+  });
+}
+
+function chipsHtml(items) {
+  return (items || []).map(it => `<span class="chip">${escapeHtml(it)}</span>`).join("");
+}
+
+function buildThresholdsEditor() {
+  const root = document.getElementById("thresholds-editor");
+  const t = STATE.thresholds;
+  root.innerHTML = `
+    <label class="threshold-row">
+      Min affordability ratio for "good salary" bonus:
+      <input type="number" data-threshold="min_affordability_ratio" step="0.1" min="0" max="5" value="${t.min_affordability_ratio}">
+    </label>
+    <label class="threshold-row">
+      "Short deadline" if days-to-deadline less than:
+      <input type="number" data-threshold="min_days_to_deadline" step="1" min="0" max="365" value="${t.min_days_to_deadline}">
+    </label>
+  `;
+  root.querySelectorAll("input[data-threshold]").forEach(inp => {
+    inp.addEventListener("input", () => {
+      STATE.thresholds[inp.dataset.threshold] = Number(inp.value);
+      savePrefs();
+      recomputeScores();
+      render();
+    });
   });
 }
 
 function recomputeScores() {
   const w = STATE.weights;
+  const prefC  = new Set((STATE.lists.preferred_countries   || []).map(s => s.toUpperCase()));
+  const avoidC = new Set((STATE.lists.avoid_countries       || []).map(s => s.toUpperCase()));
+  const mustKw = STATE.lists.keywords_must_have || [];
+  const avoidKw = STATE.lists.keywords_avoid    || [];
+  const prefExp = new Set((STATE.lists.preferred_experiments || []).map(s => s.toLowerCase()));
+  const minAfford = Number(STATE.thresholds.min_affordability_ratio != null ? STATE.thresholds.min_affordability_ratio : 1.5);
+  const minDays   = Number(STATE.thresholds.min_days_to_deadline    != null ? STATE.thresholds.min_days_to_deadline    : 10);
+
   for (const j of STATE.jobs) {
-    const c = j.score_components || {};
-    let s = c.base ?? 50;
-    s += (w.preferred_country     || 0) * (c.preferred_country     || 0);
-    s -= (w.avoid_country         || 0) * (c.avoid_country         || 0);
-    s += (w.good_salary           || 0) * (c.good_salary           || 0);
-    s -= (w.low_salary            || 0) * (c.low_salary            || 0);
-    s += (w.keyword_match         || 0) * (c.keyword_match         || 0);
-    s -= (w.keyword_avoid         || 0) * (c.keyword_avoid         || 0);
-    s += (w.preferred_experiment  || 0) * (c.preferred_experiment  || 0);
-    s -= (w.short_deadline        || 0) * (c.short_deadline        || 0);
+    const countries = (j.countries && j.countries.length ? j.countries : (j.country ? [j.country] : []))
+                       .map(c => (c || "").toUpperCase());
+    const text = j.match_text || "";
+
+    let s = 50;
+    const matchedKw = mustKw.filter(k => hasKeyword(text, k)).slice(0, 5);
+    const matchedAvoid = avoidKw.filter(k => hasKeyword(text, k));
+    const kwCount = Math.min(matchedKw.length, 3);
+    const expMatch = (j.experiments || []).some(e => prefExp.has((e || "").toLowerCase()));
+
+    let goodSal = false, lowSal = false;
+    if (j.affordability_low != null) {
+      if (j.affordability_low >= minAfford) goodSal = true;
+      else if (j.affordability_high != null && j.affordability_high < 1.0) lowSal = true;
+    }
+    const dl = j.days_to_deadline;
+    const shortDl = (dl != null && dl < minDays);
+
+    if (countries.some(c => prefC.has(c)))  s += (w.preferred_country     || 0);
+    if (countries.some(c => avoidC.has(c))) s -= (w.avoid_country         || 0);
+    if (goodSal)                            s += (w.good_salary           || 0);
+    if (lowSal)                             s -= (w.low_salary            || 0);
+    if (kwCount)                            s += (w.keyword_match         || 0) * kwCount;
+    if (matchedAvoid.length)                s -= (w.keyword_avoid         || 0);
+    if (expMatch)                           s += (w.preferred_experiment  || 0);
+    if (shortDl)                            s -= (w.short_deadline        || 0);
+
     s = Math.max(0, Math.min(100, Math.round(s)));
     j.score = s;
     j.bucket = bucketFor(s);
+
+    j._reasons_live = [];
+    if (countries.some(c => prefC.has(c)))   j._reasons_live.push("preferred country");
+    if (countries.some(c => avoidC.has(c)))  j._reasons_live.push("avoided country");
+    if (goodSal && j.affordability_low != null)
+                                              j._reasons_live.push(`affordability ${j.affordability_low.toFixed(2)}× ≥ ${minAfford}`);
+    if (lowSal)                              j._reasons_live.push("affordability < 1× local cost");
+    if (matchedKw.length)                    j._reasons_live.push(`keywords: ${matchedKw.join(", ")}`);
+    if (matchedAvoid.length)                 j._reasons_live.push(`avoid keywords: ${matchedAvoid.join(", ")}`);
+    if (expMatch)                            j._reasons_live.push("preferred experiment");
+    if (shortDl)                             j._reasons_live.push(`only ${dl} days to deadline`);
   }
 }
 
@@ -166,7 +300,7 @@ function renderHeader(data) {
     : "unknown";
   document.getElementById("updated-at").textContent = `updated ${updated}`;
   document.getElementById("counts").textContent =
-    `${data.jobs.length} ranked · ${data.n_total ?? "?"} scanned`;
+    `${data.jobs.length} ranked · ${data.n_total != null ? data.n_total : "?"} scanned`;
 }
 
 function populateSourceFilter(perSource) {
@@ -355,7 +489,8 @@ function detailRowHtml(j) {
     ? `~$${fmt(j.salary_ppp_usd_low / 12)}–${fmt(j.salary_ppp_usd_high / 12)} PPP-USD/month gross` : "";
   const pppNet = (j.salary_net_ppp_usd_low && j.salary_net_ppp_usd_high)
     ? `~$${fmt(j.salary_net_ppp_usd_low / 12)}–${fmt(j.salary_net_ppp_usd_high / 12)} PPP-USD/month net (after tax)` : "";
-  const reasons = (j.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join("");
+  const reasonsArr = (j._reasons_live && j._reasons_live.length) ? j._reasons_live : (j.reasons || []);
+  const reasons = reasonsArr.map(r => `<li>${escapeHtml(r)}</li>`).join("");
   const dl = [
     j.ranks && j.ranks.length ? dlItem("Rank", j.ranks.join(", ")) : "",
     j.experiments && j.experiments.length ? dlItem("Experiments", j.experiments.slice(0, 5).join(", ")) : "",

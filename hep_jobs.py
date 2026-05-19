@@ -206,14 +206,19 @@ def score_job(job: Job, enr: JobEnrichment, cfg: dict) -> tuple[int, list[str], 
     s = 50
     reasons: list[str] = []
 
-    # Country / region preferences
+    # Country / region preferences. Merge heuristic-derived job.countries with
+    # the more authoritative enr.country (set by LLM / manual extraction), so
+    # the score reflects whatever country attribution the page actually shows.
     pref_countries = [c.upper() for c in scoring.get("preferred_countries", [])]
     avoid_countries = [c.upper() for c in scoring.get("avoid_countries", [])]
-    if any(c in pref_countries for c in job.countries):
+    job_country_set = {c.upper() for c in (job.countries or [])}
+    if enr.country:
+        job_country_set.add(enr.country.upper())
+    if any(c in pref_countries for c in job_country_set):
         components["preferred_country"] = 1
         s += scoring.get("weight_preferred_country", 15)
         reasons.append("preferred country")
-    if any(c in avoid_countries for c in job.countries):
+    if any(c in avoid_countries for c in job_country_set):
         components["avoid_country"] = 1
         s -= scoring.get("weight_avoid_country", 30)
         reasons.append("avoided country")

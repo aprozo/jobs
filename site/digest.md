@@ -237,6 +237,20 @@ _sources:_ inspire: 89, ajo: 52
 > The Astroparticle Physics Group at the Physics Institute of the University of Freiburg, Germany, invites applications for a Postdoctoral Position in experimental Astroparticle Physics (DELight Dark Matter Search) The successful candidate will play a leading role in the new DELight dark matter experiment which will use a cryogenic liquid helium-4 target to search for light dark matter. The candidat…
 
 
+### [Marie Skłodowska-Curie Postdoctoral Fellowships – Expression of Interest](https://inspirehep.net/jobs/3155669) — score 80  `inspire`
+- **Institutions:** U. Liverpool (main)
+- **Location:** Liverpool, GB  (cost index 70 vs NYC=100)
+- **Deadline:** 2026-06-15
+- **Rank:** POSTDOC
+- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
+  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
+- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
+- **Summary:** topics=string theory, lattice field theory, QFT, astroparticle physics, cosmology; 2y
+- **Why this score:** preferred country; affordability 1.58× ≥ 1.5
+
+> The Theoretical Physics group at the University of Liverpool invites expressions of interest to be supported in applying for Marie Skłodowska-Curie postdoctoral fellowships: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships The group provides a stimulating and supportive research environment with expertise across the breadth of string theory, lattice field theory…
+
+
 ### [Postdoc in superconducting detector development](https://inspirehep.net/jobs/3155340) — score 80  `inspire`
 - **Institutions:** Washington U., St. Louis
 - **Location:** St. Louis, US  (cost index 85 vs NYC=100)
@@ -407,6 +421,21 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** preferred country; affordability 1.67× ≥ 1.5
 
 > The Graduate School of Physics at Université Paris-Saclay, France, is launching a second call for applications within its postdoctoral fellowship programe: UPSaclay-STAR-φ, supported by the EU Marie Skłodowska-Curie COFUND programme, 2024 call. This call will recruit up to 22 international postdoctoral researchers, for 24-month projects in one of the 40 laboratories of the Physics Graduate School,…
+
+
+### [Postdoctoral research position in JUNO neutrino experiment](https://inspirehep.net/jobs/3145666) — score 80  `inspire`
+- **Institutions:** LP2I, Bordeaux
+- **Location:** Bordeaux, FR  (cost index 65 vs NYC=100)
+- **Deadline:** 2026-07-15
+- **Rank:** POSTDOC
+- **Experiments:** JUNO
+- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
+  _scale: CNRS/IN2P3 contract postdoc_
+- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
+- **Summary:** exp=JUNO; topics=neutrino mass hierarchy, reactor neutrinos, liquid scintillator, photomultiplier, supernova detection; 2y
+- **Why this score:** preferred country; affordability 1.67× ≥ 1.5
+
+> The JUNO (Jiangmen Underground Neutrino Observatory) experiment is a 20 kilo-ton multi-purpose underground liquid scintillator (LS) detector located in China, designed to observe neutrinos from nuclear reactors at a distance of 53 km. Thanks to its excellent energy resolution and large fiducial volume, JUNO aims to determine the neutrino mass hierarchy and perform precise measurements of several o…
 
 
 ### [Open call for Postdoctoral Programme](https://inspirehep.net/jobs/3141101) — score 80  `inspire`
@@ -605,6 +634,42 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
+### [HIGHENERGY](https://academicjobsonline.org/ajo/jobs/31885) — score 80  `ajo`
+- **Institutions:** Georgia Institute of Technology , School of Physics
+- **Location:** Atlanta, US  (cost index 85 vs NYC=100)
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=high energy physics; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [TPPCSTFC26](https://academicjobsonline.org/ajo/jobs/31250) — score 80  `ajo`
+- **Institutions:** King's College London , TPPC Physics
+- **Location:** London, GB  (cost index 79 vs NYC=100)
+- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
+  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
+- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
+- **Summary:** topics=theoretical particle physics, cosmology, STFC fellowship
+- **Why this score:** preferred country; affordability 1.58× ≥ 1.5
+
+> 
+
+
+### [HEPPD26](https://academicjobsonline.org/ajo/jobs/30413) — score 80  `ajo`
+- **Institutions:** Los Alamos National Laboratory , Theoretical Division, T-2
+- **Location:** Los Alamos, US  (cost index 85 vs NYC=100)
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=theoretical HEP, phenomenology; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
 ### [CSDL](https://academicjobsonline.org/ajo/jobs/31765) — score 80  `ajo`
 - **Institutions:** Stanford University , SLAC, Departments of Photon Science and of Particle Physics & Astrophysics
 - **Location:** Menlo Park, US  (cost index 85 vs NYC=100)
@@ -629,6 +694,44 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
+### [POSTDOC1](https://academicjobsonline.org/ajo/jobs/31318) — score 80  `ajo`
+- **Institutions:** Texas A&M University , Physics and Astronomy
+- **Location:** College Station, US  (cost index 85 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=physics, astronomy; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [POSTDOC2](https://academicjobsonline.org/ajo/jobs/31440) — score 80  `ajo`
+- **Institutions:** Texas A&M University , Physics and Astronomy
+- **Location:** College Station, US  (cost index 85 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=physics, astronomy; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [ARP](https://academicjobsonline.org/ajo/jobs/31683) — score 80  `ajo`
+- **Institutions:** United States Naval Academy , Department of Physics
+- **Location:** Annapolis, US  (cost index 85 vs NYC=100)
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=physics, academic research position; 1y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
 ### [ATLASRS](https://academicjobsonline.org/ajo/jobs/32021) — score 80  `ajo`
 - **Institutions:** University of Chicago , Enrico Fermi Institute
 - **Location:** Chicago, US  (cost index 72 vs NYC=100)
@@ -636,6 +739,67 @@ _sources:_ inspire: 89, ajo: 52
   _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
 - **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
 - **Summary:** exp=ATLAS; topics=LHC data analysis; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [PD1](https://academicjobsonline.org/ajo/jobs/31869) — score 80  `ajo`
+- **Institutions:** University of Genoa , Department of Theoretical Physics
+- **Location:** Genoa, IT  (cost index 58 vs NYC=100)
+- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
+  _scale: INFN Assegno di Ricerca; type A vs B differs_
+- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
+- **Summary:** topics=theoretical physics; 2y
+- **Why this score:** preferred country; affordability 1.78× ≥ 1.5
+
+> 
+
+
+### [POSTDOC](https://academicjobsonline.org/ajo/jobs/31302) — score 80  `ajo`
+- **Institutions:** University of Minnesota , School of Physics and Astronomy Searches
+- **Location:** Minneapolis, US  (cost index 85 vs NYC=100)
+- **Rank:** POSTDOC
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=physics, astronomy; 2y
+- **Why this score:** preferred country; affordability 1.55× ≥ 1.5
+
+> 
+
+
+### [PD_ENIGMASS_2026](https://academicjobsonline.org/ajo/jobs/31672) — score 80  `ajo`
+- **Institutions:** CNRS , LAPTh
+- **Location:** Annecy, FR  (cost index 65 vs NYC=100)
+- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
+  _scale: CNRS/IN2P3 contract postdoc_
+- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
+- **Summary:** topics=ENIGMASS, particle physics theory, dark matter; 2y
+- **Why this score:** preferred country; affordability 1.67× ≥ 1.5
+
+> 
+
+
+### [TENURE_TRACK_PHYSICS](https://academicjobsonline.org/ajo/jobs/31529) — score 80  `ajo`
+- **Institutions:** SISSA , Physics Area
+- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
+- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
+  _scale: INFN Assegno di Ricerca; type A vs B differs_
+- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
+- **Summary:** topics=physics, tenure-track
+- **Why this score:** preferred country; affordability 1.78× ≥ 1.5
+
+> 
+
+
+### [PDA](https://academicjobsonline.org/ajo/jobs/31376) — score 80  `ajo`
+- **Institutions:** University of Hawaii at Manoa -- Henning group , Physics and Astronomy -- Henning group (HEP Theory)
+- **Location:** Honolulu, US  (cost index 85 vs NYC=100)
+- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
+  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
+- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
+- **Summary:** topics=HEP theory, phenomenology; 2y
 - **Why this score:** preferred country; affordability 1.55× ≥ 1.5
 
 > 
@@ -861,20 +1025,6 @@ _sources:_ inspire: 89, ajo: 52
 > The particle theory group at the Jožef Stefan Institute invites outstanding researchers to apply for a SQUASH postdoctoral position. The SQUASH Program is a prestigious Marie Skłodowska-Curie COFUND initiative offering 3-year postdoctoral positions in quantum science and technology. This is an innovative, intersectoral training and career-development program, co-funded by the Marie Skłodowska-Curi…
 
 
-### [Marie Skłodowska-Curie Postdoctoral Fellowships – Expression of Interest](https://inspirehep.net/jobs/3155669) — score 65  `inspire`
-- **Institutions:** U. Liverpool (main)
-- **Location:** Liverpool, GB  (cost index 70 vs NYC=100)
-- **Deadline:** 2026-06-15
-- **Rank:** POSTDOC
-- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
-  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
-- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
-- **Summary:** topics=string theory, lattice field theory, QFT, astroparticle physics, cosmology; 2y
-- **Why this score:** affordability 1.58× ≥ 1.5
-
-> The Theoretical Physics group at the University of Liverpool invites expressions of interest to be supported in applying for Marie Skłodowska-Curie postdoctoral fellowships: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships The group provides a stimulating and supportive research environment with expertise across the breadth of string theory, lattice field theory…
-
-
 ### [Assistant Professor Position](https://inspirehep.net/jobs/3154967) — score 65  `inspire`
 - **Institutions:** SGT U., Gurugram
 - **Location:** Gurugram, IN  (cost index 36 vs NYC=100)
@@ -943,21 +1093,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Why this score:** affordability 2.78× ≥ 1.5
 
 > The experimental particle physics group at the Institute of Particle Physics, Central China Normal University, is seeking two two highly motivated Postdoctoral Researchers to contribute to pioneering fixed-target experiments in China. The CCNU particle physics group is leading feasibility studies for next-generation fixed-target experiments at different facilities in China. These include a muon-nu…
-
-
-### [Postdoctoral research position in JUNO neutrino experiment](https://inspirehep.net/jobs/3145666) — score 65  `inspire`
-- **Institutions:** LP2I, Bordeaux
-- **Location:** Bordeaux, FR  (cost index 65 vs NYC=100)
-- **Deadline:** 2026-07-15
-- **Rank:** POSTDOC
-- **Experiments:** JUNO
-- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
-  _scale: CNRS/IN2P3 contract postdoc_
-- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
-- **Summary:** exp=JUNO; topics=neutrino mass hierarchy, reactor neutrinos, liquid scintillator, photomultiplier, supernova detection; 2y
-- **Why this score:** affordability 1.67× ≥ 1.5
-
-> The JUNO (Jiangmen Underground Neutrino Observatory) experiment is a 20 kilo-ton multi-purpose underground liquid scintillator (LS) detector located in China, designed to observe neutrinos from nuclear reactors at a distance of 53 km. Thanks to its excellent energy resolution and large fiducial volume, JUNO aims to determine the neutrino mass hierarchy and perform precise measurements of several o…
 
 
 ### [Young Talent Faculty Position in AMS](https://inspirehep.net/jobs/3143302) — score 65  `inspire`
@@ -1146,18 +1281,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [HIGHENERGY](https://academicjobsonline.org/ajo/jobs/31885) — score 65  `ajo`
-- **Institutions:** Georgia Institute of Technology , School of Physics
-- **Location:** Atlanta, US  (cost index 85 vs NYC=100)
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=high energy physics; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
-
-> 
-
-
 ### [POSTDOC](https://academicjobsonline.org/ajo/jobs/30140) — score 65  `ajo`
 - **Institutions:** Institute of Theoretical Physics, Chinese Academy of Sciences , High energy theory
 - **Location:** Beijing, CN  (cost index 58 vs NYC=100)
@@ -1192,30 +1315,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 1.79×–2.29× typical annual cost (comfortable)
 - **Summary:** topics=quantum measurement, QUP; 2y
 - **Why this score:** affordability 1.79× ≥ 1.5
-
-> 
-
-
-### [TPPCSTFC26](https://academicjobsonline.org/ajo/jobs/31250) — score 65  `ajo`
-- **Institutions:** King's College London , TPPC Physics
-- **Location:** London, GB  (cost index 79 vs NYC=100)
-- **Typical salary range:** 38,000–50,000 GBP (~\$57,000–75,000 PPP-USD)  
-  _scale: UKRI/STFC Grade 7 PDRA; London weighting adds £3-4k_
-- **Local affordability:** 1.58×–2.08× typical annual cost (comfortable)
-- **Summary:** topics=theoretical particle physics, cosmology, STFC fellowship
-- **Why this score:** affordability 1.58× ≥ 1.5
-
-> 
-
-
-### [HEPPD26](https://academicjobsonline.org/ajo/jobs/30413) — score 65  `ajo`
-- **Institutions:** Los Alamos National Laboratory , Theoretical Division, T-2
-- **Location:** Los Alamos, US  (cost index 85 vs NYC=100)
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=theoretical HEP, phenomenology; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
 
 > 
 
@@ -1270,32 +1369,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [POSTDOC1](https://academicjobsonline.org/ajo/jobs/31318) — score 65  `ajo`
-- **Institutions:** Texas A&M University , Physics and Astronomy
-- **Location:** College Station, US  (cost index 85 vs NYC=100)
-- **Rank:** POSTDOC
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=physics, astronomy; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
-
-> 
-
-
-### [POSTDOC2](https://academicjobsonline.org/ajo/jobs/31440) — score 65  `ajo`
-- **Institutions:** Texas A&M University , Physics and Astronomy
-- **Location:** College Station, US  (cost index 85 vs NYC=100)
-- **Rank:** POSTDOC
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=physics, astronomy; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
-
-> 
-
-
 ### [COLIDER_FACULTYPOSITION](https://academicjobsonline.org/ajo/jobs/30434) — score 65  `ajo`
 - **Institutions:** Tsung-Dao Lee Institute
 - **Location:** Shanghai, CN  (cost index 65 vs NYC=100)
@@ -1317,43 +1390,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
 - **Summary:** topics=experimental particle physics; 2y
 - **Why this score:** affordability 2.78× ≥ 1.5
-
-> 
-
-
-### [ARP](https://academicjobsonline.org/ajo/jobs/31683) — score 65  `ajo`
-- **Institutions:** United States Naval Academy , Department of Physics
-- **Location:** Annapolis, US  (cost index 85 vs NYC=100)
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=physics, academic research position; 1y
-- **Why this score:** affordability 1.55× ≥ 1.5
-
-> 
-
-
-### [PD1](https://academicjobsonline.org/ajo/jobs/31869) — score 65  `ajo`
-- **Institutions:** University of Genoa , Department of Theoretical Physics
-- **Location:** Genoa, IT  (cost index 58 vs NYC=100)
-- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
-  _scale: INFN Assegno di Ricerca; type A vs B differs_
-- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
-- **Summary:** topics=theoretical physics; 2y
-- **Why this score:** affordability 1.78× ≥ 1.5
-
-> 
-
-
-### [POSTDOC](https://academicjobsonline.org/ajo/jobs/31302) — score 65  `ajo`
-- **Institutions:** University of Minnesota , School of Physics and Astronomy Searches
-- **Location:** Minneapolis, US  (cost index 85 vs NYC=100)
-- **Rank:** POSTDOC
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=physics, astronomy; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
 
 > 
 
@@ -1406,18 +1442,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [PD_ENIGMASS_2026](https://academicjobsonline.org/ajo/jobs/31672) — score 65  `ajo`
-- **Institutions:** CNRS , LAPTh
-- **Location:** Annecy, FR  (cost index 65 vs NYC=100)
-- **Typical salary range:** 40,000–55,000 EUR (~\$52,000–71,500 PPP-USD)  
-  _scale: CNRS/IN2P3 contract postdoc_
-- **Local affordability:** 1.67×–2.29× typical annual cost (comfortable)
-- **Summary:** topics=ENIGMASS, particle physics theory, dark matter; 2y
-- **Why this score:** affordability 1.67× ≥ 1.5
-
-> 
-
-
 ### [POSTDOC](https://academicjobsonline.org/ajo/jobs/30140) — score 65  `ajo`
 - **Institutions:** Institute of Theoretical Physics, Chinese Academy of Sciences , High energy theory
 - **Location:** Beijing, CN  (cost index 58 vs NYC=100)
@@ -1444,18 +1468,6 @@ _sources:_ inspire: 89, ajo: 52
 > 
 
 
-### [TENURE_TRACK_PHYSICS](https://academicjobsonline.org/ajo/jobs/31529) — score 65  `ajo`
-- **Institutions:** SISSA , Physics Area
-- **Location:** Trieste, IT  (cost index 58 vs NYC=100)
-- **Typical salary range:** 32,000–42,000 EUR (~\$41,600–54,600 PPP-USD)  
-  _scale: INFN Assegno di Ricerca; type A vs B differs_
-- **Local affordability:** 1.78×–2.33× typical annual cost (comfortable)
-- **Summary:** topics=physics, tenure-track
-- **Why this score:** affordability 1.78× ≥ 1.5
-
-> 
-
-
 ### [LATTICEQCD_FACULTYPOSITION](https://academicjobsonline.org/ajo/jobs/30435) — score 65  `ajo`
 - **Institutions:** Tsung-Dao Lee Institute
 - **Location:** Shanghai, CN  (cost index 65 vs NYC=100)
@@ -1477,18 +1489,6 @@ _sources:_ inspire: 89, ajo: 52
 - **Local affordability:** 2.78×–5.00× typical annual cost (comfortable)
 - **Summary:** topics=theoretical physics; 2y
 - **Why this score:** affordability 2.78× ≥ 1.5
-
-> 
-
-
-### [PDA](https://academicjobsonline.org/ajo/jobs/31376) — score 65  `ajo`
-- **Institutions:** University of Hawaii at Manoa -- Henning group , Physics and Astronomy -- Henning group (HEP Theory)
-- **Location:** Honolulu, US  (cost index 85 vs NYC=100)
-- **Typical salary range:** 65,000–90,000 USD (~\$65,000–90,000 PPP-USD)  
-  _scale: NIH NRSA FY2026 floor $63.48k; DOE/lab offers typically higher_
-- **Local affordability:** 1.55×–2.14× typical annual cost (comfortable)
-- **Summary:** topics=HEP theory, phenomenology; 2y
-- **Why this score:** affordability 1.55× ≥ 1.5
 
 > 
 
